@@ -1,5 +1,4 @@
 const express = require('express')
-var bodyParser = require('body-parser')
 const cors = require('cors');
 const routes = require('../routes');
 
@@ -7,7 +6,8 @@ const swaggerUi = require('swagger-ui-express');
 const swaggerSpec = require('../swaggerConfig');
 
 const app = express();
-app.use(bodyParser.json())
+app.use(express.json());
+app.use(express.urlencoded({ extended: true }));
 app.use(cors());
 app.set('trust proxy', true)
 
