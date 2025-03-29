@@ -94,11 +94,11 @@ const update = async (table, fieldToUpdate, newValue, searchField, searchValue) 
 
 // Search Exists function
 const searchExists = async (table, field, value) => {
-    const query = `SELECT EXISTS(SELECT 1 FROM \`${table}\` WHERE \`${field}\` = ?) AS exists`;
-    
+    const query = `SELECT 1 FROM \`${table}\` WHERE \`${field}\` = ? LIMIT 1`;
+
     try {
         const results = await executeQuery(query, [value]);
-        return results[0]?.exists === 1;
+        return results.length > 0;
     } catch (error) {
         console.error("Error checking existence:", error);
         return false;

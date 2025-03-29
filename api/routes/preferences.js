@@ -7,6 +7,7 @@ const db = require('../lib/db.js'); // Import database functions
  * /user/preferences:
  *   put:
  *     summary: Update or create user preferences
+ *     tags: [Preferences]
  *     parameters:
  *       - in: header
  *         name: session-id
@@ -27,8 +28,10 @@ const db = require('../lib/db.js'); // Import database functions
  *                   type: string
  *                 description: Preferred class times (e.g., "morning", "afternoon")
  *               delivery:
- *                 type: string
- *                 enum: [online, inperson]
+ *                 type: array
+ *                 items:
+ *                   type: string
+ *                   enum: [online, inperson]
  *                 description: Preferred mode of learning
  *               majors:
  *                 type: array
@@ -47,6 +50,8 @@ const db = require('../lib/db.js'); // Import database functions
  *         description: Preferences created successfully
  *       400:
  *         description: Bad request - Invalid input or missing session ID
+ *       500:
+ *         description: Internal server error
  */
 router.put('/', async (req, res) => {
     const sessionId = req.header('session-id');
@@ -57,12 +62,10 @@ router.put('/', async (req, res) => {
     }
 
     try {
-        // Check if preferences already exist for the given session_id
         const existingPreferences = await db.search('preferences', 'session_id', sessionId);
 
         if (existingPreferences) {
-            // Update individual preferences based on the provided fields in the request body
-
+            // Update individual preferences based on provided fields in the request body
             if (classTimes !== undefined) {
                 await db.update('preferences', 'classTimes', JSON.stringify(classTimes), 'session_id', sessionId);
             }
@@ -79,7 +82,6 @@ router.put('/', async (req, res) => {
             return res.status(200).json({ message: 'Preferences updated successfully' });
         } else {
             // Insert new preferences into the database
-
             const result = await db.insert(
                 'preferences',
                 ['session_id', 'classTimes', 'delivery', 'majors', 'minors'],
@@ -109,6 +111,7 @@ router.put('/', async (req, res) => {
  * /user/preferences/{preferenceName}:
  *   get:
  *     summary: Retrieve a specific preference by session ID
+ *     tags: [Preferences]
  *     parameters:
  *       - in: header
  *         name: session-id
@@ -137,16 +140,19 @@ router.put('/', async (req, res) => {
  *                 value:
  *                   type: string
  *                   description: The value of the requested preference
+ *       400:
+ *         description: Bad request - Invalid preference name
  *       401:
  *         description: Unauthorized - Missing or invalid session ID
  *       404:
  *         description: Not Found - Preference does not exist
+ *       500:
+ *         description: Internal server error
  */
-router.get('/preferences/:preferenceName', async (req, res) => {
+router.get('/:preferenceName', async (req, res) => {
   const sessionId = req.header('session-id');
   const { preferenceName } = req.params;
 
-  // Validate session ID and preference name
   if (!sessionId) {
       return res.status(401).json({ error: 'Unauthorized - Missing session ID' });
   }
@@ -157,20 +163,109 @@ router.get('/preferences/:preferenceName', async (req, res) => {
   }
 
   try {
-      // Fetch the user's preferences based on the session ID
-      const userPreferences = await search('preferences', 'session_id', sessionId);
+      const userPreferences = await db.search('preferences', 'session_id', sessionId);
 
       if (!userPreferences || userPreferences[preferenceName] === undefined) {
           return res.status(404).json({ error: `Not Found - Preference '${preferenceName}' does not exist` });
       }
 
-      // Return the requested preference value
+      let parsedValue;
+      const preferenceValue = userPreferences[preferenceName];
+
+      try {
+          // Attempt to parse the value as JSON, if it fails, return the raw value
+          parsedValue = JSON.parse(preferenceValue);
+      } catch (parseError) {
+          //console.warn(`Failed to parse preference '${preferenceName}' as JSON, returning raw value:`, parseError);
+          parsedValue = preferenceValue;
+      }
+
       res.status(200).json({
           preferenceName,
-          value: JSON.parse(userPreferences[preferenceName]) // Parse JSON if stored as JSON in DB
+          value: parsedValue,
       });
   } catch (error) {
       console.error("Error retrieving preference:", error);
+      res.status(500).json({ error: 'Internal server error' });
+  }
+});
+
+/**
+ * @swagger
+ * /user/preferences:
+ *   get:
+ *     summary: Retrieve all preferences for a user by session ID.
+ *     tags: [Preferences]
+ *     parameters:
+ *       - in: header
+ *         name: session-id
+ *         required: true
+ *         schema:
+ *           type: string
+ *         description: Session ID for authentication
+ *     responses:
+ *       200:
+ *         description: Preferences retrieved successfully
+ *         content:
+ *           application/json:
+ *             schema:
+ *               type: object
+ *               properties:
+ *                 classTimes:
+ *                   type: array
+ *                   items:
+ *                     type: string
+ *                   description: Preferred class times
+ *                 delivery:
+ *                   type: array
+ *                   items:
+ *                     type: string
+ *                     enum: [online, inperson]
+ *                   description: Preferred mode of learning
+ *                 majors:
+ *                   type: array
+ *                   items:
+ *                     type: string
+ *                   description: List of preferred majors
+ *                 minors:
+ *                   type: array
+ *                   items:
+ *                     type: string
+ *                   description: List of preferred minors
+ *       401:
+ *         description: Unauthorized - Missing session ID
+ *       404:
+ *         description: Not Found - No preferences exist for this session ID
+ *       500:
+ *         description: Internal server error
+ */
+router.get('/', async (req, res) => {
+  const sessionId = req.header('session-id');
+
+  if (!sessionId) {
+      return res.status(401).json({ error: 'Unauthorized - Missing session ID' });
+  }
+
+  try {
+      const userPreferences = await db.search('preferences', 'session_id', sessionId);
+
+      if (!userPreferences) {
+          return res.status(404).json({ error: `Not Found - No preferences exist for this session ID` });
+      }
+
+      const parsedPreferences = {};
+      for (const [key, value] of Object.entries(userPreferences)) {
+          try {
+              parsedPreferences[key] = JSON.parse(value);
+          } catch (parseError) {
+              //console.warn(`Failed to parse preference '${key}' as JSON, returning raw value:`, parseError);
+              parsedPreferences[key] = value; // Return raw value if parsing fails
+          }
+      }
+
+      res.status(200).json(parsedPreferences);
+  } catch (error) {
+      console.error("Error retrieving preferences:", error);
       res.status(500).json({ error: 'Internal server error' });
   }
 });

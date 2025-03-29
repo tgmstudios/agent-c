@@ -4,9 +4,17 @@ const db = require('../lib/db.js'); // Import database functions
 
 /**
  * @swagger
+ * tags:
+ *   name: Users
+ *   description: Operations related to user management
+ */
+
+/**
+ * @swagger
  * /user:
  *   get:
  *     summary: Retrieve a user's name by session ID
+ *     tags: [Users]
  *     parameters:
  *       - in: header
  *         name: session-id
@@ -17,10 +25,23 @@ const db = require('../lib/db.js'); // Import database functions
  *     responses:
  *       200:
  *         description: User name retrieved successfully
+ *         content:
+ *           application/json:
+ *             schema:
+ *               type: object
+ *               properties:
+ *                 id:
+ *                   type: integer
+ *                   description: The user ID.
+ *                 name:
+ *                   type: string
+ *                   description: The user's name.
  *       401:
- *         description: Unauthorized
+ *         description: Unauthorized - Missing session ID
  *       404:
  *         description: User not found
+ *       500:
+ *         description: Internal server error
  */
 router.get('/', async (req, res) => {
     const sessionId = req.header('session-id');
@@ -49,6 +70,7 @@ router.get('/', async (req, res) => {
  * /user:
  *   put:
  *     summary: Create a new user
+ *     tags: [Users]
  *     parameters:
  *       - in: header
  *         name: session-id
@@ -77,12 +99,17 @@ router.get('/', async (req, res) => {
  *               properties:
  *                 message:
  *                   type: string
+ *                   description: Success message
  *                 session_id:
  *                   type: string
+ *                   description: The session ID of the created user
  *                 name:
  *                   type: string
+ *                   description: The name of the created user
  *       400:
- *         description: Bad request
+ *         description: Bad request - Missing session ID or user name
+ *       500:
+ *         description: Internal server error
  */
 router.put('/', async (req, res) => {
   const sessionId = req.header('session-id');
