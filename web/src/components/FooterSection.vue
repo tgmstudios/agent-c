@@ -1,7 +1,6 @@
 <template>
   <footer>
-    <p>Aiden Johnson</p>
-    <p>© 2024 TGM, TGM.One, TGMstudios, and all related marks and logos are registered trademarks or trademarks of TGM. All rights reserved.</p>
+    <p>test</p>
   </footer>  
 </template>
 
