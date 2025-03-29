@@ -1,12 +1,22 @@
 <template>
+  <p>hello</p>
   <div class="home">
+    <p>hello</p>
   </div>
+
 </template>
 
 <script>
-// @ is an alias to /src
 
 export default {
-  name: 'HomeView'
+  name: 'HomeView',
 }
 </script>
+
+<style scoped>
+.your-view {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+</style>

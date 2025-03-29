@@ -1,6 +1,6 @@
 <template>
   <footer>
-    <p>test</p>
+    <p>testing</p>
   </footer>  
 </template>
 
@@ -15,7 +15,7 @@ export default {
 
 <style scoped>
 p {
-  max-width: 631px;
+  max-width: 686px;
   margin: 0 auto;
 }
 </style>
