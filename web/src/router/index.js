@@ -6,22 +6,6 @@ const routes = [
     path: '/',
     name: 'home',
     component: HomeView
-  },
-  {
-    path: '/about',
-    name: 'about',
-    component: () => import(/* webpackChunkName: "about" */ '../views/AboutView.vue')
-  },
-  {
-    path: '/projects',
-    name: 'projects',
-    component: () => import(/* webpackChunkName: "projects" */ '../views/ProjectsView.vue')
-  },
-  {
-    path: '/project/:project',
-    name: 'project',
-    component: () => import(/* webpackChunkName: "project" */ '../views/ProjectView.vue'),
-    props: true
   }
 ]
 
