@@ -4,9 +4,9 @@ const options = {
   definition: {
     openapi: '3.0.0',
     info: {
-      title: 'Agent C API Documentation',
+      title: 'Course Connect API Documentation',
       version: '1.0.1',
-      description: 'API documentation for Agent C',
+      description: 'API documentation for Course Connect',
     },
     servers: [
       {
