@@ -9,7 +9,6 @@
 </template>
 
 <script>
-import { ref } from 'vue';
 import HeaderSection from './components/HeaderSection.vue';
 import FooterSection from './components/FooterSection.vue';
 

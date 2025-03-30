@@ -34,6 +34,7 @@
               <div 
                 v-for="(course, index) in getCoursesForDay(day)" 
                 :key="`${day}-${course.code}-${index}`"
+                :key="`${day}-${course.code}-${index}`"
                 class="course-block"
                 :style="getCourseStyle(course, day)"
               >
@@ -158,13 +159,16 @@
         
         // Assign a color if not already assigned
         if (!courseColorMap.value[course.code]) {
+        if (!courseColorMap.value[course.code]) {
           const colorIndex = Object.keys(courseColorMap.value).length % courseColors.length;
+          courseColorMap.value[course.code] = courseColors[colorIndex];
           courseColorMap.value[course.code] = courseColors[colorIndex];
         }
         
         return {
           top: `${top}%`,
           height: `${height}%`,
+          backgroundColor: courseColorMap.value[course.code]
           backgroundColor: courseColorMap.value[course.code]
         };
       };
