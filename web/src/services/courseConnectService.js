@@ -220,6 +220,29 @@ const uploadTranscript = async (file) => {
   }
 };
 
+const getSemesterSchedule = async (pathId, year, semester) => {
+    try {
+      const sid = await getSessionId();
+      const response = await axios.get(
+        `${API_BASE_URL}/schedule`,
+        {
+          headers: {
+            'session-id': sid
+          },
+          params: {
+            path_id: pathId,
+            year: year,
+            semester: semester
+          }
+        }
+      );
+      return response.data;
+    } catch (error) {
+      console.error('Error getting semester schedule:', error);
+      throw error;
+    }
+  };
+
 export default {
   initSession,
   getSessionId,
@@ -232,5 +255,6 @@ export default {
   getRecommendedPath,
   getPathsForSession,
   getPath,
-  uploadTranscript
+  uploadTranscript,
+  getSemesterSchedule
 };

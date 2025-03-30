@@ -106,6 +106,8 @@
             <li>Some courses may be offered in different semesters than shown here.</li>
           </ul>
         </div>
+
+        <WeeklySchedule :pathId="pathId" />
         
         <div class="actions">
           <button class="btn btn-primary" @click="printPlan">Print Plan</button>
@@ -118,9 +120,13 @@
   <script>
   import { ref, computed, onMounted, watch } from 'vue';
   import courseConnectService from '@/services/courseConnectService';
+  import WeeklySchedule from '@/components/WeeklySchedule.vue';
   
   export default {
     name: 'CourseRecommendationsDisplay',
+    components: {
+      WeeklySchedule
+    },
     props: {
       major: {
         type: String,
