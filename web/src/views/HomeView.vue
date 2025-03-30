@@ -12,7 +12,7 @@
       <form @submit.prevent="savePreferences">
         <!-- Student Name -->
         <div class="form-group">
-          <label for="studentName">Your Name *</label>
+          <label for="studentName">Your Name</label>
           <input
             type="text"
             id="studentName"
@@ -29,7 +29,7 @@
 
         <!-- Delivery Mode -->
         <div class="form-group">
-          <label for="deliveryMode">Class Format *</label>
+          <label for="deliveryMode">Class Format</label>
           <select
             id="deliveryMode"
             v-model="deliveryMode"
@@ -49,7 +49,7 @@
 
         <!-- Preferred Class Times -->
         <div class="form-group">
-          <label>Preferred Class Times *</label>
+          <label>Preferred Class Times</label>
           <div class="checkbox-group">
             <div class="checkbox-item">
               <input 
@@ -67,7 +67,7 @@
                 v-model="classTimes" 
                 value="midday"
               />
-              <label for="midday">Midday (12PM - 3PM)</label>
+              <label for="midday">Midday (10AM - 3PM)</label>
             </div>
             <div class="checkbox-item">
               <input 
@@ -76,7 +76,7 @@
                 v-model="classTimes" 
                 value="afternoon"
               />
-              <label for="afternoon">Afternoon (3PM - 6PM)</label>
+              <label for="afternoon">Afternoon (12PM - 5PM)</label>
             </div>
           </div>
           <div v-if="timesError" class="error-message">
@@ -263,10 +263,11 @@ h2 {
 .form-control {
   width: 100%;
   padding: 10px;
-  border: 1px solid rgba(255, 219, 0, 0.3);
+  border: 1px solid rgba(0, 0, 0, 0.3);
   border-radius: 4px;
-  background-color: rgba(255, 255, 255, 0.1);
-  color: #ffffff;
+  background-color: rgb(255, 255, 255);
+  color: #000000;
+  width: 200px;
 }
 
 .form-control:focus {

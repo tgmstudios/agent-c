@@ -32,6 +32,15 @@
         {{ apiError }}
         <button @click="retryApiCall" class="btn-retry">Retry</button>
       </div>
+
+      <CourseRecommendationsDisplay
+      v-if="showRecommendations"
+      :major="major"
+      :minors="minors"
+      :transcript="transcript"
+      :credits="credits"
+      :comments="comments"
+    />
     </div>
 </template>
   
@@ -41,13 +50,15 @@
   import MajorMinorSelector from '@/components/MajorMinorSelector.vue';
   import CourseRecommendations from '@/components/CourseRecommendations.vue';
   import agentCService from '@/services/agentCService';
+  import CourseRecommendationsDisplay from '@/components/CourseRecommendationsDisplay.vue';
   
   export default {
     name: 'PlannerForm',
     components: {
       FileUploader,
       MajorMinorSelector,
-      CourseRecommendations
+      CourseRecommendations,
+      CourseRecommendationsDisplay
     },
     setup() {
       const transcript = ref(null);

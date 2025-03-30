@@ -134,6 +134,39 @@ const getUserData = async () => {
     }
   };
 
+  // Get recommended academic path
+const getRecommendedPath = async (preferences) => {
+    try {
+      const sid = await getSessionId();
+      
+      // First, update preferences
+      await updatePreferences(preferences);
+      
+      // Then fetch the recommended path
+      const response = await axios.get(`${API_BASE_URL}/path`, {
+        headers: {
+          'session-id': sid
+        }
+      });
+      
+      // The API returns the recommendation as a string, but it's actually a JSON object
+      // We need to parse it if it's a string
+      let recommendation = response.data.recommendation;
+      if (typeof recommendation === 'string') {
+        try {
+          recommendation = JSON.parse(recommendation);
+        } catch (e) {
+          console.error('Error parsing recommendation:', e);
+        }
+      }
+      
+      return recommendation || response.data;
+    } catch (error) {
+      console.error('Error fetching recommended path:', error);
+      throw error;
+    }
+  };
+
 export default {
   initSession,
   getSessionId,
@@ -142,5 +175,6 @@ export default {
   updatePreferences,
   getUserData,
   updateUser,
-  getPreferences
+  getPreferences,
+  getRecommendedPath
 };
