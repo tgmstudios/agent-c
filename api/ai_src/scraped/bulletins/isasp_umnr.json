@@ -1,0 +1,44 @@
+{
+    "program_name": "Information Sciences and Technology for Aerospace Engineering, Minor",
+    "program_code": "ISASP_UMNR",
+    "campus": "University Park",
+    "total_minimum_credits": 18,
+    "minor_requirements": {
+      "c_required_policy": "Grade of C or better is required for all courses in the minor.",
+      "uniqueness_policy": "At least six credits of the minor must be unique from the prescribed courses required by a student's major(s).",
+      "prescribed_courses_c_required": [
+        {
+          "course": "CMPSC 201",
+          "title": "Programming for Engineers with C++",
+          "credits": 3
+        },
+        {
+          "course": "IST 110",
+          "title": "Information, People and Technology",
+          "credits": 3
+        },
+        {
+          "course": "IST 210",
+          "title": "Organization of Data",
+          "credits": 3
+        },
+        {
+          "course": "IST 220",
+          "title": "Networking and Telecommunications",
+          "credits": 3
+        }
+      ],
+      "additional_courses_c_required": [
+        {
+          "description": "Select from AERSP list",
+          "credits": 6,
+          "options": [
+            "AERSP 423 Introduction to Numerical Methods in Fluid Dynamics",
+            "AERSP 424 Advanced Computer Programming",
+            "AERSP 440 Introduction to Software Engineering for Aerospace Engineers",
+            "AERSP 460 Aerospace Control Systems"
+          ]
+        }
+      ]
+    }
+  }

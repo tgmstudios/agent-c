@@ -1,0 +1,45 @@
+{
+    "program_name": "Mathematics, Minor (Science)",
+    "program_code": "MATH_UMNR",
+    "campus": "University Park",
+    "total_minimum_credits": "26-28",
+    "minor_requirements": {
+      "c_required_policy": "Grade of C or better is required for all courses in the minor.",
+      "uniqueness_policy": "At least six credits of the minor must be unique from the prescribed courses required by a student's major(s).",
+      "prescribed_courses_c_required": [
+        {
+          "course": "MATH 140",
+          "title": "Calculus With Analytic Geometry I",
+          "credits": 4
+        },
+        {
+          "course": "MATH 141",
+          "title": "Calculus with Analytic Geometry II",
+          "credits": 4
+        }
+      ],
+      "additional_courses_c_required": [
+        {
+          "description": "Select from intermediate MATH courses list",
+          "credits": "6-8",
+          "options": [
+            "MATH 220 Matrices",
+            "MATH 230 Calculus and Vector Analysis",
+            "MATH 231 Calculus of Several Variables",
+            "MATH 232 Integral Vector Calculus",
+            "MATH 250 Ordinary Differential Equations",
+            "MATH 251 Ordinary and Partial Differential Equations",
+            "MATH 310 Elementary Combinatorics",
+            "MATH 311W Concepts of Discrete Mathematics",
+            "MATH 312 Concepts of Real Analysis"
+          ]
+        }
+      ],
+      "supporting_courses_related_areas_c_required": [
+        {
+          "description": "Select 400-level MATH courses",
+          "credits": 12
+        }
+      ]
+    }
+  }

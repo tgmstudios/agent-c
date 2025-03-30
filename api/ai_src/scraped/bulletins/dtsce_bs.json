@@ -1,0 +1,249 @@
+{
+    "program_name": "Data Sciences, B.S. (Engineering)",
+    "program_code": "DTSCE_BS",
+    "campus": "University Park",
+    "total_minimum_credits": 123,
+    "general_education_credits": 45,
+    "electives_credits": "3-12",
+    "requirements_for_the_major_credits": "72-81",
+    "gen_ed_major_overlap_note": "6 of the 45 credits for General Education are included in the Requirements for the Major (6 GQ).",
+    "major_requirements": {
+      "c_required_policy": "Grade of C or better required in courses designated by the major as a C-required course.",
+      "common_requirements_all_options": {
+        "prescribed_courses_c_required": [
+          {
+            "course": "DS 220",
+            "title": "Data Management for Data Sciences",
+            "credits": 3
+          },
+          {
+            "course": "DS 340W",
+            "title": "Applied Data Sciences",
+            "credits": 3
+          },
+          {
+            "course": "DS 435",
+            "title": "Ethical Issues in Data Science Practice",
+            "credits": 3
+          },
+          {
+            "course": "MATH 140",
+            "title": "Calculus With Analytic Geometry I",
+            "credits": 4,
+            "gen_ed": "GQ"
+          },
+          {
+            "course": "MATH 141",
+            "title": "Calculus with Analytic Geometry II",
+            "credits": 4,
+            "gen_ed": "GQ"
+          },
+          {
+            "course": "MATH 220",
+            "title": "Matrices",
+            "credits": 2,
+            "gen_ed": "GQ"
+          },
+          {
+            "course": "STAT 184",
+            "title": "Introduction to R",
+            "credits": 2
+          },
+          {
+            "course": "STAT 380",
+            "title": "Data Science Through Statistical Reasoning and Computation",
+            "credits": 3
+          }
+        ],
+        "additional_courses_c_required": [
+          {
+            "description": "Select First-Year Seminar",
+            "credits": 1
+          },
+          {
+            "description": "Select one Introduction to Programming course",
+            "credits": 3,
+            "options": [
+              "CMPSC 121 Introduction to Programming Techniques",
+              "CMPSC 131 Programming and Computation I: Fundamentals"
+            ]
+          },
+          {
+            "description": "Select one Intermediate Programming course",
+            "credits": 3,
+            "options": [
+              "CMPSC 122 Intermediate Programming",
+              "CMPSC 132 Programming and Computation II: Data Structures"
+            ]
+          },
+          {
+              "description": "Select one Capstone Course",
+              "credits": 3,
+              "options": [
+                  "DS 440 Data Sciences Capstone Course",
+                  "DS 440W Data Science Capstone"
+              ]
+          }
+        ]
+      },
+      "option_requirements": {
+        "description": "Select one option. Only Computational Data Sciences is available through the College of Engineering at University Park.",
+        "option_selected": "Computational Data Sciences (DTSCE_BS)",
+        "credits": 47,
+        "prescribed_courses_c_required": [
+          {
+            "course": "CMPSC 221",
+            "title": "Object Oriented Programming with Web-Based Applications",
+            "credits": 3
+          },
+          {
+            "course": "CMPSC 360",
+            "title": "Discrete Mathematics for Computer Science",
+            "credits": 3
+          },
+          {
+            "course": "CMPSC 442",
+            "title": "Artificial Intelligence",
+            "credits": 3
+          },
+          {
+            "course": "CMPSC 448",
+            "title": "Machine Learning and Algorithmic AI",
+            "credits": 3
+          },
+          {
+            "course": "CMPSC 461",
+            "title": "Programming Language Concepts",
+            "credits": 3
+          },
+          {
+            "course": "CMPSC 465",
+            "title": "Data Structures and Algorithms",
+            "credits": 3
+          },
+          {
+            "course": "DS/CMPSC 410",
+            "title": "Programming Models for Big Data",
+            "credits": 3
+          },
+          {
+            "course": "MATH 230",
+            "title": "Calculus and Vector Analysis",
+            "credits": 4
+          },
+          {
+            "course": "STAT/MATH 414",
+            "title": "Introduction to Probability Theory",
+            "credits": 3
+          },
+          {
+            "course": "STAT/MATH 415",
+            "title": "Introduction to Mathematical Statistics",
+            "credits": 3
+          }
+        ],
+        "additional_courses_c_required": [
+          {
+              "description": "Select Intro Data Science or Statistics course",
+              "credits": 4,
+              "options": [
+                  "DS 200 Introduction to Data Sciences",
+                  "STAT 200 Elementary Statistics"
+              ]
+          }
+        ],
+        "supporting_courses_related_areas": [
+          {
+            "description": "Select from Computational Option List A (Appendix C - List not provided in source text)",
+            "credits": 6,
+            "note": "Students may apply up to 3 credits of ROTC as option list credits and 3 credits of ROTC as GHW credits."
+          },
+          {
+            "description": "Select from Computational Option List B (Appendix C - List not provided in source text)",
+            "credits": 6,
+            "note": "Students may apply up to 3 credits of ROTC as option list credits and 3 credits of ROTC as GHW credits."
+          }
+        ]
+      }
+    },
+    "general_education_requirements": {
+      "total_credits": 45,
+      "foundations": {
+        "description": "Grade of C or better required. Inter-Domain courses do not meet this requirement.",
+        "quantification_gq": {
+          "credits": 6
+        },
+        "writing_speaking_gws": {
+          "credits": 9
+        }
+      },
+      "breadth_in_knowledge_domains": {
+        "description": "Inter-Domain courses do not meet this requirement.",
+        "arts_ga": {
+          "credits": 3
+        },
+        "health_wellness_ghw": {
+          "credits": 3
+        },
+        "humanities_gh": {
+          "credits": 3
+        },
+        "social_behavioral_sciences_gs": {
+          "credits": 3
+        },
+        "natural_sciences_gn": {
+          "credits": 3
+        }
+      },
+      "integrative_studies": {
+        "inter_domain_courses": {
+          "credits": 6
+        }
+      },
+      "exploration": {
+        "gn_or_inter_domain": {
+          "credits": 3
+        },
+        "ga_gh_gn_gs_inter_domain_or_world_language": {
+          "description": "This may include 3 credits of World Language course work beyond the 12th credit level or degree requirements, whichever is higher.",
+          "credits": 6
+        }
+      }
+    },
+    "university_degree_requirements": {
+      "first_year_engagement": {
+        "description": "Required for University Park students. Specified by college First-Year Engagement Plan.",
+        "credits": "1-3"
+      },
+      "cultures_requirement": {
+        "description": "May satisfy other requirements.",
+        "credits": 6,
+        "breakdown": [
+          {
+            "type": "United States Cultures (US)",
+            "credits": 3
+          },
+          {
+            "type": "International Cultures (IL)",
+            "credits": 3
+          }
+        ]
+      },
+      "writing_across_curriculum": {
+        "description": "Required from the college of graduation, likely prescribed as part of major requirements.",
+        "credits": 3
+      },
+      "total_minimum_degree_credits": {
+         "description": "Minimum credits for any baccalaureate degree.",
+         "credits": 120
+      },
+      "quality_of_work": {
+        "description": "Minimum grade-point average for all courses completed within the degree program.",
+        "gpa": "2.00"
+      },
+      "limitations_on_source_time": {
+          "description": "Potential requirement for credits taken at the degree location/college.",
+          "credits_limit": "Up to 24 credits"
+      }
+    }
+  }

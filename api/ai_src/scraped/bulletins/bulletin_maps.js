@@ -1,6 +1,17 @@
 const courseRequirements = {
+    // Majors
     "Comp Sci - Univ Park (BS)": () => require('./cmpsc_bs.json'),
-    // Add other major mappings here as needed
+    "Computer Engineering (BS)": () => require('./cmpen_bs.json'),
+    "Electrical Engr (BS)": () => require('./ee_bs.json'),
+    "Data Sciences (BS)": () => require('./dtsce_bs.json'),
+    "Entrprs Tech Integration (BS)": () => require('./etchi_bs.json'),
+    
+    // Minors
+    "Computational Sciences (UMNR)": () => require('./cptsc_umnr.json'),
+    "Cybrsc Comput Fndations (UMNR)": () => require('./ccf_umnr.json'),
+    "IST for Arospace Eng (UMNR)": () => require('./isasp_umnr.json'),
+    "IST for Indstrl Engr (UMNR)": () => require('./istie_umnr.json'),
+    "Mathematics (UMNR)": () => require('./math_umnr.json')
   };
   
   /**

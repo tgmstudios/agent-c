@@ -1,0 +1,50 @@
+{
+    "program_name": "Cybersecurity Computational Foundations, Minor",
+    "program_code": "CCF_UMNR",
+    "campus": "University Park",
+    "total_minimum_credits": 18,
+    "minor_requirements": {
+      "c_required_policy": "Grade of C or better is required for all courses in the minor.",
+      "uniqueness_policy": "At least six credits of the minor must be unique from the prescribed courses required by a student's major(s).",
+      "prescribed_courses_c_required": [
+        {
+          "course": "CMPEN/EE 362",
+          "title": "Communication Networks",
+          "credits": 3
+        },
+        {
+          "course": "CMPSC 443",
+          "title": "Introduction to Computer and Network Security",
+          "credits": 3
+        },
+        {
+          "course": "CMPSC 473",
+          "title": "Operating Systems Design & Construction",
+          "credits": 3
+        }
+      ],
+      "additional_courses_c_required": [
+        {
+          "description": "Select from CMPEN/CMPSC Security list",
+          "credits": "3-6",
+          "options": [
+            "CMPEN 462 Wireless Communications Systems and Security",
+            "CMPSC 447 Software Security"
+          ]
+        }
+      ],
+      "supporting_courses_related_areas_c_required": [
+        {
+          "description": "Select from CMPEN/CMPSC list",
+          "credits": "3-6",
+          "options": [
+            "CMPEN 431 Introduction to Computer Architecture",
+            "CMPSC 431W Database Management Systems",
+            "CMPSC 461 Programming Language Concepts",
+            "CMPSC 464 Introduction to the Theory of Computation",
+            "CMPSC 475 Applications Programming"
+          ]
+        }
+      ]
+    }
+  }

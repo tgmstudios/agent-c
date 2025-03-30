@@ -1,0 +1,289 @@
+{
+    "program_name": "Enterprise Technology Integration, B.S. (Information Sciences and Technology)",
+    "program_code": "ETCHI_BS",
+    "campus": "University Park",
+    "total_minimum_credits": 124,
+    "general_education_credits": 45,
+    "electives_credits": "5-6",
+    "requirements_for_the_major_credits": "91-92",
+    "gen_ed_major_overlap_note": "18 of the 45 credits for General Education are included in the Requirements for the Major (3 GS, 6 GQ, 9 GWS).",
+    "major_requirements": {
+      "c_required_policy": "A grade of C or better is required for all courses in the major.",
+      "prescribed_courses_c_required": [
+        {
+          "course": "ACCTG 211",
+          "title": "Financial and Managerial Accounting for Decision Making",
+          "credits": 4
+        },
+        {
+          "course": "ETI 300W",
+          "title": "Development and Documentation of Enterprise Web",
+          "credits": 3
+        },
+        {
+          "course": "ETI 461",
+          "title": "Database Management and Administration",
+          "credits": 3
+        },
+        {
+          "course": "IST 210",
+          "title": "Organization of Data",
+          "credits": 3
+        },
+        {
+          "course": "IST 220",
+          "title": "Networking and Telecommunications",
+          "credits": 3
+        },
+        {
+          "course": "IST 230",
+          "title": "Language, Logic, and Discrete Mathematics",
+          "credits": 3
+        },
+        {
+          "course": "IST 256",
+          "title": "Programming for the Web",
+          "credits": 3
+        },
+        {
+          "course": "IST 301",
+          "title": "Information and Organizations",
+          "credits": 3
+        },
+        {
+          "course": "IST 302",
+          "title": "IT Project Management",
+          "credits": 3
+        },
+        {
+          "course": "IST 495",
+          "title": "Internship",
+          "credits": 1
+        },
+        {
+          "course": "IST 420",
+          "title": "Fundamentals of Systems and Enterprise Integration",
+          "credits": 3
+        },
+        {
+          "course": "IST 421",
+          "title": "Advanced Enterprise Integration: Technologies and Applications",
+          "credits": 3
+        }
+      ],
+      "additional_courses_c_required": [
+        {
+          "description": "Select Supply Chain course",
+          "credits": 3,
+          "options": [
+            "BA 302 Supply Chains",
+            "SCM 301 Supply Chain Management"
+          ]
+        },
+        {
+          "description": "Select Speech/Rhetoric course",
+          "credits": 3,
+          "options": [
+            "CAS/ENGL 138T Rhetoric and Civic Life II",
+            "CAS 100 Effective Speech"
+          ]
+        },
+        {
+          "description": "Select Economics course",
+          "credits": 3,
+          "options": [
+            "ECON 102 Introductory Microeconomic Analysis and Policy",
+            "ECON 104 Introductory Macroeconomic Analysis and Policy"
+          ]
+        },
+        {
+          "description": "Select Effective Writing course",
+          "credits": 3,
+          "options": [
+            "ENGL 202C Effective Writing: Technical Writing",
+            "ENGL 202D Effective Writing: Business Writing"
+          ]
+        },
+        {
+          "description": "Select Human-Centered Design course",
+          "credits": 3,
+          "options": [
+            "HCDD 264 Design Practice in Human-Centered Design and Development",
+            "IST 331 Foundations of Human-Centered Design"
+          ]
+        },
+        {
+          "description": "Select IST course",
+          "credits": 3,
+          "options": [
+            "IST 402 Emerging Issues and Technologies",
+            "IST 423 Enterprise Information Management and Storage Architecture"
+          ]
+        },
+        {
+          "description": "Select Calculus course",
+          "credits": 4,
+          "options": [
+            "MATH 110 Techniques of Calculus I",
+            "MATH 140 Calculus With Analytic Geometry I"
+          ]
+        },
+        {
+          "description": "Select Statistics course",
+          "credits": 4,
+          "options": [
+            "STAT 200 Elementary Statistics",
+            "SCM 200 Introduction to Statistics for Business"
+          ]
+        },
+        {
+          "description": "Select Business course",
+          "credits": "3-4",
+          "options": [
+            "BA 243 Social, Legal, and Ethical Environment of Business",
+            "BA 301 Finance",
+            "BA 303 Marketing",
+            "BA 304 Management and Organization",
+            "BLAW 243 Legal Environment of Business",
+            "FIN 301 Corporation Finance",
+            "IB 303 International Business Operations",
+            "MGMT 301 Basic Management Concepts",
+            "MKTG 301 Principles of Marketing"
+          ]
+        },
+        {
+          "description": "Select Rhetoric/Composition course",
+          "credits": 3,
+          "options": [
+            "CAS/ENGL 137H Rhetoric and Civic Life I",
+            "ENGL 15 Rhetoric and Composition",
+            "ENGL 30H Honors Rhetoric and Composition"
+          ]
+        },
+        {
+          "description": "Select Introduction to Programming course",
+          "credits": 3,
+          "options": [
+            "CMPSC 121 Introduction to Programming Techniques",
+            "CMPSC 131 Programming and Computation I: Fundamentals",
+            "IST 140 Introduction to Application Development"
+          ]
+        },
+        {
+          "description": "Select Intermediate Programming course",
+          "credits": 3,
+          "options": [
+            "CMPSC 122 Intermediate Programming",
+            "CMPSC 132 Programming and Computation II: Data Structures",
+            "IST 242 Intermediate & Object-Oriented Application Development"
+          ]
+        },
+        {
+          "description": "Select Foundational IST/CYBER/HCDD course",
+          "credits": 3,
+          "options": [
+            "CYBER 100 Computer Systems Literacy",
+            "CYBER 100S Computer Systems Literacy",
+            "HCDD 113 Foundations of Human-Centered Design and Development",
+            "HCDD 113S Foundations of Human-Centered Design and Development FYS",
+            "IST 110 Information, People and Technology"
+          ]
+        },
+        {
+          "description": "Select Upper-Level ETI/IST course",
+          "credits": 3,
+          "options": [
+            "ETI 435 Enterprise Analytics",
+            "ETI 463 Distributed Database Management Systems",
+            "IST 440W Information Sciences and Technology Integration and Problem Solving"
+          ]
+        }
+      ],
+      "supporting_courses_related_areas_c_required": [
+        {
+          "description": "Application Focus: Complete 12 credits from a single Application Focus area. At least 3 credits must be at the 400-level. Alternatively, select 12 credits (3 at 400-level) from any university courses with adviser consultation and faculty approval.",
+          "credits": 12
+        }
+      ]
+    },
+    "general_education_requirements": {
+      "total_credits": 45,
+      "foundations": {
+        "description": "Grade of C or better required. Inter-Domain courses do not meet this requirement.",
+        "quantification_gq": {
+          "credits": 6
+        },
+        "writing_speaking_gws": {
+          "credits": 9
+        }
+      },
+      "breadth_in_knowledge_domains": {
+        "description": "Inter-Domain courses do not meet this requirement.",
+        "arts_ga": {
+          "credits": 3
+        },
+        "health_wellness_ghw": {
+          "credits": 3
+        },
+        "humanities_gh": {
+          "credits": 3
+        },
+        "social_behavioral_sciences_gs": {
+          "credits": 3
+        },
+        "natural_sciences_gn": {
+          "credits": 3
+        }
+      },
+      "integrative_studies": {
+        "inter_domain_courses": {
+          "credits": 6
+        }
+      },
+      "exploration": {
+        "gn_or_inter_domain": {
+          "credits": 3
+        },
+        "ga_gh_gn_gs_inter_domain_or_world_language": {
+          "description": "This may include 3 credits of World Language course work beyond the 12th credit level or degree requirements, whichever is higher.",
+          "credits": 6
+        }
+      }
+    },
+    "university_degree_requirements": {
+      "first_year_engagement": {
+        "description": "Required for University Park students. Specified by college First-Year Engagement Plan.",
+        "credits": "1-3"
+      },
+      "cultures_requirement": {
+        "description": "May satisfy other requirements.",
+        "credits": 6,
+        "breakdown": [
+          {
+            "type": "United States Cultures (US)",
+            "credits": 3
+          },
+          {
+            "type": "International Cultures (IL)",
+            "credits": 3
+          }
+        ]
+      },
+      "writing_across_curriculum": {
+        "description": "Required from the college of graduation, likely prescribed as part of major requirements.",
+        "credits": 3
+      },
+      "total_minimum_degree_credits": {
+         "description": "Minimum credits for any baccalaureate degree.",
+         "credits": 120
+      },
+      "quality_of_work": {
+        "description": "Minimum grade-point average for all courses completed within the degree program.",
+        "gpa": "2.00"
+      },
+      "limitations_on_source_time": {
+          "description": "Potential requirement for credits taken at the degree location/college.",
+          "credits_limit": "Up to 24 credits"
+      }
+    }
+  }
