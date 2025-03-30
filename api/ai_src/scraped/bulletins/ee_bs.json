@@ -1,0 +1,295 @@
+{
+    "program_name": "Electrical Engineering, B.S. (Engineering)",
+    "program_code": "EE_BS",
+    "campus": "University Park",
+    "total_minimum_credits": 127,
+    "general_education_credits": 45,
+    "requirements_for_the_major_credits": "109-111",
+    "gen_ed_major_overlap_note": "27 of the 45 credits for General Education are included in the Requirements for the Major (9 GN, 6 GQ, 3 GS, 9 GWS).",
+    "major_requirements": {
+      "c_required_policy": "Grade of C or better required in courses designated by the major as a C-required course.",
+      "prescribed_courses": [
+        {
+          "course": "EE 200",
+          "title": "Design Tools",
+          "credits": 3
+        },
+        {
+          "course": "EE 300W",
+          "title": "Design Process",
+          "credits": 3
+        },
+        {
+          "course": "EE 403W",
+          "title": "Capstone Design",
+          "credits": 3
+        },
+        {
+          "course": "MATH 220",
+          "title": "Matrices",
+          "credits": "2-3",
+          "gen_ed": "GQ"
+        },
+        {
+          "course": "PHYS 214",
+          "title": "General Physics: Wave Motion and Quantum Physics",
+          "credits": 2,
+          "gen_ed": "GN"
+        }
+      ],
+      "prescribed_courses_c_required": [
+        {
+          "course": "CHEM 110",
+          "title": "Chemical Principles I",
+          "credits": 3,
+          "gen_ed": "GN"
+        },
+        {
+          "course": "EDSGN 100",
+          "title": "Cornerstone Engineering Design",
+          "credits": 3
+        },
+        {
+          "course": "EE 210",
+          "title": "Circuits and Devices",
+          "credits": 4
+        },
+        {
+          "course": "EE 310",
+          "title": "Electronic Circuit Design I",
+          "credits": 4
+        },
+        {
+          "course": "EE 330",
+          "title": "Engineering Electromagnetics",
+          "credits": 4
+        },
+        {
+          "course": "EE 340",
+          "title": "Introduction to Nanoelectronics",
+          "credits": 4
+        },
+        {
+          "course": "EE 350",
+          "title": "Continuous-Time Linear Systems",
+          "credits": 4
+        },
+        {
+          "course": "ENGL 202C",
+          "title": "Effective Writing: Technical Writing",
+          "credits": 3,
+          "gen_ed": "GWS"
+        },
+        {
+          "course": "MATH 140",
+          "title": "Calculus With Analytic Geometry I",
+          "credits": 4,
+          "gen_ed": "GQ"
+        },
+        {
+          "course": "MATH 141",
+          "title": "Calculus with Analytic Geometry II",
+          "credits": 4,
+          "gen_ed": "GQ"
+        },
+        {
+          "course": "PHYS 211",
+          "title": "General Physics: Mechanics",
+          "credits": 4,
+          "gen_ed": "GN"
+        },
+        {
+          "course": "PHYS 212",
+          "title": "General Physics: Electricity and Magnetism",
+          "credits": 4,
+          "gen_ed": "GN"
+        }
+      ],
+      "additional_courses": [
+        {
+          "description": "Select First-Year Seminar",
+          "credits": 1
+        },
+        {
+          "description": "Select Intermediate Programming course",
+          "credits": 3,
+          "options": [
+            "CMPSC 122 Intermediate Programming",
+            "CMPSC 132 Programming and Computation II: Data Structures"
+          ]
+        },
+        {
+          "description": "Select Economics course",
+          "credits": 3,
+          "options": [
+            "ECON 102 Introductory Microeconomic Analysis and Policy",
+            "ECON 104 Introductory Macroeconomic Analysis and Policy"
+          ],
+          "gen_ed": "GS"
+        },
+        {
+          "description": "Select Vector Calculus sequence or course",
+          "credits": 4,
+          "options": [
+            "MATH 231 Calculus of Several Variables AND MATH 232 Integral Vector Calculus",
+            "MATH 230 Calculus and Vector Analysis"
+          ]
+        },
+        {
+          "description": "Select Statistics/Probability course",
+          "credits": 3,
+          "options": [
+            "IE 424 Process Quality Engineering",
+            "STAT 401 Experimental Methods",
+            "STAT/MATH 414 Introduction to Probability Theory",
+            "STAT/MATH 418 Introduction to Probability and Stochastic Processes for Engineering"
+          ]
+        }
+      ],
+      "additional_courses_c_required": [
+        {
+          "description": "Select Effective Speech/Rhetoric course",
+          "credits": 3,
+          "options": [
+            "CAS 100A Effective Speech",
+            "CAS 100B Effective Speech",
+            "ENGL 138T Rhetoric and Civic Life II"
+          ],
+          "gen_ed": "GWS"
+        },
+        {
+          "description": "Select Digital Design sequence",
+          "credits": 4,
+          "options": [
+            "CMPEN 271 Introduction to Digital Systems AND CMPEN 275 Digital Design Laboratory",
+            "CMPEN 270 Digital Design: Theory and Practice"
+          ],
+          "note": "CMPEN 275 does not require a grade of C or better."
+        },
+        {
+          "description": "Select Introduction to Programming course",
+          "credits": 3,
+          "options": [
+            "CMPSC 121 Introduction to Programming Techniques",
+            "CMPSC 131 Programming and Computation I: Fundamentals"
+          ]
+        },
+        {
+          "description": "Select Rhetoric and Composition course",
+          "credits": 3,
+          "options": [
+            "ENGL 15 Rhetoric and Composition",
+            "ENGL 30H Honors Rhetoric and Composition",
+            "ENGL 137H Rhetoric and Civic Life I"
+          ],
+          "gen_ed": "GWS"
+        },
+        {
+          "description": "Select Differential Equations course",
+          "credits": "3-4",
+          "options": [
+            "MATH 250 Ordinary Differential Equations",
+            "MATH 251 Ordinary and Partial Differential Equations"
+          ]
+        }
+      ],
+      "supporting_courses_related_areas": [
+        {
+          "description": "Select from program-approved list of 300-level courses (List not provided in source text)",
+          "credits": 6
+        },
+        {
+          "description": "Select from program-approved lists of 300-level or 400-level courses (List not provided in source text)",
+          "credits": 3
+        },
+        {
+          "description": "Select from program-approved list of 400-level courses (List not provided in source text)",
+          "credits": 6
+        },
+        {
+          "description": "Select additional credits from program-approved list (may include up to 6 credits ROTC, 6 co-op) (List not provided in source text)",
+          "credits": 6
+        }
+      ]
+    },
+    "general_education_requirements": {
+      "total_credits": 45,
+      "foundations": {
+        "description": "Grade of C or better required. Inter-Domain courses do not meet this requirement.",
+        "quantification_gq": {
+          "credits": 6
+        },
+        "writing_speaking_gws": {
+          "credits": 9
+        }
+      },
+      "breadth_in_knowledge_domains": {
+        "description": "Inter-Domain courses do not meet this requirement.",
+        "arts_ga": {
+          "credits": 3
+        },
+        "health_wellness_ghw": {
+          "credits": 3
+        },
+        "humanities_gh": {
+          "credits": 3
+        },
+        "social_behavioral_sciences_gs": {
+          "credits": 3
+        },
+        "natural_sciences_gn": {
+          "credits": 3
+        }
+      },
+      "integrative_studies": {
+        "inter_domain_courses": {
+          "credits": 6
+        }
+      },
+      "exploration": {
+        "gn_or_inter_domain": {
+          "credits": 3
+        },
+        "ga_gh_gn_gs_inter_domain_or_world_language": {
+          "description": "This may include 3 credits of World Language course work beyond the 12th credit level or degree requirements, whichever is higher.",
+          "credits": 6
+        }
+      }
+    },
+    "university_degree_requirements": {
+      "first_year_engagement": {
+        "description": "Required for University Park students. Specified by college First-Year Engagement Plan.",
+        "credits": "1-3"
+      },
+      "cultures_requirement": {
+        "description": "May satisfy other requirements.",
+        "credits": 6,
+        "breakdown": [
+          {
+            "type": "United States Cultures (US)",
+            "credits": 3
+          },
+          {
+            "type": "International Cultures (IL)",
+            "credits": 3
+          }
+        ]
+      },
+      "total_minimum_degree_credits": {
+         "description": "Minimum credits for any baccalaureate degree.",
+         "credits": 120
+      },
+      "quality_of_work": {
+        "description": "Minimum grade-point average for all courses completed within the degree program.",
+        "gpa": "2.00"
+      },
+      "writing_across_curriculum": {
+        "description": "Required from the college of graduation, likely prescribed as part of major requirements.",
+        "credits": 3
+      },
+      "limitations_on_source_time": {
+          "description": "Potential requirement for credits taken at the degree location/college.",
+          "credits_limit": "Up to 24 credits"
+      }
+    }
+  }

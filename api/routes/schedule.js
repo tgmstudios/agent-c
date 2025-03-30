@@ -84,6 +84,7 @@ async function getSemesterCourses(sessionId, pathId, year, semester) {
     if (!user) {
       throw new Error("User not found");
     }
+    const preferences = await db.search('preferences', 'session_id', sessionId);
 
     // 2. Retrieve path data
     const path = await db.search('paths', 'id', pathId);
@@ -122,6 +123,8 @@ async function getSemesterCourses(sessionId, pathId, year, semester) {
 
     return {
       semester: targetSemester,
+      user: user,
+      preferences: preferences,
       courses: semesterCourses
     };
   } catch (error) {
@@ -134,7 +137,7 @@ async function generateSchedule(courses) {
     const model = genAI.getGenerativeModel({
       model: "gemini-1.5-pro", // Use a more capable model for structured output
       generationConfig: {
-        temperature: 0.4, // Lower for structured, logical responses
+        temperature: 1, // Lower for structured, logical responses
         topP: 0.8,        // Balanced diversity
         topK: 50,         // Slightly broader token selection
         maxOutputTokens: 10000 // Extended output length

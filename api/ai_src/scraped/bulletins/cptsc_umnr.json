@@ -1,0 +1,139 @@
+[
+    {
+      "program_name": "Computational Sciences, Minor",
+      "program_code": "CPTSC_UMNR",
+      "campus": "University Park",
+      "total_minimum_credits": 18,
+      "minor_requirements": {
+        "c_required_policy": "Grade of C or better is required for all courses in the minor.",
+        "uniqueness_policy": "At least six credits of the minor must be unique from the prescribed courses required by a student's major(s).",
+        "prescribed_courses_c_required": [
+          {
+            "course": "CMPSC 204",
+            "title": "Introduction to Computational Sciences Programming",
+            "credits": 3
+          },
+          {
+            "course": "CMPSC 205",
+            "title": "Intermediate Computational Sciences Programming",
+            "credits": 3
+          },
+          {
+            "course": "CMPSC 301",
+            "title": "Event Driven Programming for Computational Sciences",
+            "credits": 3
+          },
+          {
+            "course": "CMPSC 348",
+            "title": "Data Science and Machine Learning for Computational Sciences",
+            "credits": 3
+          }
+        ],
+        "supporting_courses_related_areas_c_required": [
+          {
+            "description": "Select from the approved list of 400-level supporting courses",
+            "credits": 6
+          }
+        ]
+      }
+    },
+    {
+      "program_name": "Information Sciences and Technology for Industrial Engineering, Minor",
+      "program_code": "ISTIE_UMNR",
+      "campus": "University Park",
+      "total_minimum_credits": 21,
+      "minor_requirements": {
+        "c_required_policy": "Grade of C or better is required for all courses in the minor.",
+        "uniqueness_policy": "At least six credits of the minor must be unique from the prescribed courses required by a student's major(s).",
+        "prescribed_courses_c_required": [
+          {
+            "course": "IE 330",
+            "title": "Engineering Analytics",
+            "credits": 3
+          },
+          {
+            "course": "IST 110",
+            "title": "Information, People and Technology",
+            "credits": 3
+          },
+          {
+            "course": "IST 210",
+            "title": "Organization of Data",
+            "credits": 3
+          },
+          {
+            "course": "IST 220",
+            "title": "Networking and Telecommunications",
+            "credits": 3
+          }
+        ],
+        "additional_courses_c_required": [
+          {
+            "description": "Select from IE list",
+            "credits": 6,
+            "options": [
+              "IE 408 Cognitive Work Design",
+              "IE 418 Human/Computer Interface Design",
+              "IE 433 Regression Analysis and Design of Experiments"
+            ]
+          },
+          {
+            "description": "Select from IST/MATH list",
+            "credits": 3,
+            "options": [
+              "IST 402 Emerging Issues and Technologies",
+              "IST 431 The Information Environment",
+              "IST 442 Information Technology in an International Context",
+              "IST 454 Computer and Cyber Forensics",
+              "MATH 451 Numerical Computations",
+              "MATH 455 Introduction to Numerical Analysis I"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "program_name": "Information Sciences and Technology for Aerospace Engineering, Minor",
+      "program_code": "ISASP_UMNR",
+      "campus": "University Park",
+      "total_minimum_credits": 18,
+      "minor_requirements": {
+        "c_required_policy": "Grade of C or better is required for all courses in the minor.",
+        "uniqueness_policy": "At least six credits of the minor must be unique from the prescribed courses required by a student's major(s).",
+        "prescribed_courses_c_required": [
+          {
+            "course": "CMPSC 201",
+            "title": "Programming for Engineers with C++",
+            "credits": 3
+          },
+          {
+            "course": "IST 110",
+            "title": "Information, People and Technology",
+            "credits": 3
+          },
+          {
+            "course": "IST 210",
+            "title": "Organization of Data",
+            "credits": 3
+          },
+          {
+            "course": "IST 220",
+            "title": "Networking and Telecommunications",
+            "credits": 3
+          }
+        ],
+        "additional_courses_c_required": [
+          {
+            "description": "Select from AERSP list",
+            "credits": 6,
+            "options": [
+              "AERSP 423 Introduction to Numerical Methods in Fluid Dynamics",
+              "AERSP 424 Advanced Computer Programming",
+              "AERSP 440 Introduction to Software Engineering for Aerospace Engineers",
+              "AERSP 460 Aerospace Control Systems"
+            ]
+          }
+        ]
+      }
+    }
+  ]

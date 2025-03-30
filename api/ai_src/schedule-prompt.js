@@ -2,7 +2,7 @@ const prompt = `# Penn State Semester Schedule Generator
 
 ## Your Task
 
-Using the provided course list, student preferences, and available campus buildings, generate a **realistic** semester schedule for Aiden Johnson, a Computer Science (BS) major at Penn State University Park. 
+Using the provided course list, student preferences, and available campus buildings, generate a **realistic** semester schedule for the user.
 
 The schedule must:
 - Adhere to the student's **stated time preferences**.
@@ -39,6 +39,11 @@ The schedule must:
      - **Mueller Laboratory (MUELL)**
    - Prioritize locations typically used for Computer Science and Engineering courses, but allow flexibility for supporting courses.
 
+4. **When provided with a non-exact course value, generate a class that would make sense for that year and semester, adherent to the recommended gen ed or elective type. **
+   - For example, if a student is a **first-year** student and requests a **general education** course, suggest a **first-year level course** from the list.
+   - If a student is a **third-year** student and requests a **general education** course, suggest a **third-year level course** from the list.
+   - Ensure the course level aligns with the student's academic standing.
+   
 3. **Generate Fake Professors & Ratings**
    - Create unique professor names (e.g., "Dr. Emily Carter", "Prof. Jonathan Wells").
    - Assign an RMP rating between **2.5 and 5.0**, with a short description (e.g., "Great lecturer, but tough grader").

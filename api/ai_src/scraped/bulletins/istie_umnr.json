@@ -1,0 +1,55 @@
+{
+    "program_name": "Information Sciences and Technology for Industrial Engineering, Minor",
+    "program_code": "ISTIE_UMNR",
+    "campus": "University Park",
+    "total_minimum_credits": 21,
+    "minor_requirements": {
+      "c_required_policy": "Grade of C or better is required for all courses in the minor.",
+      "uniqueness_policy": "At least six credits of the minor must be unique from the prescribed courses required by a student's major(s).",
+      "prescribed_courses_c_required": [
+        {
+          "course": "IE 330",
+          "title": "Engineering Analytics",
+          "credits": 3
+        },
+        {
+          "course": "IST 110",
+          "title": "Information, People and Technology",
+          "credits": 3
+        },
+        {
+          "course": "IST 210",
+          "title": "Organization of Data",
+          "credits": 3
+        },
+        {
+          "course": "IST 220",
+          "title": "Networking and Telecommunications",
+          "credits": 3
+        }
+      ],
+      "additional_courses_c_required": [
+        {
+          "description": "Select from IE list",
+          "credits": 6,
+          "options": [
+            "IE 408 Cognitive Work Design",
+            "IE 418 Human/Computer Interface Design",
+            "IE 433 Regression Analysis and Design of Experiments"
+          ]
+        },
+        {
+          "description": "Select from IST/MATH list",
+          "credits": 3,
+          "options": [
+            "IST 402 Emerging Issues and Technologies",
+            "IST 431 The Information Environment",
+            "IST 442 Information Technology in an International Context",
+            "IST 454 Computer and Cyber Forensics",
+            "MATH 451 Numerical Computations",
+            "MATH 455 Introduction to Numerical Analysis I"
+          ]
+        }
+      ]
+    }
+  }

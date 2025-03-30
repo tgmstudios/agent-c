@@ -40,15 +40,31 @@ async function generatePrompt(sessionId) {
       }
     }
 
-    let majorName = null;
+    // Fetch course requirements based on user preferences
+    let academicRequirements = {
+      majors: [],
+      minors: []
+    };
+
     if (preferences && preferences.majors && preferences.majors.length > 0) {
-        majorName = preferences.majors[0]; // Assuming the first major in the array is the primary one
+      for (const major of preferences.majors) {
+        const requirements = getCourseRequirements(major);
+        if (requirements) {
+          academicRequirements.majors.push({ name: major, requirements });
+        } else {
+          console.warn(`Requirements for major "${major}" not found.`);
+        }
+      }
     }
-    let courseRequirements = null;
-    if (majorName) {
-      courseRequirements = getCourseRequirements(majorName);
-      if (courseRequirements) {
-        courseRequirements = `Course Requirements: ${JSON.stringify(courseRequirements)}`;
+
+    if (preferences && preferences.minors && preferences.minors.length > 0) {
+      for (const minor of preferences.minors) {
+        const requirements = getCourseRequirements(minor);
+        if (requirements) {
+          academicRequirements.minors.push({ name: minor, requirements });
+        } else {
+          console.warn(`Requirements for minor "${minor}" not found.`);
+        }
       }
     }
 
@@ -57,7 +73,7 @@ async function generatePrompt(sessionId) {
       User Name: ${user ? user.name : 'N/A'}
       Preferences: ${preferences ? JSON.stringify(preferences) : 'N/A'}
       ${transcriptText}
-      ${courseRequirements}
+      Academic Requirements: ${JSON.stringify(academicRequirements)}
     `;
 
     // Combine base prompt with user data
