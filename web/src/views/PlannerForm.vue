@@ -58,8 +58,8 @@
   
       const handleFileUpload = (file) => {
         transcript.value = file;
-
-        // TODO: Process the file (e.g., send to backend for parsing)
+        // Log to verify file is captured correctly
+        console.log("File selected:", file);
       };
   
       const handleFileRemove = () => {
@@ -67,38 +67,47 @@
       };
   
       const submitForm = async () => {
-      // Show errors if form is invalid
-      if (!transcript.value) {
-        showFileError.value = true;
+  if (!transcript.value) {
+    showFileError.value = true;
+    return;
+  }
+  
+  if (isFormValid.value) {
+    try {
+      submitting.value = true;
+      apiError.value = '';
+      
+      // Step 1: Update user preferences
+      await courseConnectService.updatePreferences({
+        majors: [major.value],
+        minors: minors.value,
+        credits: [credits.value]
+      });
+      
+      // Step 2: Upload transcript
+      if (transcript.value) {
+        await courseConnectService.uploadTranscript(transcript.value);
       }
       
-      if (isFormValid.value) {
-        try {
-          submitting.value = true;
-          
-          // Update user preferences
-          await courseConnectService.updatePreferences({
-            majors: [major.value],
-            minors: minors.value,
-            credits: [credits.value]
-          });
-          
-          // Upload transcript if needed
-          // This would be implemented in your courseConnectService
-          
-          // Generate recommendations
-          //const pathResponse = await courseConnectService.getRecommendedPath();
-          
-          // Navigate to the schedule view with the path ID
-          router.push(`/schedule`);
-        } catch (error) {
-          console.error('Error submitting form:', error);
-          apiError.value = 'Failed to generate recommendations. Please try again.';
-        } finally {
-          submitting.value = false;
-        }
+      // Step 3: Generate recommendations - UNCOMMENT THIS!
+      const pathResponse = await courseConnectService.getRecommendedPath();
+      
+      // Step 4: Navigate to the schedule view with the path ID
+      if (pathResponse && pathResponse.id) {
+        router.push(`/schedule/${pathResponse.id}`);
+      } else {
+        router.push('/schedule');
       }
-    };
+    } catch (error) {
+      console.error('Error submitting form:', error);
+      apiError.value = 'Failed to generate recommendations. Please try again.';
+    } finally {
+      submitting.value = false;
+    }
+  }
+};
+
+
 
       onMounted(async () => {
         try {

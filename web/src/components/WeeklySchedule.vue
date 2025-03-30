@@ -1,6 +1,6 @@
 <template>
     <div class="weekly-schedule-container">
-      <h3>{{ schedule?.semester }} Weekly Schedule</h3>
+      <h3>Fall 2025 Weekly Schedule</h3>
       
       <div v-if="!showSchedule" class="schedule-button-container">
         <button @click="loadSchedule" class="btn btn-primary">

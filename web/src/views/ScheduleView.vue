@@ -57,6 +57,9 @@
               // Sort by creation date (newest first)
               paths.sort((a, b) => new Date(b.created) - new Date(a.created));
               pathId.value = paths[0].id;
+            } else {
+              // Handle case when no paths are returned
+              console.log('No paths found for current session');
             }
           }
         } catch (err) {
@@ -66,6 +69,7 @@
           loading.value = false;
         }
       };
+
       
       onMounted(fetchSchedule);
       
