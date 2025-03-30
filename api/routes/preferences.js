@@ -33,6 +33,12 @@ const db = require('../lib/db.js'); // Import database functions
  *                   type: string
  *                   enum: [online, inperson]
  *                 description: Preferred mode of learning
+ *               credits:
+ *                   type: array
+ *                   items:
+ *                     type: string
+ *                     enum: [12-15, 15-18, 18-21, 21+]
+ *                   description: Preferred number of credits
  *               majors:
  *                 type: array
  *                 items:
@@ -55,7 +61,7 @@ const db = require('../lib/db.js'); // Import database functions
  */
 router.put('/', async (req, res) => {
     const sessionId = req.header('session-id');
-    const { classTimes, delivery, majors, minors } = req.body;
+    const { classTimes, delivery, credits, majors, minors } = req.body;
 
     if (!sessionId) {
         return res.status(400).json({ error: 'Bad request: Missing session ID in header' });
@@ -72,6 +78,9 @@ router.put('/', async (req, res) => {
             if (delivery !== undefined) {
                 await db.update('preferences', 'delivery', JSON.stringify(delivery), 'session_id', sessionId);
             }
+            if (credits !== undefined) {
+                await db.update('preferences', 'credits', JSON.stringify(credits), 'session_id', sessionId);
+            }
             if (majors !== undefined) {
                 await db.update('preferences', 'majors', JSON.stringify(majors), 'session_id', sessionId);
             }
@@ -79,16 +88,17 @@ router.put('/', async (req, res) => {
                 await db.update('preferences', 'minors', JSON.stringify(minors), 'session_id', sessionId);
             }
 
-            return res.status(200).json({ message: 'Preferences updated successfully' });
+            return res.status(201).json({ message: 'Preferences created successfully' });
         } else {
             // Insert new preferences into the database
             const result = await db.insert(
                 'preferences',
-                ['session_id', 'classTimes', 'delivery', 'majors', 'minors'],
+                ['session_id', 'classTimes', 'delivery', 'credits', 'majors', 'minors'],
                 [
                     sessionId,
                     classTimes ? JSON.stringify(classTimes) : null,
                     delivery ? JSON.stringify(delivery) : null,
+                    credits ? JSON.stringify(credits) : null,
                     majors ? JSON.stringify(majors) : null,
                     minors ? JSON.stringify(minors) : null,
                 ]
@@ -124,7 +134,7 @@ router.put('/', async (req, res) => {
  *         required: true
  *         schema:
  *           type: string
- *           enum: [classTimes, delivery, majors, minors]
+ *           enum: [classTimes, delivery, credits, majors, minors]
  *         description: The name of the preference to retrieve
  *     responses:
  *       200:
@@ -157,7 +167,7 @@ router.get('/:preferenceName', async (req, res) => {
       return res.status(401).json({ error: 'Unauthorized - Missing session ID' });
   }
 
-  const validPreferences = ['classTimes', 'delivery', 'majors', 'minors'];
+  const validPreferences = ['classTimes', 'delivery', 'majors', 'credits', 'minors'];
   if (!validPreferences.includes(preferenceName)) {
       return res.status(400).json({ error: `Bad request - Invalid preference name. Valid options are ${validPreferences.join(', ')}` });
   }
@@ -222,6 +232,12 @@ router.get('/:preferenceName', async (req, res) => {
  *                     type: string
  *                     enum: [online, inperson]
  *                   description: Preferred mode of learning
+ *                 credits:
+ *                   type: array
+ *                   items:
+ *                     type: string
+ *                     enum: [12-15, 15-18, 18-21, 21+]
+ *                   description: Preferred number of credits
  *                 majors:
  *                   type: array
  *                   items:

@@ -10,7 +10,7 @@ const options = {
     },
     servers: [
       {
-        url: 'https://agent-c.tgm.one/api/v1', // Replace with your server URL
+        url: 'https://courseconnect.study/api/v1', // Replace with your server URL
       },
     ],
   },

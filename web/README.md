@@ -1,4 +1,4 @@
-# tgm-one
+# Course Connect
 
 ## Project setup
 ```

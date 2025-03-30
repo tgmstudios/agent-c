@@ -1,0 +1,484 @@
+Agricultural Sciences
+<select name="PLAN$0" id="PLAN$0" tabindex="219" size="1" class="PSDROPDOWNLIST" style="width:207px; " onchange="addchg_win0(this);submitAction_win0(this.form,this.id);" onkeydown="if ((typeof isLoaderInProcess == 'function') &amp;&amp; isLoaderInProcess() &amp;&amp; ptCommonObj2!=null) { ptCommonObj2.terminateEvent(event); } ">
+<option value="BRS_BS">Ag &amp; Biorenewble Sys Mgmt (BS)</option>
+<option value="ASM_UMNR">Ag Systems Mngmt (UMNR)</option>
+<option value="AGBM_BS">Agribusiness Mgmt (BS)</option>
+<option value="AGBM_UMNR">Agribusiness Mgmt (UMNR)</option>
+<option value="AEE_BS">Agricult&nbsp; &amp; Exten Ed (BS)</option>
+<option value="AGSC_BS">Agricultural Science (BS)</option>
+<option value="AG_PMAJ">Agriculture (PMAJ)</option>
+<option value="AGRO_UMNR">Agronomy (UMNR)</option>
+<option value="ANSC_BS">Animal Science (BS)</option>
+<option value="ANSC_UMNR">Animal Science (UMNR)</option>
+<option value="ARBOR_UMNR">Arboriculture (UMNR)</option>
+<option value="CED_BS">Comm, Envir &amp; Devlop (BS)</option>
+<option value="ENT_UMNR">Entomology (UMNR)</option>
+<option value="ERRE_UMNR">Envir &amp; Renew Res Ec (UMNR)</option>
+<option value="ERM_BS">Envirn Resource Mgmt (BS)</option>
+<option value="ESOIL_UMNR">Environmentl Soil Sc (UMNR)</option>
+<option value="ERM_UMNR">Envrn Resrce Mgmt (UMNR)</option>
+<option value="EQSC_UMNR">Equine Science (UMNR)</option>
+<option value="FDSC_BS">Food Science (BS)</option>
+<option value="FDSYS_UMNR">Food Systems (UMNR)</option>
+<option value="FECO_UMNR">Forest Ecosystems (UMNR)</option>
+<option value="FOREM_BS">Forest Ecosystm Mgmt (BS)</option>
+<option value="FORSC_UMNR">Forest Science (UMNR)</option>
+<option value="2FORT_AS">Forest Technology (AS)</option>
+<option value="HORT_UMNR">Horticulture (UMNR)</option>
+<option value="IID_BS">Imnlgy &amp; Infctus Dis (BS)</option>
+<option value="INTAG_UMNR">Intrnatl Agriculture (UMNR)</option>
+<option value="LSCPE_BS">Landscape Contractng (BS)</option>
+<option value="LDEV_UMNR">Leadership Dev (UMNR)</option>
+<option value="MST_UMNR">Mushroom Science/Tec (UMNR)</option>
+<option value="NONE" selected="selected">None</option>
+<option value="OFFRD_UMNR">Off-Road Equipment (UMNR)</option>
+<option value="OHLTH_UMNR">One Health (UMNR)</option>
+<option value="TOX_BS">Pharmacology &amp; Toxicology (BS)</option>
+<option value="PPATH_UMNR">Plant Pathology (UMNR)</option>
+<option value="PLANT_BS">Plant Sciences (BS)</option>
+<option value="PAS_UMNR">Poultry &amp; Avian Sci (UMNR)</option>
+<option value="2TSM_AS">Turfgrass Sci &amp; Mgmt (AS)</option>
+<option value="TURF_BS">Turfgrass Science (BS)</option>
+<option value="VBSC_BS">Vet &amp; Biomedical Sc (BS)</option>
+<option value="2WLT_AS">Wildlife Tech (AS)</option>
+<option value="WFS_UMNR">Wildlife/Fish Scien (UMNR)</option>
+<option value="WFS_BS">Wildlife/Fish Scn (BS)</option>
+<option value="YFE_UMNR">Youth and Family Ed (UMNR)</option>
+</select>
+
+Arts and Architecture
+<select name="PLAN$1" id="PLAN$1" tabindex="224" size="1" class="PSDROPDOWNLIST" style="width:207px; " onchange="addchg_win0(this);submitAction_win0(this.form,this.id);" onkeydown="if ((typeof isLoaderInProcess == 'function') &amp;&amp; isLoaderInProcess() &amp;&amp; ptCommonObj2!=null) { ptCommonObj2.terminateEvent(event); } " aria-required="true">
+<option value="AAART_PMAJ">A&amp;A-Premjr Art Maj (PMAJ)</option>
+<option value="AADES_PMAJ">A&amp;A-Premjr Gd Maj (PMAJ)</option>
+<option value="AAMUS_PMAJ">A&amp;A-Premjr Music Maj (PMAJ)</option>
+<option value="ACTNG_BFA">Acting (BFA)</option>
+<option value="ARC_H_UMNR">Architectural Hist (UMNR)</option>
+<option value="BARCHBARCH">Architecture (BARCH)</option>
+<option value="ARCBS_BS">Architecture (BS)</option>
+<option value="ARCST_UMNR">Architecture Studies (UMNR)</option>
+<option value="ARTBA_BA">Art (BA)</option>
+<option value="ARBFA_BFA">Art (BFA)</option>
+<option value="ART_UMNR">Art (UMNR)</option>
+<option value="AED_BS">Art Education (BS)</option>
+<option value="ARTH_BA">Art History (BA)</option>
+<option value="ARTH_UMNR">Art History (UMNR)</option>
+<option value="AA_PMAJ">Arts &amp; Architecture (PMAJ)</option>
+<option value="ARENT_UMNR">Arts Entrepreneurship (UMNR)</option>
+<option value="DANCE_UMNR">Dance (UMNR)</option>
+<option value="DIGMD_BDES">Dgn in Dgtl Multmdi Dgn (BDES)</option>
+<option value="IDS_BDES">Digtl Arts &amp; Media Dsgn (BDES)</option>
+<option value="GD_BDES">Graphic Design (BDES)</option>
+<option value="GDSGN_UMNR">Graphic Design (UMNR)</option>
+<option value="INART_BA">Integrative Arts (BA)</option>
+<option value="IARTS_UMNR">International Arts (UMNR)</option>
+<option value="JAZZP_UMNR">Jazz Performance (UMNR)</option>
+<option value="LARCH_BLA">Landscape Arch (BLA)</option>
+<option value="LARCH_UMNR">Landscape Architecture (UMNR)</option>
+<option value="MUSBA_BA">Music (BA)</option>
+<option value="MUSBM_BM">Music (BM)</option>
+<option value="MUED_BME">Music Education (BME)</option>
+<option value="MUSIC_UMNR">Music Performance (UMNR)</option>
+<option value="MUSST_UMNR">Music Studies (UMNR)</option>
+<option value="MUTEC_UMNR">Music Technology (UMNR)</option>
+<option value="MUBMA_BMA">Musical Arts (BMA)</option>
+<option value="THRMT_BFA">Musical Theatre (BFA)</option>
+<option value="NONE" selected="selected">None</option>
+<option value="PHOTO_UMNR">Photography (UMNR)</option>
+<option value="PHOTO_BDES">Profssional Photography (BDES)</option>
+<option value="THRBA_BA">Theatre (BA)</option>
+<option value="THRFA_BFA">Theatre (BFA)</option>
+<option value="THEA_UMNR">Theatre (UMNR)</option>
+</select>
+
+Communications
+<select name="PLAN$2" id="PLAN$2" tabindex="229" size="1" class="PSDROPDOWNLIST" style="width:207px; " onchange="addchg_win0(this);submitAction_win0(this.form,this.id);" onkeydown="if ((typeof isLoaderInProcess == 'function') &amp;&amp; isLoaderInProcess() &amp;&amp; ptCommonObj2!=null) { ptCommonObj2.terminateEvent(event); } " aria-required="true">
+<option value="ADPR_BA">Advt/Publ Relations (BA)</option>
+<option value="COMM_PMAJ">Communications (PMAJ)</option>
+<option value="DGJRM_BA">Digital Journ and Media (BA)</option>
+<option value="DMTA_UMNR">Digtal Med Trnd &amp; Analy (UMNR)</option>
+<option value="FILM_BA">Film Production (BA)</option>
+<option value="FLMST_UMNR">Film Studies (UMNR)</option>
+<option value="ISTLC_UMNR">IST for Telecomm (UMNR)</option>
+<option value="JOURN_BA">Journalism (BA)</option>
+<option value="JOURN_UMNR">Journalism (UMNR)</option>
+<option value="MEDIA_BA">Media Studies (BA)</option>
+<option value="MEDIA_UMNR">Media Studies (UMNR)</option>
+<option value="NONE" selected="selected">None</option>
+<option value="STRCM_BA">Strategic Communications (BA)</option>
+<option value="TELCM_BA">Telecommunications (BA)</option>
+</select>
+
+Earth and Mineral Sciences
+<select name="PLAN$0" id="PLAN$0" tabindex="219" size="1" class="PSDROPDOWNLIST" style="width:207px; " onchange="addchg_win0(this);submitAction_win0(this.form,this.id);" onkeydown="if ((typeof isLoaderInProcess == 'function') &amp;&amp; isLoaderInProcess() &amp;&amp; ptCommonObj2!=null) { ptCommonObj2.terminateEvent(event); } ">
+<option value="CLIMA_UMNR">Climatology (UMNR)</option>
+<option value="EMSC_PMAJ">Earth &amp; Mineral Sci (PMAJ)</option>
+<option value="EARSP_BS">Earth Science &amp; Plcy (BS)</option>
+<option value="EARTH_BS">Earth Sciences (BS)</option>
+<option value="EASYS_UMNR">Earth Systems (UMNR)</option>
+<option value="EASUS_UMNR">Earth and Sustainabilty (UMNR)</option>
+<option value="ELCHE_UMNR">Electrochemical Engr (UMNR)</option>
+<option value="EBF_BS">Energy Bus &amp; Finance (BS)</option>
+<option value="EBF_UMNR">Energy Bus &amp; Finance (UMNR)</option>
+<option value="ENENG_BS">Energy Engineering (BS)</option>
+<option value="ENENG_UMNR">Energy Engineering (UMNR)</option>
+<option value="ESPBA_BA">Enrgy/Sustanblty Pol (BA)</option>
+<option value="ESPBS_BS">Enrgy/Sustanblty Pol (BS)</option>
+<option value="ENVSE_UMNR">Environ Systems Engr (UMNR)</option>
+<option value="ENVSE_BS">Environmntl Sys Engr (BS)</option>
+<option value="GEOBI_BS">Geobiology (BS)</option>
+<option value="G_I_S_UMNR">Geographic Info Sci (UMNR)</option>
+<option value="GEOBA_BA">Geography (BA)</option>
+<option value="GEOBS_BS">Geography (BS)</option>
+<option value="GEOG_UMNR">Geography (UMNR)</option>
+<option value="GPHYS_UMNR">Geophysics (UMNR)</option>
+<option value="GSCBA_BA">Geosciences (BA)</option>
+<option value="GSCBS_BS">Geosciences (BS)</option>
+<option value="GEOSC_UMNR">Geosciences (UMNR)</option>
+<option value="ISEMS_UMNR">Ist for Em Sc (UMNR)</option>
+<option value="MATSE_BS">Mat Sci and Engr (BS)</option>
+<option value="MTSEN_UMNR">Materials Scne &amp; Engr (UMNR)</option>
+<option value="METEO_BS">Meteo &amp; Atmosph Scnce (BS)</option>
+<option value="METEO_UMNR">Meteorology (UMNR)</option>
+<option value="MNGE_BS">Mining Engineering (BS)</option>
+<option value="MNGE_UMNR">Mining Engineering (UMNR)</option>
+<option value="NONE" selected="selected">None</option>
+<option value="PNGE_BS">Petro &amp; Nat Gas Engr (BS)</option>
+<option value="PNGE_UMNR">Petro &amp; Nat Gas Engr (UMNR)</option>
+<option value="PLMSC_UMNR">Polymer Science (UMNR)</option>
+<option value="WWR_UMNR">Watersheds/Water Res (UMNR)</option>
+</select>
+
+Education
+<select name="PLAN$1" id="PLAN$1" tabindex="224" size="1" class="PSDROPDOWNLIST" style="width:207px; " onchange="addchg_win0(this);submitAction_win0(this.form,this.id);" onkeydown="if ((typeof isLoaderInProcess == 'function') &amp;&amp; isLoaderInProcess() &amp;&amp; ptCommonObj2!=null) { ptCommonObj2.terminateEvent(event); } " aria-required="true">
+<option value="ADRCV_UMNR">Addictions and Recovery (UMNR)</option>
+<option value="ERDED_UMNR">Early Dev and Educ (UMNR)</option>
+<option value="EPS_UMNR">Ed &amp; Public Policy&nbsp; (UMNR)</option>
+<option value="EPP_BS">Educ &amp; Public Policy (BS)</option>
+<option value="ED_PMAJ">Education (PMAJ)</option>
+<option value="CEAED_BS">Elem &amp; Erly Chld Ed (BS)</option>
+<option value="LDT_UMNR">Learning, Dsign, &amp; Tech (UMNR)</option>
+<option value="MLVED_BS">Middle Level Education (BS)</option>
+<option value="NONE" selected="selected">None</option>
+<option value="RHS_BS">Rehab &amp; Human Srvces (BS)</option>
+<option value="RHS_UMNR">Rehab &amp; Human Srvces (UMNR)</option>
+<option value="SECED_BS">Secondary Education (BS)</option>
+<option value="SJSED_UMNR">Social Justice in Educ (UMNR)</option>
+<option value="SPLED_BS">Special Education (BS)</option>
+<option value="SPLED_UMNR">Special Education (UMNR)</option>
+<option value="TLO_UMNR">Tching &amp; Lrning Onln (UMNR)</option>
+<option value="2WFED_AS">Workforce Ed &amp; Devel (AS)</option>
+<option value="WFED_BS">Workforce Ed &amp; Devel (BS)</option>
+<option value="WLED_BS">World Languages Ed (BS)</option>
+</select>
+
+Engineering
+<select name="PLAN$2" id="PLAN$2" tabindex="229" size="1" class="PSDROPDOWNLIST" style="width:207px; " onchange="addchg_win0(this);submitAction_win0(this.form,this.id);" onkeydown="if ((typeof isLoaderInProcess == 'function') &amp;&amp; isLoaderInProcess() &amp;&amp; ptCommonObj2!=null) { ptCommonObj2.terminateEvent(event); } " aria-required="true">
+<option value="AERSP_BS">Aerospace Engr (BS)</option>
+<option value="ENGAE_PMAJ">Arch Engr Premajor (PMAJ)</option>
+<option value="AE_BAE">Architectural Engr (BAE)</option>
+<option value="BE_UMNR">Biological Enginerng (UMNR)</option>
+<option value="BE_BS">Biological Engr (BS)</option>
+<option value="BME_BS">Biomedical Engneerng (BS)</option>
+<option value="BME_UMNR">Biomedical Engneerng (UMNR)</option>
+<option value="2BET_AENGT">Biomedical Engr Tech (AENGT)</option>
+<option value="CHE_BS">Chemical Engineering (BS)</option>
+<option value="CE_BS">Civil Engineering (BS)</option>
+<option value="CSENG_BS">Comp Sci - Comwlth Campus (BS)</option>
+<option value="CMPSC_BS">Comp Sci - Univ Park (BS)</option>
+<option value="CPTSC_UMNR">Computational Sciences (UMNR)</option>
+<option value="CMPEN_BS">Computer Engineering (BS)</option>
+<option value="CMPEN_UMNR">Computer Engineering (UMNR)</option>
+<option value="CCF_UMNR">Cybrsc Comput Fndations (UMNR)</option>
+<option value="DTSCE_BS">Data Sciences (BS)</option>
+<option value="PDTSC_PMAJ">Data Sciences (PMAJ)</option>
+<option value="EE_BS">Electrical Engr (BS)</option>
+<option value="2EET_AENGT">Electrical Engr Tech (AENGT)</option>
+<option value="EETEN_BS">Electrical Engr Tech (BS)</option>
+<option value="EMET_BS">Electro-Mech Eng Tec (BS)</option>
+<option value="ESHIP_UMNR">Eng Entrepreneurship (UMNR)</option>
+<option value="GE_BS">Engineering (BS)</option>
+<option value="ENDSN_UMNR">Engineering Design (UMNR)</option>
+<option value="ESC_BS">Engineering Science (BS)</option>
+<option value="ELD_UMNR">Engr Leadership Dev (UMNR)</option>
+<option value="EMCH_UMNR">Engr Mechanics (UMNR)</option>
+<option value="ENGR_PMAJ">Engr Premajor (PMAJ)</option>
+<option value="ENVE_UMNR">Environmental Engr (UMNR)</option>
+<option value="ISTIE_UMNR">IST for Indstrl Engr (UMNR)</option>
+<option value="IE_BS">Industrial Engr (BS)</option>
+<option value="IENGR_UMNR">Interntional Enginering (UMNR)</option>
+<option value="ISASP_UMNR">Ist for Arospace Eng (UMNR)</option>
+<option value="2MATEAENGT">Materials Engr Tech (AENGT)</option>
+<option value="ME_BS">Mech Engr - Univ Park (BS)</option>
+<option value="MEENG_BS">Mech Engr-Commwlth Campus (BS)</option>
+<option value="2MET_AENGT">Mechanical Engr Tech (AENGT)</option>
+<option value="NANO_UMNR">Nanotechnology (UMNR)</option>
+<option value="NONE" selected="selected">None</option>
+<option value="NUCE_BS">Nuclear Engineering (BS)</option>
+<option value="PRODR_UMNR">Product Realization (UMNR)</option>
+<option value="SEENG_UMNR">Service Enterprise Engr (UMNR)</option>
+<option value="SIGMA_UMNR">Six Sigma (UMNR)</option>
+<option value="SURE_BS">Surveying Engr (BS)</option>
+<option value="2SRT_AENGT">Surveying Engr Tech (AENGT)</option>
+</select>
+
+Health and Human Development
+<select name="PLAN$0" id="PLAN$0" tabindex="219" size="1" class="PSDROPDOWNLIST" style="width:207px; " onchange="addchg_win0(this);submitAction_win0(this.form,this.id);" onkeydown="if ((typeof isLoaderInProcess == 'function') &amp;&amp; isLoaderInProcess() &amp;&amp; ptCommonObj2!=null) { ptCommonObj2.terminateEvent(event); } ">
+<option value="BBH_BS">Biobehavioral Health (BS)</option>
+<option value="CSD_BS">Comm Sci &amp; Disorders (BS)</option>
+<option value="DIHHD_UMNR">DIv &amp; Inclusion in HHD (UMNR)</option>
+<option value="DHS_UMNR">Deafnss &amp; Hearing St (UMNR)</option>
+<option value="GLBHL_UMNR">Global Health (UMNR)</option>
+<option value="HHD_PMAJ">Health &amp; Human Dev (PMAJ)</option>
+<option value="HPA_UMNR">Health Policy &amp; Admn (UMNR)</option>
+<option value="HPA_BS">Health Policy/Admin (BS)</option>
+<option value="HM_BS">Hospitality Mangment (BS)</option>
+<option value="2EHFS_AS">Human Dev/Fam Stdies (AS)</option>
+<option value="HDFS_UMNR">Human Dev/Famly Stds (UMNR)</option>
+<option value="HDFS_BS">Human Dev/Fmly Stds (BS)</option>
+<option value="ISHPA_UMNR">Ist in H P A (UMNR)</option>
+<option value="KINES_BS">Kinesiology (BS)</option>
+<option value="KINES_UMNR">Kinesiology (UMNR)</option>
+<option value="NONE" selected="selected">None</option>
+<option value="NSTD_UMNR">Nutrition Studies (UMNR)</option>
+<option value="NUTR_BS">Nutritional Sciences (BS)</option>
+<option value="NUTR_UMNR">Nutritional Sciences (UMNR)</option>
+<option value="RPTM_BS">Rec, Par, Tour Mgmt (BS)</option>
+<option value="RPTM_UMNR">Rec, Park, Tour Mgmt (UMNR)</option>
+<option value="SPNTR_UMNR">Sports Nutrition (UMNR)</option>
+<option value="SPRST_UMNR">Sports Studies (UMNR)</option>
+</select>
+
+Information Sciences and Technology
+<select name="PLAN$1" id="PLAN$1" tabindex="224" size="1" class="PSDROPDOWNLIST" style="width:207px; " onchange="addchg_win0(this);submitAction_win0(this.form,this.id);" onkeydown="if ((typeof isLoaderInProcess == 'function') &amp;&amp; isLoaderInProcess() &amp;&amp; ptCommonObj2!=null) { ptCommonObj2.terminateEvent(event); } " aria-required="true">
+<option value="AIMA_BS">Artificl Intellignce Mthd (BS)</option>
+<option value="CAOWC_BS">Cybersec Analyt and Oper (BS)</option>
+<option value="CYAOP_BS">Cybersec Analyt and Oper (BS)</option>
+<option value="DATSC_BS">Data Sciences (BS)</option>
+<option value="PDTSC_PMAJ">Data Sciences (PMAJ)</option>
+<option value="ETCHI_BS">Entrpris Tech Integration (BS)</option>
+<option value="HCDD_BS">Humn-Cntrd Dsign &amp; Devel (BS)</option>
+<option value="2IST_AS">Info Sciences &amp; Tech (AS)</option>
+<option value="ISSWC_BS">Info Sciences &amp; Tech (BS)</option>
+<option value="ISTBS_BS">Info Sciences &amp; Tech (BS)</option>
+<option value="INFST_PMAJ">Info Sciences &amp; Tech (PMAJ)</option>
+<option value="IST_UMNR">Info Sciences &amp; Tech (UMNR)</option>
+<option value="NONE" selected="selected">None</option>
+<option value="SRAWC_BS">Security &amp; Rsk Analy (BS)</option>
+<option value="SRA_BS">Security &amp; Rsk Analy (BS)</option>
+<option value="SRA_UMNR">Security &amp; Rsk Analy (UMNR)</option>
+</select>
+
+Liberal Arts
+<select name="PLAN$1" id="PLAN$1" tabindex="224" size="1" class="PSDROPDOWNLIST" style="width:207px; " onchange="addchg_win0(this);submitAction_win0(this.form,this.id);" onkeydown="if ((typeof isLoaderInProcess == 'function') &amp;&amp; isLoaderInProcess() &amp;&amp; ptCommonObj2!=null) { ptCommonObj2.terminateEvent(event); } " aria-required="true">
+<option value="AIMA_BS">Artificl Intellignce Mthd (BS)</option>
+<option value="CAOWC_BS">Cybersec Analyt and Oper (BS)</option>
+<option value="CYAOP_BS">Cybersec Analyt and Oper (BS)</option>
+<option value="DATSC_BS">Data Sciences (BS)</option>
+<option value="PDTSC_PMAJ">Data Sciences (PMAJ)</option>
+<option value="ETCHI_BS">Entrpris Tech Integration (BS)</option>
+<option value="HCDD_BS">Humn-Cntrd Dsign &amp; Devel (BS)</option>
+<option value="2IST_AS">Info Sciences &amp; Tech (AS)</option>
+<option value="ISSWC_BS">Info Sciences &amp; Tech (BS)</option>
+<option value="ISTBS_BS">Info Sciences &amp; Tech (BS)</option>
+<option value="INFST_PMAJ">Info Sciences &amp; Tech (PMAJ)</option>
+<option value="IST_UMNR">Info Sciences &amp; Tech (UMNR)</option>
+<option value="NONE" selected="selected">None</option>
+<option value="SRAWC_BS">Security &amp; Rsk Analy (BS)</option>
+<option value="SRA_BS">Security &amp; Rsk Analy (BS)</option>
+<option value="SRA_UMNR">Security &amp; Rsk Analy (UMNR)</option>
+</select>
+
+Liberal Arts
+<select name="PLAN$2" id="PLAN$2" tabindex="229" size="1" class="PSDROPDOWNLIST" style="width:207px; " onchange="addchg_win0(this);submitAction_win0(this.form,this.id);" onkeydown="if ((typeof isLoaderInProcess == 'function') &amp;&amp; isLoaderInProcess() &amp;&amp; ptCommonObj2!=null) { ptCommonObj2.terminateEvent(event); } " aria-required="true">
+<option value="AAST_BA">African Amer Studies (BA)</option>
+<option value="AFAMR_UMNR">African American Std (UMNR)</option>
+<option value="AFRST_BA">African Studies (BA)</option>
+<option value="AFRST_UMNR">African Studies (UMNR)</option>
+<option value="ANTHS_BS">Anthropological Science (BS)</option>
+<option value="ANTH_BA">Anthropology (BA)</option>
+<option value="ANTH_UMNR">Anthropology (UMNR)</option>
+<option value="ARAB_UMNR">Arabic Language (UMNR)</option>
+<option value="ASIA_BA">Asian Studies (BA)</option>
+<option value="ASIA_UMNR">Asian Studies (UMNR)</option>
+<option value="BANTH_BS">Biological Anthrplgy (BS)</option>
+<option value="BLDSP_UMNR">Black Diaspora Study (UMNR)</option>
+<option value="BUSLA_UMNR">Business &amp; Lib Arts (UMNR)</option>
+<option value="CHNS_BA">Chinese (BA)</option>
+<option value="CHNS_UMNR">Chinese Language (UMNR)</option>
+<option value="CAMS_UMNR">Clas/Anc Med Stud (UMNR)</option>
+<option value="CAMS_BA">Classics/Anc Med Std (BA)</option>
+<option value="CAS_BA">Comm Arts &amp; Sciences (BA)</option>
+<option value="CASBS_BS">Comm Arts &amp; Sciences (BS)</option>
+<option value="CAS_UMNR">Comm Arts &amp; Sciences (UMNR)</option>
+<option value="CMLIT_BA">Comparative Lit (BA)</option>
+<option value="CWRIT_UMNR">Creative Writing (UMNR)</option>
+<option value="CRMBA_BA">Criminology (BA)</option>
+<option value="CRMBS_BS">Criminology (BS)</option>
+<option value="DIGHM_UMNR">Digital Humanities (UMNR)</option>
+<option value="DBLTY_UMNR">Disability Studies (UMNR)</option>
+<option value="DMR_UMNR">Dispute Mngt &amp; Resol (UMNR)</option>
+<option value="EEST_UMNR">East-European Studies (UMNR)</option>
+<option value="ECLBA_BA">Economics (BA)</option>
+<option value="ECLBS_BS">Economics (BS)</option>
+<option value="ECON_UMNR">Economics (UMNR)</option>
+<option value="ENGL_BA">English (BA)</option>
+<option value="ENGL_UMNR">English (UMNR)</option>
+<option value="ETHCS_UMNR">Ethics (UMNR)</option>
+<option value="FRBA_BA">Fr &amp; Francophone Std (BA)</option>
+<option value="FRBS_BS">Fr &amp; Francophone Std (BS)</option>
+<option value="FR_UMNR">Fr &amp; Francophone Std (UMNR)</option>
+<option value="GERBA_BA">German (BA)</option>
+<option value="GERBS_BS">German (BS)</option>
+<option value="GER_UMNR">German (UMNR)</option>
+<option value="INSTD_UMNR">Glbl &amp; Int'L Studies (UMNR)</option>
+<option value="GSBA_BA">Glbl &amp; Intrntl Studs (BA)</option>
+<option value="GSBS_BS">Glbl &amp; Intrntl Studs (BS)</option>
+<option value="GLBSC_UMNR">Global Security (UMNR)</option>
+<option value="GREEK_UMNR">Greek (UMNR)</option>
+<option value="HEBR_UMNR">Hebrew (UMNR)</option>
+<option value="HIST_BA">History (BA)</option>
+<option value="HIST_UMNR">History (UMNR)</option>
+<option value="ISCLR_UMNR">IST for CAS/LER (UMNR)</option>
+<option value="ISSA_UMNR">Info Sys &amp; Stat Anal (UMNR)</option>
+<option value="ISOSC_BS">Integrated Soc Scnce (BS)</option>
+<option value="INTPL_BA">International Poltcs (BA)</option>
+<option value="ISCAS_UMNR">Ist for Com Art &amp; Sc (UMNR)</option>
+<option value="ISLER_UMNR">Ist for Lbr St/Emp R (UMNR)</option>
+<option value="ITBA_BA">Italian (BA)</option>
+<option value="ITBS_BS">Italian (BS)</option>
+<option value="IT_UMNR">Italian (UMNR)</option>
+<option value="JAPNS_BA">Japanese (BA)</option>
+<option value="JAPNS_UMNR">Japanese Language (UMNR)</option>
+<option value="JST_BA">Jewish Studies (BA)</option>
+<option value="JST_UMNR">Jewish Studies (UMNR)</option>
+<option value="KORBA_BA">Korean (BA)</option>
+<option value="KORLG_UMNR">Korean Language (UMNR)</option>
+<option value="2LHR_AS">Labor &amp; Human Resources (AS)</option>
+<option value="LHRBS_BS">Labor &amp; Human Resources (BS)</option>
+<option value="LHR_UMNR">Labor &amp; Human Resources (UMNR)</option>
+<option value="LHRBA_BA">Labor and Human Resources (BA)</option>
+<option value="LATIN_UMNR">Latin (UMNR)</option>
+<option value="LATAM_UMNR">Latin Amercn Studies (UMNR)</option>
+<option value="LATAM_BA">Latin-Amer Studies (BA)</option>
+<option value="LTNST_UMNR">Latina/Latino Stdies (UMNR)</option>
+<option value="LAWSC_BA">Law and Society (BA)</option>
+<option value="LEGST_UMNR">Legal Studies (UMNR)</option>
+<option value="LA_PMAJ">Liberal Arts (PMAJ)</option>
+<option value="LING_BA">Linguistics (BA)</option>
+<option value="LING_UMNR">Linguistics (UMNR)</option>
+<option value="MEDVL_BA">Medieval Studies (BA)</option>
+<option value="MEDVL_UMNR">Medieval Studies (UMNR)</option>
+<option value="MESTD_BA">Middle East Studies (BA)</option>
+<option value="MESTU_UMNR">Middle East Studies (UMNR)</option>
+<option value="2LAS_AA">Multidisciplinary Studies (AA)</option>
+<option value="LAS_BA">Multidisciplinary Studies (BA)</option>
+<option value="NONE" selected="selected">None</option>
+<option value="ORPCM_BA">Org &amp; Profes Communction (BA)</option>
+<option value="ORPCM_BS">Org &amp; Profes Communction (BS)</option>
+<option value="OLBA_BA">Organizational Lead (BA)</option>
+<option value="OLBS_BS">Organizational Lead (BS)</option>
+<option value="OLEAD_UMNR">Organizational Lead (UMNR)</option>
+<option value="PASTU_UMNR">Penna Studies (UMNR)</option>
+<option value="PHIL_BA">Philosophy (BA)</option>
+<option value="PHIL_BS">Philosophy (BS)</option>
+<option value="PHIL_UMNR">Philosophy (UMNR)</option>
+<option value="PLSC_BA">Political Science (BA)</option>
+<option value="PLSBS_BS">Political Science (BS)</option>
+<option value="PLSC_UMNR">Political Science (UMNR)</option>
+<option value="PPBPL_UMNR">Politics&amp;Public Policy (UMNR)</option>
+<option value="PORT_UMNR">Portuguese (UMNR)</option>
+<option value="PSYBA_BA">Psychology (BA)</option>
+<option value="PSYBS_BS">Psychology (BS)</option>
+<option value="PSY_UMNR">Psychology (UMNR)</option>
+<option value="PBPLD_UMNR">Public Plcy &amp; Ldrship (UMNR)</option>
+<option value="RLST_UMNR">Religious Studies (UMNR)</option>
+<option value="RHET_UMNR">Rhetoric (UMNR)</option>
+<option value="RUS_BA">Russian (BA)</option>
+<option value="RUS_UMNR">Russian (UMNR)</option>
+<option value="RUSSA_UMNR">Russian Area Studies (UMNR)</option>
+<option value="RUST_BS">Russian Translation (BS)</option>
+<option value="RUST_UMNR">Russian Translation (UMNR)</option>
+<option value="SGS_UMNR">Sexuality&amp;Gender Std (UMNR)</option>
+<option value="SODA_BS">Social Data Analytics (BS)</option>
+<option value="SOCBA_BA">Sociology (BA)</option>
+<option value="SOCBS_BS">Sociology (BS)</option>
+<option value="SOC_UMNR">Sociology (UMNR)</option>
+<option value="SPNBA_BA">Spanish (BA)</option>
+<option value="SPNBS_BS">Spanish (BS)</option>
+<option value="SPAN_UMNR">Spanish (UMNR)</option>
+<option value="TESOL_UMNR">Tch Eng Spkr Otr Lng (UMNR)</option>
+<option value="TEHWR_UMNR">Technical Writing (UMNR)</option>
+<option value="WSBA_BA">Wmn's, Gender, &amp; Sx Stdie (BA)</option>
+<option value="WSBS_BS">Wmns Gndr &amp; Sxlty Studies (BS)</option>
+<option value="WMNST_UMNR">Women's Studies (UMNR)</option>
+<option value="WLIT_UMNR">World Literature (UMNR)</option>
+</select>
+
+Nursing
+<select name="PLAN$0" id="PLAN$0" tabindex="219" size="1" class="PSDROPDOWNLIST" style="width:207px; " onchange="addchg_win0(this);submitAction_win0(this.form,this.id);" onkeydown="if ((typeof isLoaderInProcess == 'function') &amp;&amp; isLoaderInProcess() &amp;&amp; ptCommonObj2!=null) { ptCommonObj2.terminateEvent(event); } ">
+<option value="NONE" selected="selected">None</option>
+<option value="NURN_BSN">Nursing (BSN)</option>
+<option value="NURS_BSN">Nursing (BSN)</option>
+<option value="NRCOM_PMAJ">Nursing (PMAJ)</option>
+</select>
+
+Science 
+<select name="PLAN$1" id="PLAN$1" tabindex="224" size="1" class="PSDROPDOWNLIST" style="width:207px; " onchange="addchg_win0(this);submitAction_win0(this.form,this.id);" onkeydown="if ((typeof isLoaderInProcess == 'function') &amp;&amp; isLoaderInProcess() &amp;&amp; ptCommonObj2!=null) { ptCommonObj2.terminateEvent(event); } " aria-required="true">
+<option value="ASTRO_BS">Astro &amp; Astrophysics (BS)</option>
+<option value="ASTRO_UMNR">Astro &amp; Astrophysics (UMNR)</option>
+<option value="BMB_UMNR">Bioch &amp; Molecul Bio (UMNR)</option>
+<option value="BMB_BS">Biochem &amp; Molec Biol (BS)</option>
+<option value="BIOL_BS">Biology (BS)</option>
+<option value="BIOL_UMNR">Biology (UMNR)</option>
+<option value="BIOTC_BS">Biotechnology (BS)</option>
+<option value="CHEM_BS">Chemistry (BS)</option>
+<option value="CHEM_UMNR">Chemistry (UMNR)</option>
+<option value="DTSCS_BS">Data Sciences (BS)</option>
+<option value="PDTSC_PMAJ">Data Sciences (PMAJ)</option>
+<option value="FRNSC_BS">Forensic Science (BS)</option>
+<option value="SCBS_BS">Integrative Science (BS)</option>
+<option value="ISMTH_UMNR">Ist for Mathematics (UMNR)</option>
+<option value="MARSC_UMNR">Marine Science (UMNR)</option>
+<option value="MTHBA_BA">Mathematics (BA)</option>
+<option value="MTHBS_BS">Mathematics (BS)</option>
+<option value="MATH_UMNR">Mathematics (UMNR)</option>
+<option value="MICRB_BS">Microbiology (BS)</option>
+<option value="MICRB_UMNR">Microbiology (UMNR)</option>
+<option value="NATSC_UMNR">Natural Science (UMNR)</option>
+<option value="NONE" selected="selected">None</option>
+<option value="PHYS_BS">Physics (BS)</option>
+<option value="PHYS_UMNR">Physics (UMNR)</option>
+<option value="PASTR_BS">Plantary Scn &amp; Astro (BS)</option>
+<option value="PASTR_UMNR">Plantary Scn &amp; Astro (UMNR)</option>
+<option value="PMM_BS">Premedical - Medical (BS)</option>
+<option value="PM_BS">Premedicine (BS)</option>
+<option value="QISEN_UMNR">Quantum Info Sci &amp; Engr (UMNR)</option>
+<option value="SCBUS_BS">Science (BS)</option>
+<option value="SCIEN_PMAJ">Science (PMAJ)</option>
+<option value="STAT_BS">Statistics (BS)</option>
+<option value="STAT_UMNR">Statistics (UMNR)</option>
+</select>
+
+Smeal College of Business
+<select name="PLAN$2" id="PLAN$2" tabindex="229" size="1" class="PSDROPDOWNLIST" style="width:207px; " onchange="addchg_win0(this);submitAction_win0(this.form,this.id);" onkeydown="if ((typeof isLoaderInProcess == 'function') &amp;&amp; isLoaderInProcess() &amp;&amp; ptCommonObj2!=null) { ptCommonObj2.terminateEvent(event); } " aria-required="true">
+<option value="ACCTG_BS">Accounting (BS)</option>
+<option value="ACTSC_BS">Actuarial Science (BS)</option>
+<option value="BA_PMAJ">Business Admin (PMAJ)</option>
+<option value="BLOG_UMNR">Business Log (UMNR)</option>
+<option value="CIENT_BS">Corp Innov &amp; Entrep (BS)</option>
+<option value="FIN_BS">Finance (BS)</option>
+<option value="ISM_UMNR">Infor Systems Mangmt (UMNR)</option>
+<option value="INS_UMNR">Insurance (UMNR)</option>
+<option value="IB_UMNR">Internatl Business (UMNR)</option>
+<option value="LEBUS_UMNR">Legal Envrn of Bus (UMNR)</option>
+<option value="MGMT_BS">Management (BS)</option>
+<option value="MIS_BS">Management Info Sys (BS)</option>
+<option value="MKTG_BS">Marketing (BS)</option>
+<option value="NONE" selected="selected">None</option>
+<option value="REST_BS">Real Estate (BS)</option>
+<option value="REST_UMNR">Real Estate (UMNR)</option>
+<option value="RM_BS">Risk Management (BS)</option>
+<option value="SCIS_BS">Sply Chain/Info Syst (BS)</option>
+<option value="SCIS_UMNR">Sply Chain/Info Syst (UMNR)</option>
+<option value="SCIST_UMNR">Supply Chain &amp; Ist (UMNR)</option>
+</select>
