@@ -1,10 +1,10 @@
 <template>
   <div id="app">
-    <HeaderSection :logo="logoURL" :menu="headerMenu"/>
+    <HeaderSection :logo="logoURL"/>
     <div class="main-content">
       <router-view/>
     </div>
-    <FooterSection :menu="headerMenu"/>
+    <FooterSection />
   </div>
 </template>
 
@@ -21,17 +21,11 @@ export default {
   },
   setup() {
     const logoURL = require('./assets/logo.png');
-    const headerMenu = ref([
-      { id: 1, url: '/', text: 'Home' },
-      { id: 2, url: '/planner', text: 'Course Planner' },
-      { id: 3, url: '/schedule', text: 'My Schedule' }
-    ]);
-
+    
     return {
-      headerMenu,
       logoURL
     }
-  },
+  }
 }
 </script>
 

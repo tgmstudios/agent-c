@@ -14,7 +14,6 @@ import agentCService from '../services/agentCService';
 export default {
   name: 'HeaderSection',
   props: {
-    menu: Array,
     logo: String
   },
   setup() {
@@ -23,19 +22,26 @@ export default {
     const handleAccountClick = async () => {
       try {
         // Generate a new session ID
-        await agentCService.initSession(true); // Pass true to force new session
+        await agentCService.initSession(true); // Force new session
         
-        // Clear all user input by resetting the store or local storage
-        localStorage.removeItem('transcript');
-        localStorage.removeItem('major');
-        localStorage.removeItem('minors');
-        localStorage.removeItem('credits');
-        localStorage.removeItem('comments');
+        // Clear all local storage data
+        localStorage.clear();
+        
+        // Clear all form data
+        sessionStorage.clear();
+        
+        // Reset any cookies (except those needed for auth)
+        document.cookie.split(";").forEach(function(c) {
+          document.cookie = c.replace(/^ +/, "").replace(/=.*/, "=;expires=" + new Date().toUTCString() + ";path=/");
+        });
         
         // Navigate to home page
         router.push('/');
+        
+        // Reload the page to ensure all components are reset
+        window.location.reload();
       } catch (error) {
-        console.error('Error initializing new session:', error);
+        console.error('Error resetting application:', error);
       }
     };
 

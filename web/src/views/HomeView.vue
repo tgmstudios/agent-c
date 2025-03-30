@@ -85,7 +85,7 @@
         </div>
 
         <button type="submit" class="btn" :disabled="!isFormValid">
-          Save Preferences
+          Continue to Course Planner
         </button>
       </form>
     </div>
