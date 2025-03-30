@@ -112,30 +112,44 @@ router.get('/', async (req, res) => {
  *         description: Internal server error
  */
 router.put('/', async (req, res) => {
-  const sessionId = req.header('session-id');
-  const { name } = req.body;
-
-  if (!sessionId) {
+    const sessionId = req.header('session-id');
+    const { name } = req.body;
+  
+    if (!sessionId) {
       return res.status(400).json({ error: 'Bad request: Missing session ID in header' });
-  }
-
-  if (!name) {
+    }
+  
+    if (!name) {
       return res.status(400).json({ error: 'Bad request: Missing user name' });
-  }
-
-  try {
-      // Insert the new user into the database using the provided session ID and name
-      const result = await db.insert('users', ['session_id', 'name'], [sessionId, name]);
-
-      if (result.result === 'success') {
-          return res.status(201).json({ message: 'User created successfully', session_id: sessionId, name });
-      } else {
-          return res.status(500).json({ error: 'Failed to create user', details: result.type });
+    }
+  
+    try {
+      // Check if user already exists
+      const existingUser = await db.search('users', 'session_id', sessionId);
+      
+      if (existingUser) {
+        // User exists, update instead of insert
+        const updateResult = await db.update('users', 'session_id', sessionId, { name });
+        return res.status(200).json({ 
+          message: 'User updated successfully', 
+          session_id: sessionId, 
+          name 
+        });
       }
-  } catch (error) {
+      
+      // Insert new user if not exists
+      const result = await db.insert('users', ['session_id', 'name'], [sessionId, name]);
+  
+      if (result.result === 'success') {
+        return res.status(201).json({ message: 'User created successfully', session_id: sessionId, name });
+      } else {
+        return res.status(500).json({ error: 'Failed to create user', details: result.type });
+      }
+    } catch (error) {
       console.error("Error creating user:", error);
       res.status(500).json({ error: 'Internal server error' });
-  }
-});
+    }
+  });
+  
 
 module.exports = router;

@@ -33,14 +33,17 @@
               
               <div 
                 v-for="(course, index) in getCoursesForDay(day)" 
-                :key="`${day}-${course.id}-${index}`"
+                :key="`${day}-${course.code}-${index}`"
                 class="course-block"
                 :style="getCourseStyle(course, day)"
               >
-                <div class="course-name">{{ course.name }}</div>
-                <div class="course-time">{{ formatCourseTime(course, day) }}</div>
-                <div class="course-location" v-if="course.location">{{ course.location }}</div>
+                <div class="course-name">{{ course.code }}: {{ course.title }}</div>
+                <div class="course-time">{{ formatCourseTime(course) }}</div>
+                <div class="course-location" v-if="course.schedule && course.schedule.location">
+                  {{ course.schedule.location }}
+                </div>
               </div>
+
             </div>
           </div>
         </div>
@@ -97,37 +100,38 @@
       };
       
       // Format course time for display
-      const formatCourseTime = (course, day) => {
-        if (!course.schedule || !course.schedule[day.toLowerCase()]) {
+      const formatCourseTime = (course) => {
+        if (!course.schedule || !course.schedule.time) {
           return '';
         }
         
-        const timeSlot = course.schedule[day.toLowerCase()];
-        return `${timeSlot.start} - ${timeSlot.end}`;
+        return course.schedule.time;
       };
       
       // Get courses for a specific day
       const getCoursesForDay = (day) => {
-        if (!schedule.value || !schedule.value.courses) {
+        if (!schedule.value || !schedule.value.semester_schedule || !schedule.value.semester_schedule.courses) {
           return [];
         }
         
-        return schedule.value.courses.filter(course => 
-          course.schedule && course.schedule[day.toLowerCase()]
+        return schedule.value.semester_schedule.courses.filter(course => 
+          course.schedule && course.schedule.days && 
+          course.schedule.days.includes(day)
         );
-      };
+      }
       
       // Get course block style (position, height, color)
       const getCourseStyle = (course, day) => {
-        if (!course.schedule || !course.schedule[day.toLowerCase()]) {
+        if (!course.schedule || !course.schedule.time) {
           return {};
         }
         
-        const timeSlot = course.schedule[day.toLowerCase()];
+        const timeString = course.schedule.time;
+        const [startTime, endTime] = timeString.split(' - ');
         
         // Parse time strings to get hours and minutes
-        const startParts = timeSlot.start.match(/(\d+):(\d+)\s*([AP]M)/i);
-        const endParts = timeSlot.end.match(/(\d+):(\d+)\s*([AP]M)/i);
+        const startParts = startTime.match(/(\d+):(\d+)\s*([AP]M)/i);
+        const endParts = endTime.match(/(\d+):(\d+)\s*([AP]M)/i);
         
         if (!startParts || !endParts) {
           return {};
@@ -146,22 +150,22 @@
         const endMinutes = parseInt(endParts[2]);
         
         // Calculate position and height
-        const startTime = startHour + (startMinutes / 60);
-        const endTime = endHour + (endMinutes / 60);
+        const startTime24 = startHour + (startMinutes / 60);
+        const endTime24 = endHour + (endMinutes / 60);
         
-        const top = ((startTime - 8) / 10) * 100; // 8am is the start, 10 hours total
-        const height = ((endTime - startTime) / 10) * 100; // Height based on duration
+        const top = ((startTime24 - 8) / 10) * 100; // 8am is the start, 10 hours total
+        const height = ((endTime24 - startTime24) / 10) * 100; // Height based on duration
         
         // Assign a color if not already assigned
-        if (!courseColorMap.value[course.id]) {
+        if (!courseColorMap.value[course.code]) {
           const colorIndex = Object.keys(courseColorMap.value).length % courseColors.length;
-          courseColorMap.value[course.id] = courseColors[colorIndex];
+          courseColorMap.value[course.code] = courseColors[colorIndex];
         }
         
         return {
           top: `${top}%`,
           height: `${height}%`,
-          backgroundColor: courseColorMap.value[course.id]
+          backgroundColor: courseColorMap.value[course.code]
         };
       };
       
@@ -172,7 +176,7 @@
           error.value = null;
           showSchedule.value = true;
           
-          // Get the schedule for Fall 2025 (assuming year 1 for new students)
+          // Get the schedule for Fall 2025
           const response = await courseConnectService.getSemesterSchedule(
             props.pathId,
             1, // First year
@@ -182,17 +186,6 @@
           // Process the schedule data
           schedule.value = response;
           
-          // If the API doesn't provide schedule with day and time information,
-          // we need to process it to add that information
-          if (schedule.value && schedule.value.courses) {
-            schedule.value.courses = schedule.value.courses.map(course => {
-              if (!course.schedule) {
-                // Generate schedule information if not provided by API
-                course.schedule = generateScheduleForCourse(course);
-              }
-              return course;
-            });
-          }
         } catch (err) {
           console.error('Error loading schedule:', err);
           error.value = 'Failed to load your weekly schedule. Please try again.';
@@ -200,6 +193,7 @@
           loading.value = false;
         }
       };
+
       
       // Generate schedule information for a course if not provided by API
       const generateScheduleForCourse = (course) => {
