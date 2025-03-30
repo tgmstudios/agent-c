@@ -1,0 +1,264 @@
+{
+    "degree_requirements": {
+      "total_credits": 128,
+      "general_education_credits": 45,
+      "major_credits": 110,
+      "general_education_included_in_major": "27 of the 45 credits for General Education are included in the Requirements for the Major. This includes: 9 credits of GN courses; 6 credits of GQ courses; 3 credits of GS courses; 9 credits of GWS courses."
+    },
+    "major_requirements": {
+      "prescribed_courses": [
+        {
+          "code": "CMPEN 362",
+          "title": "Communication Networks",
+          "credits": 3
+        },
+        {
+          "code": "CMPEN 482W",
+          "title": "Computer Engineering Project Design",
+          "credits": 3
+        },
+        {
+          "code": "CMPSC 473",
+          "title": "Operating Systems Design & Construction",
+          "credits": 3
+        },
+        {
+          "code": "MATH 220",
+          "title": "Matrices",
+          "credits": "2-3"
+        },
+        {
+          "code": "MATH 231",
+          "title": "Calculus of Several Variables",
+          "credits": 2
+        },
+        {
+          "code": "PHYS 214",
+          "title": "General Physics: Wave Motion and Quantum Physics",
+          "credits": 2
+        },
+        {
+          "code": "STAT/MATH 418",
+          "title": "Introduction to Probability and Stochastic Processes for Engineering",
+          "credits": 3
+        }
+      ],
+      "c_required_courses": [
+        {
+          "code": "CHEM 110",
+          "title": "Chemical Principles I",
+          "credits": 3
+        },
+        {
+          "code": "CMPEN 331",
+          "title": "Computer Organization And Design",
+          "credits": 3
+        },
+        {
+          "code": "CMPEN 431",
+          "title": "Introduction to Computer Architecture",
+          "credits": 3
+        },
+        {
+          "code": "CMPSC 221",
+          "title": "Object Oriented Programming with Web-Based Applications",
+          "credits": 3
+        },
+        {
+          "code": "CMPSC 311",
+          "title": "Introduction to Systems Programming",
+          "credits": 3
+        },
+        {
+          "code": "CMPSC 360",
+          "title": "Discrete Mathematics for Computer Science",
+          "credits": 3
+        },
+        {
+          "code": "CMPSC 465",
+          "title": "Data Structures and Algorithms",
+          "credits": 3
+        },
+        {
+          "code": "EE 210",
+          "title": "Circuits and Devices",
+          "credits": 4
+        },
+        {
+          "code": "EE 310",
+          "title": "Electronic Circuit Design I",
+          "credits": 4
+        },
+        {
+          "code": "EE 353",
+          "title": "Signals and Systems: Continuous and Discrete-Time",
+          "credits": 3
+        },
+        {
+          "code": "ENGL 202C",
+          "title": "Effective Writing: Technical Writing",
+          "credits": 3
+        },
+        {
+          "code": "MATH 140",
+          "title": "Calculus With Analytic Geometry I",
+          "credits": 4
+        },
+        {
+          "code": "MATH 141",
+          "title": "Calculus with Analytic Geometry II",
+          "credits": 4
+        },
+        {
+          "code": "MATH 250",
+          "title": "Ordinary Differential Equations",
+          "credits": 3
+        },
+        {
+          "code": "PHYS 211",
+          "title": "General Physics: Mechanics",
+          "credits": 4
+        },
+        {
+          "code": "PHYS 212",
+          "title": "General Physics: Electricity and Magnetism",
+          "credits": 4
+        }
+      ],
+      "additional_courses": [
+        {
+          "description": "Select 1 credit of First-Year Seminar",
+          "credits": 1
+        },
+        {
+          "description": "Select 3 credits of the following:",
+          "options": [
+            "Principles of Economics",
+            "Introductory Microeconomic Analysis and Policy",
+            "Introductory Macroeconomic Analysis and Policy"
+          ],
+          "credits": 3
+        },
+        {
+          "description": "Select 6 credits from the following:",
+          "options": [
+            "VLSI Digital Circuits",
+            "Digital Integrated Circuits",
+            "Digital Design Using Field Programmable Devices",
+            "Fundamentals of Computer Vision",
+            "An Introduction to Digital Image Processing",
+            "CMPEN 471",
+            "Microprocessors and Embedded Systems",
+            "Microcomputer Laboratory",
+            "Functional Verification",
+            "Fundamentals of Digital Signal Processing",
+            "Introduction to Neural Networks"
+          ],
+          "credits": 6
+        },
+        {
+          "description": "Select 6 credits from any 400-level CMPEN or CMPSC course",
+          "credits": 6
+        }
+      ],
+      "additional_c_required_courses": [
+        {
+          "code": "CAS 100A or CAS 100B",
+          "title": "Effective Speech",
+          "credits": 3
+        },
+        {
+          "code": "CMPSC 121 or CMPSC 131",
+          "title": "Introduction to Programming Techniques or Programming and Computation I: Fundamentals",
+          "credits": 3
+        },
+        {
+          "code": "CMPSC 122 or CMPSC 132",
+          "title": "Intermediate Programming 1 or Programming and Computation II: Data Structures",
+          "credits": 3
+        },
+        {
+          "code": "ENGL 15 or ENGL 30H",
+          "title": "Rhetoric and Composition or Honors Rhetoric and Composition",
+          "credits": 3
+        }
+      ],
+      "supporting_courses": [
+        {
+          "description": "Select 4 credits from the following:",
+          "options": [
+            "Digital Design: Theory and Practice",
+            "Introduction to Digital Systems and Digital Design Laboratory 2"
+          ],
+          "credits": 4
+        },
+        {
+          "description": "Select 6 credits from department list 3",
+          "credits": 6
+        }
+      ]
+    },
+    "general_education": {
+      "foundations": {
+        "quantification_gq": {
+          "credits": 6,
+          "note": "grade of C or better is required and Inter-Domain courses do not meet this requirement"
+        },
+        "writing_and_speaking_gws": {
+          "credits": 9,
+          "note": "grade of C or better is required and Inter-Domain courses do not meet this requirement"
+        }
+      },
+      "knowledge_domains": {
+        "arts_ga": {
+          "credits": 3,
+          "note": "Inter-Domain courses do not meet this requirement."
+        },
+        "health_and_wellness_ghw": {
+          "credits": 3,
+          "note": "Inter-Domain courses do not meet this requirement."
+        },
+        "humanities_gh": {
+          "credits": 3,
+          "note": "Inter-Domain courses do not meet this requirement."
+        },
+        "social_and_behavioral_sciences_gs": {
+          "credits": 3,
+          "note": "Inter-Domain courses do not meet this requirement."
+        },
+        "natural_sciences_gn": {
+          "credits": 3,
+          "note": "Inter-Domain courses do not meet this requirement."
+        }
+      },
+      "integrative_studies": {
+        "inter_domain_courses_inter_domain": {
+          "credits": 6
+        }
+      },
+      "exploration": {
+        "gn_may_be_completed_with_inter_domain_courses": {
+          "credits": 3
+        },
+        "ga_gh_gn_gs_inter_domain_courses_this_may_include_3_credits_of_world_language_course_work_beyond_the_12th_credit_level_or_the_requirements_for_the_students_degree_program_whichever_is_higher": {
+          "credits": 6
+        }
+      }
+    },
+    "university_requirements": {
+      "first_year_engagement": "All students enrolled in a college or the Division of Undergraduate Studies at University Park, and the World Campus are required to take 1 to 3 credits of the First-Year Seminar, as specified by their college First-Year Engagement Plan.",
+      "cultures_requirement": {
+        "total_credits": 6,
+        "details": [
+          "United States Cultures: 3 credits",
+          "International Cultures: 3 credits"
+        ],
+        "note": "may satisfy other requirements"
+      },
+      "writing_across_the_curriculum": {
+        "credits": 3,
+        "note": "required from the college of graduation and likely prescribed as part of major requirements."
+      }
+    }
+  }
+  

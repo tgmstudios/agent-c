@@ -1,0 +1,93 @@
+{
+    "Computer Science, B.S. at University Park Campus": {
+      "Entrance to Major Requirements": {
+        "First-Year Students Entering Summer 2024, Fall 2024, Spring 2025": [
+          "Be enrolled in the College of Engineering or the Division of Undergraduate Studies",
+          "29-55 graded Penn State credits (excludes transfer and AP credits)",
+          "Completed with a grade of C or better: CMPSC 121 or CMPSC 131, CMPSC 122 or CMPSC 132, MATH 140, MATH 141, PHYS 211",
+          "Earned a minimum cumulative grade-point average (GPA) of 3.20"
+        ]
+      },
+      "Degree Requirements": {
+        "Total Credits": "A minimum of 127 credits is required",
+        "General Education": "45 credits",
+        "Requirements for the Major": "106-108 credits",
+        "General Education Included in Major": "24 of the 45 credits for General Education are included in the Requirements for the Major. This includes: 9 credits of GN courses; 6 credits of GQ courses; 9 credits of GWS courses."
+      },
+      "Requirements for the Major": {
+        "Prescribed Courses": [
+          "CMPSC 464: Introduction to the Theory of Computation (3 credits)",
+          "MATH 220: Matrices (2-3 credits)",
+          "MATH 230: Calculus and Vector Analysis (4 credits)"
+        ],
+        "Prescribed Courses (C or better required)": [
+          "CMPEN 331: Computer Organization And Design (3 credits)",
+          "CMPSC 221: Object Oriented Programming with Web-Based Applications (3 credits)",
+          "CMPSC 311: Introduction to Systems Programming (3 credits)",
+          "CMPSC 360: Discrete Mathematics for Computer Science (3 credits)",
+          "CMPSC 461: Programming Language Concepts (3 credits)",
+          "CMPSC 465: Data Structures and Algorithms (3 credits)",
+          "CMPSC 473: Operating Systems Design & Construction (3 credits)",
+          "ENGL 202C: Effective Writing: Technical Writing (3 credits)",
+          "MATH 140: Calculus With Analytic Geometry I (4 credits)",
+          "MATH 141: Calculus with Analytic Geometry II (4 credits)",
+          "PHYS 211: General Physics: Mechanics (4 credits)",
+          "PHYS 212: General Physics: Electricity and Magnetism (4 credits)"
+        ],
+        "Additional Courses": [
+          "Select 1 credit of First-Year Seminar (1 credit)",
+          "Select one of the following (3 credits): Elementary Probability, Introduction to Probability Theory, Introduction to Probability and Stochastic Processes for Engineering",
+          "Select 6 credits from the following (6 credits): Communication Networks, Introduction to Computer Architecture, Fundamentals of Computer Vision, Artificial Intelligence, Introduction to Computer and Network Security, Secure Programming, Concurrent Scientific Programming, Numerical Computations, Introduction to Numerical Analysis I, Introduction to Numerical Analysis II, Fundamentals of Computer Graphics, Factorization and Primality Testing, Introduction to Compiler Construction, Applications Programming, Introduction to Neural Networks",
+          "Select 3 credits from any CMPEN or CMPSC course numbered 400-489 (3 credits)",
+          "CMPSC 431W: Database Management Systems (3 credits) or CMPSC 483W: Software Design Methods",
+          "STAT/MATH 319: Elementary Mathematical Statistics (3 credits) or STAT/MATH 415: Introduction to Mathematical Statistics"
+        ],
+        "Additional Courses (C or better required)": [
+          "CMPSC 121: Introduction to Programming Techniques (3 credits) or CMPSC 131: Programming and Computation I: Fundamentals",
+          "CMPSC 122: Intermediate Programming (3 credits) or CMPSC 132: Programming and Computation II: Data Structures",
+          "CMPEN 270: Digital Design: Theory and Practice (4 credits) or CMPEN 271 & CMPEN 275: Introduction to Digital Systems and Digital Design Laboratory",
+          "ENGL 15: Rhetoric and Composition (3 credits) or ENGL 137H: Rhetoric and Civic Life I, ENGL 138T: Rhetoric and Civic Life II (3 credits) or CAS 100A: Effective Speech or CAS 100B: Effective Speech"
+        ],
+        "Supporting Courses and Related Areas": [
+          "Select 2-3 credits from the following: General Physics: Fluids and Thermal Physics, General Physics: Wave Motion and Quantum Physics, 3 credits from the approved list of natural sciences courses",
+          "Select 0-4 credits in a foreign language (second-semester proficiency)",
+          "Select 10-14 credits from department list. Students may apply up to 3 credits of ROTC as department list credits and 3 credits of ROTC as GHW credits.",
+          "Select 6 credits in non-CMPEN or CMPSC courses numbered 400-489 in consultation with adviser"
+        ]
+      },
+      "General Education": {
+        "Foundations": {
+          "Quantification (GQ)": "6 credits (grade of C or better is required and Inter-Domain courses do not meet this requirement.)",
+          "Writing and Speaking (GWS)": "9 credits (grade of C or better is required and Inter-Domain courses do not meet this requirement.)"
+        },
+        "Breadth in the Knowledge Domains": {
+          "Arts (GA)": "3 credits (Inter-Domain courses do not meet this requirement.)",
+          "Health and Wellness (GHW)": "3 credits (Inter-Domain courses do not meet this requirement.)",
+          "Humanities (GH)": "3 credits (Inter-Domain courses do not meet this requirement.)",
+          "Social and Behavioral Sciences (GS)": "3 credits (Inter-Domain courses do not meet this requirement.)",
+          "Natural Sciences (GN)": "3 credits (Inter-Domain courses do not meet this requirement.)"
+        },
+        "Integrative Studies": {
+          "Inter-Domain Courses (Inter-Domain)": "6 credits"
+        },
+        "Exploration": {
+          "GN": "3 credits, may be completed with Inter-Domain courses",
+          "GA, GH, GN, GS, Inter-Domain courses": "6 credits, This may include 3 credits of World Language course work beyond the 12th credit level or the requirements for the student’s degree program, whichever is higher"
+        }
+      },
+      "University Degree Requirements": {
+        "First Year Engagement": "All students enrolled in a college or the Division of Undergraduate Studies at University Park, and the World Campus are required to take 1 to 3 credits of the First-Year Seminar, as specified by their college First-Year Engagement Plan.",
+        "Cultures Requirement": {
+          "Credits": "6 credits are required and may satisfy other requirements",
+          "Requirements": [
+            "United States Cultures: 3 credits",
+            "International Cultures: 3 credits"
+          ]
+        },
+        "Writing Across the Curriculum": "3 credits required from the college of graduation and likely prescribed as part of major requirements.",
+        "Total Minimum Credits": "A minimum of 120 degree credits must be earned for a baccalaureate degree. The requirements for some programs may exceed 120 credits. Students should consult with their college or department adviser for information on specific credit requirements.",
+        "Quality of Work": "Candidates must complete the degree requirements for their major and earn at least a 2.00 grade-point average for all courses completed within their degree program.",
+        "Limitations on Source and Time for Credit Acquisition": "The college dean or campus chancellor and program faculty may require up to 24 credits of course work in the major to be taken at the location or in the college or program where the degree is earned. Credit used toward degree programs may need to be earned from a particular source or within time constraints (see Senate Policy 83-80). For more information, check the Suggested Academic Plan for your intended program."
+      }
+    }
+  }

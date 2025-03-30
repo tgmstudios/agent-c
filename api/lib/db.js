@@ -109,5 +109,6 @@ module.exports = {
     insert,
     search,
     update,
-    searchExists
+    searchExists,
+    executeQuery
 };
