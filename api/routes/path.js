@@ -1,19 +1,15 @@
 const express = require('express');
 const router = express.Router();
 const { GoogleGenerativeAI } = require("@google/generative-ai");
-const fs = require('fs').promises; // Use promises for asynchronous file reading
 const db = require('../lib/db.js');
-const multer = require('multer');
 const pdfParse = require('pdf-parse');
-const { responseSchema } = require('../ai_src/path-schema.js'); 
-const { prompt } = require('../ai_src/path-prompt.js'); 
+const { responseSchema } = require('../ai_src/path-schema.js');
+const { prompt } = require('../ai_src/path-prompt.js');
+const { getCourseRequirements } = require('../ai_src/scraped/bulletins/bulletin_maps.js'); // Import the function
+const { v4: uuidv4 } = require('uuid'); // For generating unique IDs
 
 // Access your API key as an environment variable
 const genAI = new GoogleGenerativeAI(process.env.GEMINI_API_KEY);
-
-// Configure Multer for file storage
-const storage = multer.memoryStorage(); // Store file in memory as a buffer
-const upload = multer({ storage: storage });
 
 async function convertPdfToText(fileBuffer) {
   try {
@@ -44,11 +40,24 @@ async function generatePrompt(sessionId) {
       }
     }
 
+    let majorName = null;
+    if (preferences && preferences.majors && preferences.majors.length > 0) {
+        majorName = preferences.majors[0]; // Assuming the first major in the array is the primary one
+    }
+    let courseRequirements = null;
+    if (majorName) {
+      courseRequirements = getCourseRequirements(majorName);
+      if (courseRequirements) {
+        courseRequirements = `Course Requirements: ${JSON.stringify(courseRequirements)}`;
+      }
+    }
+
     // Combine user data into a single string
     const userData = `
       User Name: ${user ? user.name : 'N/A'}
       Preferences: ${preferences ? JSON.stringify(preferences) : 'N/A'}
       ${transcriptText}
+      ${courseRequirements}
     `;
 
     // Combine base prompt with user data
@@ -62,19 +71,19 @@ async function generatePrompt(sessionId) {
 }
 
 async function generateRecommendation(sessionId) {
-  const model = genAI.getGenerativeModel({ 
-    model: "gemini-2.0-flash",
+  const model = genAI.getGenerativeModel({
+    model: "gemini-1.5-pro", // Use a more capable model for structured output
     generationConfig: {
-      temperature: 0.7,
-      topP: 0.9,
-      topK: 40,
-      maxOutputTokens: 8192 // Request maximum token length
+      temperature: 0.4, // Lower for structured, logical responses
+      topP: 0.8,        // Balanced diversity
+      topK: 50,         // Slightly broader token selection
+      maxOutputTokens: 10000 // Extended output length
     }
-   });
+  });
 
   try {
     const prompt = await generatePrompt(sessionId);
-    
+
     console.log("Prompt sent to Gemini:", prompt); // Log the prompt
 
     // Generate content with structured output configuration
@@ -88,7 +97,7 @@ async function generateRecommendation(sessionId) {
 
     const response = await result.response;
     const text = response.text();
-    
+
     // The response should already be valid JSON, but we'll parse it to be safe
     let structuredOutput = null;
     try {
@@ -142,12 +151,135 @@ router.get('/', async (req, res) => {
     }
 
     const recommendation = await generateRecommendation(sessionId);
-    res.status(200).json({ recommendation: recommendation });
+        // Generate a unique ID for the path
+        const pathId = uuidv4();
+
+        // Determine flags based on major/minor mapping success
+        let flags = null;
+        // TODO: Implement logic to check if major/minor mapping was successful
+        // Example:
+        // if (!majorMappingSuccessful || !minorMappingSuccessful) {
+        //     flags = "Warning: Information may be inaccurate due to missing major/minor data.";
+        // }
+
+        // Store the recommendation in the database
+        const insertResult = await db.insert(
+            'paths',
+            ['id', 'session_id', 'response', 'flags'],
+            [pathId, sessionId, JSON.stringify(recommendation), flags]
+        );
+
+        if (insertResult.result === 'error') {
+            console.error("Error inserting path:", insertResult.type);
+            return res.status(500).json({ error: 'Failed to save recommendation', details: insertResult.type });
+        }
+
+        res.status(200).json({ path_id: pathId, recommendation: recommendation });
+
 
   } catch (error) {
     console.error("Error generating recommendation:", error);
     res.status(500).json({ error: 'Failed to generate recommendation', details: error.message });
   }
+});
+
+/**
+ * @swagger
+ * /path/session:
+ *   get:
+ *     summary: Retrieve all path IDs and creation times for a given session ID from header
+ *     tags: [College Path]
+ *     parameters:
+ *       - in: header
+ *         name: session-id
+ *         required: true
+ *         schema:
+ *           type: string
+ *         description: Session ID to filter paths
+ *     responses:
+ *       200:
+ *         description: A list of path IDs and creation times
+ *         content:
+ *           application/json:
+ *             schema:
+ *               type: array
+ *               items:
+ *                 type: object
+ *                 properties:
+ *                   id:
+ *                     type: string
+ *                     description: The path ID
+ *                   created:
+ *                     type: string
+ *                     format: date-time
+ *                     description: The creation timestamp of the path
+ *       500:
+ *         description: Internal server error
+ */
+router.get('/session', async (req, res) => {
+  try {
+      const sessionId = req.header('session-id');
+
+      if (!sessionId) {
+          return res.status(400).json({ error: 'Session ID missing in header' });
+      }
+
+      const query = 'SELECT id, created FROM `paths` WHERE `session_id` = ?';
+      const results = await db.executeQuery(query, [sessionId]);
+
+      res.status(200).json(results);
+  } catch (error) {
+      console.error("Error retrieving paths:", error);
+      res.status(500).json({ error: 'Failed to retrieve paths', details: error.message });
+  }
+});
+
+/**
+ * @swagger
+ * /path/{pathId}:
+ *   get:
+ *     summary: Retrieve the response for a given path ID
+ *     tags: [College Path]
+ *     parameters:
+ *       - in: path
+ *         name: pathId
+ *         required: true
+ *         schema:
+ *           type: string
+ *         description: The path ID to retrieve
+ *     responses:
+ *       200:
+ *         description: The response for the given path ID
+ *         content:
+ *           application/json:
+ *             schema:
+ *               type: object
+ *               properties:
+ *                 response:
+ *                   type: string
+ *                   description: The JSON response from the Gemini API
+ *       404:
+ *         description: Path not found
+ *       500:
+ *         description: Internal server error
+ */
+router.get('/:pathId', async (req, res) => {
+    try {
+        const pathId = req.params.pathId;
+        const path = await db.search('paths', 'id', pathId);
+
+        if (!path) {
+            return res.status(404).json({ error: 'Path not found' });
+        }
+
+        // Parse the JSON string back into an object
+        const response = path.response;
+        res.status(200).json({ response: response });
+
+    } catch (error) {
+        console.error("Error retrieving path:", error);
+        res.status(500).json({ error: 'Failed to retrieve path', details: error.message });
+    }
 });
 
 module.exports = router;
