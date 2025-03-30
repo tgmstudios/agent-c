@@ -90,7 +90,7 @@
           const pathResponse = await courseConnectService.getRecommendedPath();
           
           // Navigate to the schedule view with the path ID
-          router.push(`/schedule/${pathResponse.id}`);
+          router.push(`/schedule`);
         } catch (error) {
           console.error('Error submitting form:', error);
           apiError.value = 'Failed to generate recommendations. Please try again.';
