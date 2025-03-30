@@ -1,0 +1,70 @@
+{
+    "majorRequirements": {
+      "totalCredits": 123,
+      "prescribedCourses": [
+        {"code": "CYBER 262", "title": "Cyber-Defense Studio", "credits": 3},
+        {"code": "CYBER 342W", "title": "Cyber Incident Handling and Response", "credits": 3},
+        {"code": "CYBER 362", "title": "Cybersecurity Analytics Studio", "credits": 3},
+        {"code": "CYBER 366", "title": "Malware Analytics", "credits": 3},
+        {"code": "CYBER 440", "title": "Cybersecurity Capstone", "credits": 3},
+        {"code": "IST 210", "title": "Organization of Data", "credits": 3},
+        {"code": "IST 220", "title": "Networking and Telecommunications", "credits": 3},
+        {"code": "IST 230", "title": "Language, Logic, and Discrete Mathematics", "credits": 3},
+        {"code": "IST 432", "title": "Legal and Regulatory Environment of Information Science and Technology", "credits": 3},
+        {"code": "IST 451", "title": "Network Security", "credits": 3},
+        {"code": "IST 454", "title": "Computer and Cyber Forensics", "credits": 3},
+        {"code": "IST 456", "title": "Information Security Management", "credits": 3},
+        {"code": "IST 495", "title": "Internship", "credits": 1},
+        {"code": "SRA 111", "title": "Introduction to Security and Risk Analysis", "credits": 3},
+        {"code": "SRA 211", "title": "Threat of Terrorism and Crime", "credits": 3},
+        {"code": "SRA 221", "title": "Overview of Information Security", "credits": 3},
+        {"code": "SRA 231", "title": "Decision Theory and Analysis", "credits": 3},
+        {"code": "SRA 311", "title": "Risk Analysis in a Security Context", "credits": 3},
+        {"code": "SRA 365", "title": "Statistics for Security and Risk Analysis", "credits": 3}
+      ],
+      "additionalCourses": [
+        {"code": "CYBER 100", "title": "Computer Systems Literacy", "credits": 3, "or": "CYBER 100S"},
+        {"code": "ENGL 202C", "title": "Effective Writing: Technical Writing", "credits": 3, "or": "ENGL 202D"},
+        {"code": "MATH 110", "title": "Techniques of Calculus I", "credits": 4, "or": "MATH 140"},
+        {"code": "STAT 200", "title": "Elementary Statistics", "credits": 4, "or": "SCM 200"},
+        {"code": "IST 140", "title": "Introduction to Programming Techniques", "credits": 3, "or": ["CMPSC 121", "CMPSC 131"]},
+        {"code": "IST 242", "title": "Intermediate Programming", "credits": 3, "or": ["CMPSC 122", "CMPSC 132"]},
+        {"code": "IST 261", "title": "Programming for the Web", "credits": 3, "or": ["IST 256", "IST 311", "IST 361"]}
+      ],
+      "supportingCoursesAndRelatedAreas": [
+        {"description": "Select 9 credits from one of the Application Focus course lists. At least 3 credits must be at the 400-level.", "credits": 9}
+      ]
+    },
+    "generalEducationRequirements": {
+      "foundations": {
+        "writingAndSpeaking": 9,
+        "quantification": 6
+      },
+      "knowledgeDomains": {
+        "healthAndWellness": 3,
+        "naturalSciences": 3,
+        "arts": 3,
+        "humanities": 3,
+        "socialAndBehavioralSciences": 3
+      },
+      "integrativeStudies": {
+        "interDomainCourses": 6
+      },
+      "exploration": {
+        "generalEducationElectives": 6
+      }
+    },
+    "entranceToMajorRequirements": {
+      "enrollmentRequirement": "College of Information Sciences and Technology or Division of Undergraduate Studies",
+      "creditRequirement": "40-70 graded Penn State credits (excludes transfer and AP credits)",
+      "courseRequirements": [
+        {"code": "CYBER 100", "grade": "C or better"},
+        {"code": "IST 210", "grade": "C or better"},
+        {"code": "IST 220", "grade": "C or better"},
+        {"code": "IST 242", "grade": "C or better", "or": ["CMPSC 122", "CMPSC 132"]},
+        {"code": "STAT 200", "grade": "C or better", "or": "SCM 200"}
+      ],
+      "gpaRequirement": 2.90
+    }
+  }
+  

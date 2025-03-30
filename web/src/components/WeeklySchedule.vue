@@ -1,53 +1,65 @@
 <template>
-    <div class="weekly-schedule-container">
-      <h3>Fall 2025 Weekly Schedule</h3>
-      
-      <div v-if="!showSchedule" class="schedule-button-container">
-        <button @click="loadSchedule" class="btn btn-primary">
-          Show Weekly Schedule
-        </button>
-      </div>
-      
-      <div v-if="loading" class="loading-container">
-        <div class="spinner"></div>
-        <p>Loading your weekly schedule...</p>
-      </div>
-      
-      <div v-else-if="error" class="error-container">
-        <p>{{ error }}</p>
-        <button @click="loadSchedule" class="btn">Try Again</button>
-      </div>
-      
-      <div v-else-if="showSchedule && schedule" class="calendar-container">
-        <div class="time-labels">
-          <div class="time-label" v-for="hour in hours" :key="hour">
-            {{ formatHour(hour) }}
-          </div>
+  <div class="weekly-schedule-container">
+    <h3>Weekly Schedule</h3>
+    
+    <div class="selectors-container">
+      <label for="year">Year:</label>
+      <select v-model="selectedYear" @change="updateSchedule">
+        <option v-for="year in availableYears" :key="year" :value="year">{{ year }}</option>
+      </select>
+
+      <label for="semester">Semester:</label>
+      <select v-model="selectedSemester" @change="updateSchedule">
+        <option v-for="semester in availableSemesters" :key="semester" :value="semester">{{ semester }}</option>
+      </select>
+    </div>
+    
+    <div v-if="!showSchedule" class="schedule-button-container">
+      <button @click="loadSchedule" class="btn btn-primary">
+        Show Weekly Schedule
+      </button>
+    </div>
+    
+    <div v-if="loading" class="loading-container">
+      <div class="spinner"></div>
+      <p>Loading your weekly schedule...</p>
+    </div>
+    
+    <div v-else-if="error" class="error-container">
+      <p>{{ error }}</p>
+      <button @click="loadSchedule" class="btn">Try Again</button>
+    </div>
+    
+    <div v-else-if="showSchedule && schedule" class="calendar-container">
+      <div class="time-labels">
+        <div class="time-label" v-for="hour in hours" :key="hour">
+          {{ formatHour(hour) }}
         </div>
-        
-        <div class="days-container">
-          <div class="day-column" v-for="day in days" :key="day">
-            <div class="day-header">{{ day }}</div>
-            <div class="day-schedule">
-              <div class="hour-row" v-for="hour in hours" :key="hour"></div>
-              
-              <div 
-                v-for="(course, index) in getCoursesForDay(day)" 
-                :key="`${day}-${course.code}-${index}`"
-                class="course-block"
-                :style="getCourseStyle(course)"
-              >
-                <div class="course-name">{{ course.code }}: {{ course.title }}</div>
-                <div class="course-time">{{ formatCourseTime(course) }}</div>
-                <div class="course-location" v-if="course.schedule && course.schedule.location">
-                  {{ course.schedule.location }}
-                </div>
+      </div>
+      
+      <div class="days-container">
+        <div class="day-column" v-for="day in days" :key="day">
+          <div class="day-header">{{ day }}</div>
+          <div class="day-schedule">
+            <div class="hour-row" v-for="hour in hours" :key="hour"></div>
+            
+            <div 
+              v-for="(course, index) in getCoursesForDay(day)" 
+              :key="`${day}-${course.code}-${index}`"
+              class="course-block"
+              :style="getCourseStyle(course)"
+            >
+              <div class="course-name">{{ course.code }}: {{ course.title }}</div>
+              <div class="course-time">{{ formatCourseTime(course) }}</div>
+              <div class="course-location" v-if="course.schedule && course.schedule.location">
+                {{ course.schedule.location }}
               </div>
             </div>
           </div>
         </div>
       </div>
     </div>
+  </div>
 </template>
 
 <script>
@@ -55,31 +67,28 @@ import { ref } from 'vue';
 import courseConnectService from '@/services/courseConnectService';
 
 export default {
-  name: 'WeeklySchedule',
-  props: {
-    pathId: {
-        type: String,
-        required: true
-    },
-    year: {
-        type: String,
-        required: true
-    },
-    semester: {
-        type: String,
-        required: true
-    }
-  },
-  setup(props) {
-    const schedule = ref(null);
-    const loading = ref(false);
-    const error = ref(null);
-    const showSchedule = ref(false);
-    
-    const days = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday'];
-    const hours = Array.from({ length: 11 }, (_, i) => i + 8);
-    
-    const courseColors = [
+name: 'WeeklySchedule',
+props: {
+  pathId: {
+      type: String,
+      required: true
+  }
+},
+setup(props) {
+  const schedule = ref(null);
+  const loading = ref(false);
+  const error = ref(null);
+  const showSchedule = ref(false);
+  const selectedYear = ref('1');
+  const selectedSemester = ref('Fall');
+  
+  const availableYears = ['1', '2', '3', '4'];
+  const availableSemesters = ['Spring', 'Fall'];
+  
+  const days = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday'];
+  const hours = Array.from({ length: 11 }, (_, i) => i + 8);
+
+  const courseColors = [
       '#4285F4', '#EA4335', '#FBBC05', '#34A853', '#8F00FF',
       '#FF6D01', '#00BCD4', '#FF4081', '#009688', '#795548'
     ];
@@ -141,48 +150,56 @@ export default {
         height: `${height}%`,
         backgroundColor: courseColorMap.value[course.code]
       };
-    };
+    };  
+  const loadSchedule = async () => {
+    try {
+      loading.value = true;
+      error.value = null;
+      showSchedule.value = true;
 
-    const loadSchedule = async () => {
-        try {
-            loading.value = true;
-            error.value = null;
-            showSchedule.value = true;
+      const response = await courseConnectService.getSemesterSchedule(
+        props.pathId,
+        selectedYear.value,
+        selectedSemester.value
+      );
 
-            const response = await courseConnectService.getSemesterSchedule(
-                props.pathId,
-                props.year,
-                props.semester
-            );
+      schedule.value = response;
+    } catch (err) {
+      console.error('Error loading schedule:', err);
+      error.value = 'Failed to load your weekly schedule. Please try again.';
+    } finally {
+      loading.value = false;
+    }
+  };
+  
+  const updateSchedule = () => {
+    showSchedule.value = false;
+    schedule.value = null;
+  };
 
-            schedule.value = response;
-        } catch (err) {
-            console.error('Error loading schedule:', err);
-            error.value = 'Failed to load your weekly schedule. Please try again.';
-        } finally {
-            loading.value = false;
-        }
-    };
-
-
-    return {
-      schedule,
-      loading,
-      error,
-      showSchedule,
-      days,
-      hours,
+  return {
+    schedule,
+    loading,
+    error,
+    showSchedule,
+    selectedYear,
+    selectedSemester,
+    availableYears,
+    availableSemesters,
+    days,
+    hours,
       formatHour,
       formatCourseTime,
       getCoursesForDay,
       getCourseStyle,
-      loadSchedule
-    };
-  }
+    loadSchedule,
+    updateSchedule
+  };
 }
+};
 </script>
-  
-  <style scoped>
+
+<style scoped>
   .weekly-schedule-container {
     margin-top: 40px;
     padding: 20px;
@@ -341,4 +358,20 @@ export default {
   .btn-primary:hover {
     background-color: #e6c500;
   }
-  </style>  
+.selectors-container {
+display: flex;
+justify-content: center;
+gap: 10px;
+margin-bottom: 20px;
+}
+
+.selectors-container label {
+font-weight: bold;
+color: #ffdb00;
+}
+
+.selectors-container select {
+padding: 5px;
+border-radius: 4px;
+}
+</style>

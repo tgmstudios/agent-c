@@ -5,6 +5,7 @@ const courseRequirements = {
     "Electrical Engr (BS)": () => require('./ee_bs.json'),
     "Data Sciences (BS)": () => require('./dtsce_bs.json'),
     "Entrprs Tech Integration (BS)": () => require('./etchi_bs.json'),
+    "Cybersec Analyt and Oper (BS)": () => require('./cyaop_bs.json'),
     
     // Minors
     "Computational Sciences (UMNR)": () => require('./cptsc_umnr.json'),
