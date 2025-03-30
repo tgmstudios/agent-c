@@ -122,7 +122,7 @@ export default {
     onMounted(async () => {
       try {
         // Get or create session ID
-        const sessionId = await agentCService.getSessionId();
+        //const sessionId = await agentCService.getSessionId();
         
         // Try to load existing user data
         try {

@@ -87,7 +87,7 @@
           // This would be implemented in your courseConnectService
           
           // Generate recommendations
-          const pathResponse = await courseConnectService.getRecommendedPath();
+          //const pathResponse = await courseConnectService.getRecommendedPath();
           
           // Navigate to the schedule view with the path ID
           router.push(`/schedule`);
