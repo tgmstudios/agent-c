@@ -1,7 +1,7 @@
 <template>
   <div class="home-view">
     <div class="welcome-section">
-      <h1>Welcome to Course Planner</h1>
+      <h1>Welcome to Course Connect</h1>
       <p class="subtitle">Plan your academic journey with personalized course recommendations</p>
     </div>
 
@@ -122,7 +122,7 @@ export default {
     onMounted(async () => {
       try {
         // Get or create session ID
-        const sessionId = await agentCService.getSessionId();
+        //const sessionId = await agentCService.getSessionId();
         
         // Try to load existing user data
         try {

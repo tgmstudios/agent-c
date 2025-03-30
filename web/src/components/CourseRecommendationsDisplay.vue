@@ -107,7 +107,11 @@
           </ul>
         </div>
 
-        <WeeklySchedule :pathId="pathId" />
+        <WeeklySchedule 
+          :pathId="pathId" 
+          :year="recommendations?.year || '3'" 
+          :semester="recommendations?.semester || 'fall'" 
+        />
         
         <div class="actions">
           <button class="btn btn-primary" @click="printPlan">Print Plan</button>
