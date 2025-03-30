@@ -33,11 +33,11 @@
               
               <div 
                 v-for="(course, index) in getCoursesForDay(day)" 
-                :key="`${day}-${course.id}-${index}`"
+                :key="`${day}-${course.code}-${index}`"
                 class="course-block"
                 :style="getCourseStyle(course, day)"
               >
-                <div class="course-name">{{ course.name }}</div>
+                <div class="course-name">{{ course.code }}</div>
                 <div class="course-time">{{ formatCourseTime(course, day) }}</div>
                 <div class="course-location" v-if="course.location">{{ course.location }}</div>
               </div>
@@ -153,15 +153,15 @@
         const height = ((endTime - startTime) / 10) * 100; // Height based on duration
         
         // Assign a color if not already assigned
-        if (!courseColorMap.value[course.id]) {
+        if (!courseColorMap.value[course.code]) {
           const colorIndex = Object.keys(courseColorMap.value).length % courseColors.length;
-          courseColorMap.value[course.id] = courseColors[colorIndex];
+          courseColorMap.value[course.code] = courseColors[colorIndex];
         }
         
         return {
           top: `${top}%`,
           height: `${height}%`,
-          backgroundColor: courseColorMap.value[course.id]
+          backgroundColor: courseColorMap.value[course.code]
         };
       };
       
