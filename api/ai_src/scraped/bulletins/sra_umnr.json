@@ -1,0 +1,86 @@
+{
+    "program": "Security and Risk Analysis Minor",
+    "total_credits": 21,
+    "requirements": {
+      "prescribed_courses": [
+        {"code": "SRA 111", "title": "Introduction to Security and Risk Analysis", "credits": 3},
+        {"code": "SRA 211", "title": "Threat of Terrorism and Crime", "credits": 3},
+        {"code": "SRA 221", "title": "Overview of Information Security", "credits": 3}
+      ],
+      "additional_courses": [
+        {
+          "option": [
+            {"code": "IST 140", "title": "Introduction to Application Development", "credits": 3},
+            {"code": "CMPSC 101", "title": "Introduction to Programming", "credits": 3}
+          ]
+        },
+        {
+          "option": [
+            {"code": "IST 220", "title": "Networking and Telecommunications", "credits": 3},
+            {"code": "SRA 231", "title": "Decision Theory and Analysis", "credits": 3}
+          ]
+        },
+        {
+          "select_credits": 6,
+          "from": [
+            "Legal and Regulatory Environment of Information Science and Technology",
+            "Network Security",
+            "Legal and Regulatory Environment of Privacy and Security",
+            "Legal, Regulatory, Policy Environment of Cyber Forensics",
+            "Computer and Cyber Forensics",
+            "Information Security Management",
+            "The Intelligence Environment",
+            "Spatial Analysis of Risks",
+            "Informatics, Risk, and the Post-Modern World",
+            "Crisis Informatics"
+          ]
+        }
+      ],
+      "additional_requirements": [
+        "At least 6 credits must be at the 400 level",
+        "A grade of C or better is required for all courses in the minor",
+        "At least six credits of the minor must be unique from the prescribed courses required by a student's major(s)"
+      ]
+    },
+    "general_education": {
+      "foundations": {
+        "total_credits": 15,
+        "requirements": [
+          {"area": "Writing/Speaking (GWS)", "credits": 9, "grade_requirement": "C or better"},
+          {"area": "Quantification (GQ)", "credits": 6, "grade_requirement": "C or better", "note": "3-6 credits from mathematics, applied mathematics, and statistics; 3 credits may be from computer science or symbolic logic"}
+        ]
+      },
+      "knowledge_domains": {
+        "total_credits": 15,
+        "requirements": [
+          {"domain": "Natural Sciences (GN)", "credits": 3},
+          {"domain": "Arts (GA)", "credits": 3},
+          {"domain": "Humanities (GH)", "credits": 3},
+          {"domain": "Social and Behavioral Sciences (GS)", "credits": 3},
+          {"domain": "Health and Wellness (GHW)", "credits": 3}
+        ]
+      },
+      "integrative_studies": {
+        "total_credits": 6
+      },
+      "exploration": {
+        "total_credits": 9
+      },
+      "other_requirements": [
+        {"requirement": "First-Year Seminar", "credits": "1-3", "location": "University Park"},
+        {"requirement": "United States Cultures", "credits": 3},
+        {"requirement": "International Cultures", "credits": 3},
+        {"requirement": "Writing Across the Curriculum", "note": "Required"}
+      ]
+    },
+    "academic_advising": {
+      "university_park": {
+        "name": "Undergraduate Academic Advising Center",
+        "location": "E103 Westgate Building",
+        "address": "University Park, PA 16802",
+        "phone": "814-865-8947",
+        "email": "advising@ist.psu.edu"
+      }
+    }
+  }
+  

@@ -1,0 +1,105 @@
+{
+    "degree": "Bachelor of Science in Security and Risk Analysis",
+    "minimum_credits": 120,
+    "credit_distribution": {
+      "General Education": 45,
+      "Electives": "5-13",
+      "Requirements for the Major": "77-85"
+    },
+    "general_education_overlap": "15 of the 45 credits for General Education are included in the Requirements for the Major. This includes: 6 credits of GQ courses; 6 credits of GS courses; and 3 credits of GWS courses.",
+    "general_education_requirements": {
+      "Foundations": {
+        "Quantification (GQ)": "6 credits",
+        "Writing and Speaking (GWS)": "9 credits"
+      },
+      "Breadth in Knowledge Domains": {
+        "Arts (GA)": "3 credits",
+        "Health and Wellness (GHW)": "3 credits",
+        "Humanities (GH)": "3 credits",
+        "Social and Behavioral Sciences (GS)": "3 credits",
+        "Natural Sciences (GN)": "3 credits"
+      },
+      "Integrative Studies": {
+        "Inter-Domain Courses": "6 credits"
+      },
+      "Exploration": {
+        "GN": "3 credits (may be completed with Inter-Domain courses)",
+        "GA, GH, GN, GS, Inter-Domain courses": "6 credits (may include 3 credits of World Language course work beyond the 12th credit level)"
+      }
+    },
+    "university_degree_requirements": {
+      "First Year Engagement": "1-3 credits",
+      "Cultures Requirement": {
+        "United States Cultures": "3 credits",
+        "International Cultures": "3 credits"
+      },
+      "Writing Across the Curriculum": "3 credits",
+      "Total Minimum Credits": "120",
+      "Quality of Work": "2.00 minimum GPA for all courses in degree program"
+    },
+    "common_requirements": {
+      "prescribed_courses": [
+        {"code": "IST 110", "title": "Information, People and Technology", "credits": 3, "grade": "C or better"},
+        {"code": "IST 210", "title": "Organization of Data", "credits": 3, "grade": "C or better"},
+        {"code": "IST 432", "title": "Legal and Regulatory Environment of Information Science and Technology", "credits": 3, "grade": "C or better"},
+        {"code": "IST 495", "title": "Internship", "credits": 1, "grade": "C or better"},
+        {"code": "SRA 111", "title": "Introduction to Security and Risk Analysis", "credits": 3, "grade": "C or better"},
+        {"code": "SRA 211", "title": "Threat of Terrorism and Crime", "credits": 3, "grade": "C or better"},
+        {"code": "SRA 221", "title": "Overview of Information Security", "credits": 3, "grade": "C or better"},
+        {"code": "SRA 231", "title": "Decision Theory and Analysis", "credits": 3, "grade": "C or better"},
+        {"code": "STAT 200", "title": "Elementary Statistics", "credits": 4, "grade": "C or better"}
+      ],
+      "additional_courses": [
+        {"options": ["ENGL 202C", "ENGL 202D"], "titles": ["Effective Writing: Technical Writing", "Effective Writing: Business Writing"], "credits": 3},
+        {"options": ["PSYCH 100", "SOC 5"], "titles": ["Introductory Psychology", "Social Problems"], "credits": 3},
+        {"options": ["AGBM 101", "ECON 102", "ECON 104"], "titles": ["Economic Principles of Agribusiness Decision Making", "Introductory Microeconomic Analysis and Policy", "Introductory Macroeconomic Analysis and Policy"], "credits": 3},
+        {"options": ["MATH 22", "MATH 26", "MATH 40", "MATH 41", "MATH 110", "MATH 140"], "credits": "3-5"},
+        {"options": ["GEOG 128", "PLSC 1", "PLSC 14"], "titles": ["Geography of International Affairs", "American Politics: Principles, Processes and Powers", "International Relations"], "credits": 3},
+        {"options": ["SRA 365", "STAT 460"], "titles": ["Statistics for Security and Risk Analysis", "Intermediate Applied Statistics"], "credits": 3, "grade": "C or better"},
+        {"options": ["IST 140", "CMPSC 101", "CMPSC 121"], "titles": ["Introduction to Application Development", "Introduction to Programming", "Introduction to Programming Techniques"], "credits": 3, "grade": "C or better"}
+      ]
+    },
+    "options": {
+      "Intelligence Analysis and Modeling Option": {
+        "available_at": ["University Park", "World Campus"],
+        "credits": 36,
+        "prescribed_courses": [
+          {"code": "IST 452", "title": "Legal and Regulatory Environment of Privacy and Security", "credits": 3, "grade": "C or better"},
+          {"code": "SRA 268", "title": "Visual Analytics", "credits": 3, "grade": "C or better"},
+          {"code": "SRA 311W", "title": "Risk Analysis in a Security Context", "credits": 3, "grade": "C or better"},
+          {"code": "SRA 421", "title": "The Intelligence Environment", "credits": 3, "grade": "C or better"},
+          {"code": "SRA 433", "title": "Deception and Counterdeception", "credits": 3, "grade": "C or better"},
+          {"code": "SRA 440W", "title": "Security and Risk Analysis Capstone Course", "credits": 3, "grade": "C or better"},
+          {"code": "SRA 468", "title": "Spatial Analysis of Risks", "credits": 3, "grade": "C or better"}
+        ],
+        "supporting_courses": "15 credits from College-approved list (at least 3 credits must be at the 400-level)"
+      },
+      "Information and Cyber Security Option": {
+        "available_at": ["Altoona", "Berks", "Harrisburg", "University Park", "World Campus"],
+        "credits": 30,
+        "prescribed_courses": [
+          {"code": "IST 220", "title": "Networking and Telecommunications", "credits": 3, "grade": "C or better"},
+          {"code": "IST 451", "title": "Network Security", "credits": 3, "grade": "C or better"},
+          {"code": "IST 454", "title": "Computer and Cyber Forensics", "credits": 3, "grade": "C or better"},
+          {"code": "IST 456", "title": "Information Security Management", "credits": 3, "grade": "C or better"},
+          {"code": "SRA 311", "title": "Risk Analysis in a Security Context", "credits": 3, "grade": "C or better"}
+        ],
+        "additional_courses": [
+          {"options": ["IST 440W", "SRA 440W"], "titles": ["Information Sciences and Technology Integration and Problem Solving", "Security and Risk Analysis Capstone Course"], "credits": 3, "grade": "C or better"}
+        ],
+        "supporting_courses": "12 credits from College-approved list (at least 3 credits must be at the 400-level)"
+      }
+    },
+    "entrance_to_major": {
+      "University Park": {
+        "enrollment_controls": true,
+        "requirements": [
+          "be enrolled in the College of Information Sciences and Technology or the Division of Undergraduate Studies",
+          "40-70 graded Penn State credits (excludes transfer and AP credits)",
+          "completed with a grade of C or better: IST 140 or CMPSC 101 or CMPSC 121, IST 210, SRA 111, SRA 211",
+          "earned a minimum cumulative grade-point average (GPA) of 2.70"
+        ]
+      }
+    }
+  }
+  
