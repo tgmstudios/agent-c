@@ -1,6 +1,6 @@
 <template>
   <footer>
-    <p>testing</p>
+    <p></p>
   </footer>  
 </template>
 

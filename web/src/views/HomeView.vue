@@ -1,9 +1,5 @@
 <template>
   <p>hello</p>
-  <div class="home">
-    <p>hello</p>
-  </div>
-
 </template>
 
 <script>

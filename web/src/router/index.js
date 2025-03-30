@@ -1,6 +1,6 @@
 import { createRouter, createWebHistory } from 'vue-router'
-import HomeView from '../views/HomeView.vue'
-import PlannerForm from '../views/PlannerForm.vue'
+import HomeView from '@/views/HomeView.vue'
+import PlannerForm from '@/views/PlannerForm.vue'
 
 const routes = [
   {
@@ -9,14 +9,14 @@ const routes = [
     component: HomeView
   },
   {
-    path: '/panner',
-    name: 'Planner',
+    path: '/planner',
+    name: 'PlannerForm',
     component: PlannerForm
   }
 ]
 
 const router = createRouter({
-  history: createWebHistory(process.env.BASE_URL),
+  history: createWebHistory(),
   routes
 })
 

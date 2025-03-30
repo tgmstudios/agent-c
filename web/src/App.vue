@@ -1,7 +1,9 @@
 <template>
   <div id="app">
     <HeaderSection :logo="logoURL" :menu="headerMenu"/>
-    <router-view/>
+    <div class="main-content">
+      <router-view/>
+    </div>
     <FooterSection :menu="headerMenu"/>
   </div>
 </template>
@@ -15,8 +17,7 @@ export default {
   name: 'App',
   components: {
     HeaderSection,
-    FooterSection,
-    FileUploader
+    FooterSection
   },
   setup() {
     const logoURL = require('./assets/logo.png');
@@ -39,8 +40,8 @@ export default {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  color: #ffdb00;
-  background-color: #080036;
+  color: #ffffff;
+  background-color: #302f3c;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -68,11 +69,11 @@ body {
 */
 
 h1, h2, h3 {
-  color: #ffdb00;
+  color: #ffffff;
 }
 
 .btn {
-  background-color: #ffdb00;
+  background-color: #000000;
   color: #080036;
   border: none;
   padding: 10px 20px;
@@ -88,8 +89,8 @@ h1, h2, h3 {
 
 .btn-secondary {
   background-color: transparent;
-  border: 2px solid #ffdb00;
-  color: #ffdb00;
+  border: 2px solid #000000;
+  color: #00d390;
 }
 
 .btn-secondary:hover {
