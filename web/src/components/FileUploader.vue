@@ -12,14 +12,14 @@
           type="file" 
           ref="fileInput" 
           @change="onFileChange" 
-          accept=".pdf,.csv" 
+          accept="application/pdf,.pdf"
           class="file-input"
         >
         
         <div v-if="!selectedFile">
           <i class="fas fa-cloud-upload-alt upload-icon"></i>
           <p>Drag and drop your transcript file here or click to browse</p>
-          <p class="file-types">Accepted file types: PDF, CSV</p>
+          <p class="file-types">Accepted file types: PDF</p>
         </div>
         
         <div v-else class="file-info">
