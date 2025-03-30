@@ -31,10 +31,6 @@
           </button>
         </div>
       </div>
-      
-      <div v-if="errorMessage" class="error-message">
-        {{ errorMessage }}
-      </div>
     </div>
   </template>
   

@@ -1,24 +1,53 @@
 <template>
-    <header>
-      <router-link :key="1" :to="'/'" class="logo"><img :src="logo"></router-link>
-      <nav>
-        <router-link v-for="link in menu" :key="link.id" :to="link.url">{{link.text}}</router-link>
-      </nav>
-      <a href="#" class="account">
-        <font-awesome-icon :icon="['fas', 'user']" />
-      </a>
-    </header>  
-  </template>
+  <header>
+    <router-link :key="1" :to="'/'" class="logo"><img :src="logo"></router-link>
+    <nav>
+      <router-link v-for="link in menu" :key="link.id" :to="link.url">{{link.text}}</router-link>
+    </nav>
+    <a href="#" class="account" @click.prevent="handleAccountClick">
+      <font-awesome-icon :icon="['fas', 'user']" />
+    </a>
+  </header>  
+</template>
   
-  <script>
-  export default {
-    name: 'HeaderSection',
-    props: {
-      menu: Array,
-      logo: String
-    }
+<script>
+import { useRouter } from 'vue-router';
+import agentCService from '../services/agentCService';
+
+export default {
+  name: 'HeaderSection',
+  props: {
+    menu: Array,
+    logo: String
+  },
+  setup() {
+    const router = useRouter();
+
+    const handleAccountClick = async () => {
+      try {
+        // Generate a new session ID
+        await agentCService.initSession(true); // Pass true to force new session
+        
+        // Clear all user input by resetting the store or local storage
+        localStorage.removeItem('transcript');
+        localStorage.removeItem('major');
+        localStorage.removeItem('minors');
+        localStorage.removeItem('credits');
+        localStorage.removeItem('comments');
+        
+        // Navigate to home page
+        router.push('/');
+      } catch (error) {
+        console.error('Error initializing new session:', error);
+      }
+    };
+
+    return {
+      handleAccountClick
+    };
   }
-  </script>
+}
+</script>
   
   <style scoped>
   header {
@@ -36,6 +65,9 @@
     margin-top:50%;
   }
   
+  .account {
+    cursor: pointer;
+  }
   nav {
     padding: 30px;
   }

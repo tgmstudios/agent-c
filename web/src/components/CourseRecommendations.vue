@@ -41,6 +41,14 @@
       transcript: {
         type: Object,
         required: true
+      },
+      credits: {
+        type: String,
+        required: true
+      },
+      comments: {
+        type: String,
+        default: ''
       }
     },
     setup(props) {

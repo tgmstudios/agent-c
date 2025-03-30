@@ -10,6 +10,8 @@
         <MajorMinorSelector
           v-model:major="major"
           v-model:minors="minors"
+          v-model:credits="credits"
+          v-model:comments="comments"
         />
         
         <button type="submit" class="btn" :disabled="!isFormValid">
@@ -17,21 +19,28 @@
         </button>
       </form>
       
+
       <CourseRecommendations
         v-if="showRecommendations"
         :major="major"
         :minors="minors"
         :transcript="transcript"
+        :credits="credits"
+        :comments="comments"
       />
-      <p>hell0</p>
+      <div v-if="apiError" class="error-message api-error">
+        {{ apiError }}
+        <button @click="retryApiCall" class="btn-retry">Retry</button>
+      </div>
     </div>
 </template>
   
 <script>
-  import { ref, computed } from 'vue';
+  import { ref, computed, onMounted } from 'vue';
   import FileUploader from '@/components/FileUploader.vue';
   import MajorMinorSelector from '@/components/MajorMinorSelector.vue';
   import CourseRecommendations from '@/components/CourseRecommendations.vue';
+  import agentCService from '@/services/agentCService';
   
   export default {
     name: 'PlannerForm',
@@ -44,11 +53,14 @@
       const transcript = ref(null);
       const major = ref('');
       const minors = ref([]);
+      const credits = ref();
       const showRecommendations = ref(false);
+      const comments = ref('');
   
       const isFormValid = computed(() => {
-        return transcript.value && major.value;
+        return transcript.value && major.value && credits.value;
       });
+  
   
       const handleFileUpload = (file) => {
         transcript.value = file;
@@ -60,12 +72,41 @@
         transcript.value = null;
       };
   
-      const submitForm = () => {
+      const submitForm = async () => {
         if (isFormValid.value) {
-          showRecommendations.value = true;
-          // TODO: Handle form submission (e.g., send data to backend)
+          try {
+            // Update user preferences
+            await agentCService.updatePreferences({
+              majors: [major.value],
+              minors: minors.value,
+              // Add other preferences as needed
+            });
+            
+            // Show recommendations
+            showRecommendations.value = true;
+          } catch (error) {
+            console.error('Error submitting form:', error);
+            // Handle error
+          }
         }
       };
+
+      onMounted(async () => {
+        try {
+          // Ensure we have a session ID
+          await agentCService.getSessionId();
+          
+          // Restore any saved state if needed
+          const savedTranscript = localStorage.getItem('transcript');
+          if (savedTranscript) {
+            transcript.value = JSON.parse(savedTranscript);
+          }
+          
+          // Similar for other form fields...
+        } catch (error) {
+          console.error('Failed to initialize session:', error);
+        }
+      });
   
       return {
         transcript,
@@ -73,6 +114,8 @@
         minors,
         showRecommendations,
         isFormValid,
+        credits,
+        comments,
         handleFileUpload,
         handleFileRemove,
         submitForm
