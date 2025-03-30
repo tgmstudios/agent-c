@@ -1,0 +1,1702 @@
+{
+    "Agricultural Sciences": {
+      "major": [
+        {
+          "value": "BRS_BS",
+          "label": "Ag & Biorenewble Sys Mgmt (BS)"
+        },
+        {
+          "value": "AGBM_BS",
+          "label": "Agribusiness Mgmt (BS)"
+        },
+        {
+          "value": "AEE_BS",
+          "label": "Agricult  & Exten Ed (BS)"
+        },
+        {
+          "value": "AGSC_BS",
+          "label": "Agricultural Science (BS)"
+        },
+        {
+          "value": "AG_PMAJ",
+          "label": "Agriculture (PMAJ)"
+        },
+        {
+          "value": "ANSC_BS",
+          "label": "Animal Science (BS)"
+        },
+        {
+          "value": "CED_BS",
+          "label": "Comm, Envir & Devlop (BS)"
+        },
+        {
+          "value": "ERM_BS",
+          "label": "Envirn Resource Mgmt (BS)"
+        },
+        {
+          "value": "FDSC_BS",
+          "label": "Food Science (BS)"
+        },
+        {
+          "value": "FOREM_BS",
+          "label": "Forest Ecosystm Mgmt (BS)"
+        },
+        {
+          "value": "IID_BS",
+          "label": "Imnlgy & Infctus Dis (BS)"
+        },
+        {
+          "value": "LSCPE_BS",
+          "label": "Landscape Contractng (BS)"
+        },
+        {
+          "value": "PLANT_BS",
+          "label": "Plant Sciences (BS)"
+        },
+        {
+          "value": "TURF_BS",
+          "label": "Turfgrass Science (BS)"
+        },
+        {
+          "value": "VBSC_BS",
+          "label": "Vet & Biomedical Sc (BS)"
+        },
+        {
+          "value": "WFS_BS",
+          "label": "Wildlife/Fish Scn (BS)"
+        }
+      ],
+      "minor": [
+        {
+          "value": "ASM_UMNR",
+          "label": "Ag Systems Mngmt (UMNR)"
+        },
+        {
+          "value": "AGBM_UMNR",
+          "label": "Agribusiness Mgmt (UMNR)"
+        },
+        {
+          "value": "AGRO_UMNR",
+          "label": "Agronomy (UMNR)"
+        },
+        {
+          "value": "ANSC_UMNR",
+          "label": "Animal Science (UMNR)"
+        },
+        {
+          "value": "ARBOR_UMNR",
+          "label": "Arboriculture (UMNR)"
+        },
+        {
+          "value": "ENT_UMNR",
+          "label": "Entomology (UMNR)"
+        },
+        {
+          "value": "ERRE_UMNR",
+          "label": "Envir & Renew Res Ec (UMNR)"
+        },
+        {
+          "value": "ESOIL_UMNR",
+          "label": "Environmentl Soil Sc (UMNR)"
+        },
+        {
+          "value": "ERM_UMNR",
+          "label": "Envrn Resrce Mgmt (UMNR)"
+        },
+        {
+          "value": "EQSC_UMNR",
+          "label": "Equine Science (UMNR)"
+        },
+        {
+          "value": "FDSYS_UMNR",
+          "label": "Food Systems (UMNR)"
+        },
+        {
+          "value": "FECO_UMNR",
+          "label": "Forest Ecosystems (UMNR)"
+        },
+        {
+          "value": "FORSC_UMNR",
+          "label": "Forest Science (UMNR)"
+        },
+        {
+          "value": "HORT_UMNR",
+          "label": "Horticulture (UMNR)"
+        },
+        {
+          "value": "INTAG_UMNR",
+          "label": "Intrnatl Agriculture (UMNR)"
+        },
+        {
+          "value": "LDEV_UMNR",
+          "label": "Leadership Dev (UMNR)"
+        },
+        {
+          "value": "MST_UMNR",
+          "label": "Mushroom Science/Tec (UMNR)"
+        },
+        {
+          "value": "OFFRD_UMNR",
+          "label": "Off-Road Equipment (UMNR)"
+        },
+        {
+          "value": "OHLTH_UMNR",
+          "label": "One Health (UMNR)"
+        },
+        {
+          "value": "PPATH_UMNR",
+          "label": "Plant Pathology (UMNR)"
+        },
+        {
+          "value": "PAS_UMNR",
+          "label": "Poultry & Avian Sci (UMNR)"
+        },
+        {
+          "value": "WFS_UMNR",
+          "label": "Wildlife/Fish Scien (UMNR)"
+        },
+        {
+          "value": "YFE_UMNR",
+          "label": "Youth and Family Ed (UMNR)"
+        }
+      ],
+      "associate": [
+        {
+          "value": "2FORT_AS",
+          "label": "Forest Technology (AS)"
+        },
+        {
+          "value": "2TSM_AS",
+          "label": "Turfgrass Sci & Mgmt (AS)"
+        },
+        {
+          "value": "2WLT_AS",
+          "label": "Wildlife Tech (AS)"
+        }
+      ]
+    },
+    "Arts and Architecture": {
+      "major": [
+        {
+          "value": "ACTNG_BFA",
+          "label": "Acting (BFA)"
+        },
+        {
+          "value": "BARCHBARCH",
+          "label": "Architecture (BARCH)"
+        },
+        {
+          "value": "ARCBS_BS",
+          "label": "Architecture (BS)"
+        },
+        {
+          "value": "ARTBA_BA",
+          "label": "Art (BA)"
+        },
+        {
+          "value": "ARBFA_BFA",
+          "label": "Art (BFA)"
+        },
+        {
+          "value": "AED_BS",
+          "label": "Art Education (BS)"
+        },
+        {
+          "value": "ARTH_BA",
+          "label": "Art History (BA)"
+        },
+        {
+          "value": "AAART_PMAJ",
+          "label": "A&A-Premjr Art Maj (PMAJ)"
+        },
+        {
+          "value": "AADES_PMAJ",
+          "label": "A&A-Premjr Gd Maj (PMAJ)"
+        },
+        {
+          "value": "AAMUS_PMAJ",
+          "label": "A&A-Premjr Music Maj (PMAJ)"
+        },
+        {
+          "value": "AA_PMAJ",
+          "label": "Arts & Architecture (PMAJ)"
+        },
+        {
+          "value": "DIGMD_BDES",
+          "label": "Dgn in Dgtl Multmdi Dgn (BDES)"
+        },
+        {
+          "value": "IDS_BDES",
+          "label": "Digtl Arts & Media Dsgn (BDES)"
+        },
+        {
+          "value": "GD_BDES",
+          "label": "Graphic Design (BDES)"
+        },
+        {
+          "value": "INART_BA",
+          "label": "Integrative Arts (BA)"
+        },
+        {
+          "value": "LARCH_BLA",
+          "label": "Landscape Arch (BLA)"
+        },
+        {
+          "value": "MUSBA_BA",
+          "label": "Music (BA)"
+        },
+        {
+          "value": "MUSBM_BM",
+          "label": "Music (BM)"
+        },
+        {
+          "value": "MUED_BME",
+          "label": "Music Education (BME)"
+        },
+        {
+          "value": "MUBMA_BMA",
+          "label": "Musical Arts (BMA)"
+        },
+        {
+          "value": "PHOTO_BDES",
+          "label": "Profssional Photography (BDES)"
+        },
+        {
+          "value": "THRMT_BFA",
+          "label": "Musical Theatre (BFA)"
+        },
+        {
+          "value": "THRBA_BA",
+          "label": "Theatre (BA)"
+        },
+        {
+          "value": "THRFA_BFA",
+          "label": "Theatre (BFA)"
+        }
+      ],
+      "minor": [
+        {
+          "value": "ARC_H_UMNR",
+          "label": "Architectural Hist (UMNR)"
+        },
+        {
+          "value": "ARCST_UMNR",
+          "label": "Architecture Studies (UMNR)"
+        },
+        {
+          "value": "ART_UMNR",
+          "label": "Art (UMNR)"
+        },
+        {
+          "value": "ARTH_UMNR",
+          "label": "Art History (UMNR)"
+        },
+        {
+          "value": "ARENT_UMNR",
+          "label": "Arts Entrepreneurship (UMNR)"
+        },
+        {
+          "value": "DANCE_UMNR",
+          "label": "Dance (UMNR)"
+        },
+        {
+          "value": "GDSGN_UMNR",
+          "label": "Graphic Design (UMNR)"
+        },
+        {
+          "value": "IARTS_UMNR",
+          "label": "International Arts (UMNR)"
+        },
+        {
+          "value": "JAZZP_UMNR",
+          "label": "Jazz Performance (UMNR)"
+        },
+        {
+          "value": "LARCH_UMNR",
+          "label": "Landscape Architecture (UMNR)"
+        },
+        {
+          "value": "MUSIC_UMNR",
+          "label": "Music Performance (UMNR)"
+        },
+        {
+          "value": "MUSST_UMNR",
+          "label": "Music Studies (UMNR)"
+        },
+        {
+          "value": "MUTEC_UMNR",
+          "label": "Music Technology (UMNR)"
+        },
+        {
+          "value": "PHOTO_UMNR",
+          "label": "Photography (UMNR)"
+        },
+        {
+          "value": "THEA_UMNR",
+          "label": "Theatre (UMNR)"
+        }
+      ]
+    },
+    "Communications": {
+      "major": [
+        {
+          "value": "ADPR_BA",
+          "label": "Advt/Publ Relations (BA)"
+        },
+        {
+          "value": "DGJRM_BA",
+          "label": "Digital Journ and Media (BA)"
+        },
+        {
+          "value": "FILM_BA",
+          "label": "Film Production (BA)"
+        },
+        {
+          "value": "JOURN_BA",
+          "label": "Journalism (BA)"
+        },
+        {
+          "value": "MEDIA_BA",
+          "label": "Media Studies (BA)"
+        },
+        {
+          "value": "STRCM_BA",
+          "label": "Strategic Communications (BA)"
+        },
+        {
+          "value": "TELCM_BA",
+          "label": "Telecommunications (BA)"
+        }
+      ],
+      "minor": [
+        {
+          "value": "COMM_PMAJ",
+          "label": "Communications (PMAJ)"
+        },
+        {
+          "value": "DMTA_UMNR",
+          "label": "Digtal Med Trnd & Analy (UMNR)"
+        },
+        {
+          "value": "FLMST_UMNR",
+          "label": "Film Studies (UMNR)"
+        },
+        {
+          "value": "ISTLC_UMNR",
+          "label": "IST for Telecomm (UMNR)"
+        },
+        {
+          "value": "JOURN_UMNR",
+          "label": "Journalism (UMNR)"
+        },
+        {
+          "value": "MEDIA_UMNR",
+          "label": "Media Studies (UMNR)"
+        }
+      ]
+    },
+    "Earth and Mineral Sciences": {
+      "major": [
+        {
+          "value": "EARSP_BS",
+          "label": "Earth Science & Plcy (BS)"
+        },
+        {
+          "value": "EARTH_BS",
+          "label": "Earth Sciences (BS)"
+        },
+        {
+          "value": "EBF_BS",
+          "label": "Energy Bus & Finance (BS)"
+        },
+        {
+          "value": "ENENG_BS",
+          "label": "Energy Engineering (BS)"
+        },
+        {
+          "value": "ESPBA_BA",
+          "label": "Enrgy/Sustanblty Pol (BA)"
+        },
+        {
+          "value": "ESPBS_BS",
+          "label": "Enrgy/Sustanblty Pol (BS)"
+        },
+        {
+          "value": "ENVSE_BS",
+          "label": "Environmntl Sys Engr (BS)"
+        },
+        {
+          "value": "GEOBI_BS",
+          "label": "Geobiology (BS)"
+        },
+        {
+          "value": "GEOBA_BA",
+          "label": "Geography (BA)"
+        },
+        {
+          "value": "GEOBS_BS",
+          "label": "Geography (BS)"
+        },
+        {
+          "value": "GSCBA_BA",
+          "label": "Geosciences (BA)"
+        },
+        {
+          "value": "GSCBS_BS",
+          "label": "Geosciences (BS)"
+        },
+        {
+          "value": "MATSE_BS",
+          "label": "Mat Sci and Engr (BS)"
+        },
+        {
+          "value": "METEO_BS",
+          "label": "Meteo & Atmosph Scnce (BS)"
+        },
+        {
+          "value": "MNGE_BS",
+          "label": "Mining Engineering (BS)"
+        },
+        {
+          "value": "PNGE_BS",
+          "label": "Petro & Nat Gas Engr (BS)"
+        }
+      ],
+      "minor": [
+        {
+          "value": "CLIMA_UMNR",
+          "label": "Climatology (UMNR)"
+        },
+        {
+          "value": "EMSC_PMAJ",
+          "label": "Earth & Mineral Sci (PMAJ)"
+        },
+        {
+          "value": "EASYS_UMNR",
+          "label": "Earth Systems (UMNR)"
+        },
+        {
+          "value": "EASUS_UMNR",
+          "label": "Earth and Sustainabilty (UMNR)"
+        },
+        {
+          "value": "ELCHE_UMNR",
+          "label": "Electrochemical Engr (UMNR)"
+        },
+        {
+          "value": "EBF_UMNR",
+          "label": "Energy Bus & Finance (UMNR)"
+        },
+        {
+          "value": "ENENG_UMNR",
+          "label": "Energy Engineering (UMNR)"
+        },
+        {
+          "value": "ENVSE_UMNR",
+          "label": "Environ Systems Engr (UMNR)"
+        },
+        {
+          "value": "G_I_S_UMNR",
+          "label": "Geographic Info Sci (UMNR)"
+        },
+        {
+          "value": "GEOG_UMNR",
+          "label": "Geography (UMNR)"
+        },
+        {
+          "value": "GPHYS_UMNR",
+          "label": "Geophysics (UMNR)"
+        },
+        {
+          "value": "GEOSC_UMNR",
+          "label": "Geosciences (UMNR)"
+        },
+        {
+          "value": "ISEMS_UMNR",
+          "label": "Ist for Em Sc (UMNR)"
+        },
+        {
+          "value": "MTSEN_UMNR",
+          "label": "Materials Scne & Engr (UMNR)"
+        },
+        {
+          "value": "METEO_UMNR",
+          "label": "Meteorology (UMNR)"
+        },
+        {
+          "value": "MNGE_UMNR",
+          "label": "Mining Engineering (UMNR)"
+        },
+        {
+          "value": "PNGE_UMNR",
+          "label": "Petro & Nat Gas Engr (UMNR)"
+        },
+        {
+          "value": "PLMSC_UMNR",
+          "label": "Polymer Science (UMNR)"
+        },
+        {
+          "value": "WWR_UMNR",
+          "label": "Watersheds/Water Res (UMNR)"
+        }
+      ]
+    },
+    "Education": {
+      "major": [
+        {
+          "value": "EPP_BS",
+          "label": "Educ & Public Policy (BS)"
+        },
+        {
+          "value": "CEAED_BS",
+          "label": "Elem & Erly Chld Ed (BS)"
+        },
+        {
+          "value": "MLVED_BS",
+          "label": "Middle Level Education (BS)"
+        },
+        {
+          "value": "RHS_BS",
+          "label": "Rehab & Human Srvces (BS)"
+        },
+        {
+          "value": "SECED_BS",
+          "label": "Secondary Education (BS)"
+        },
+        {
+          "value": "SPLED_BS",
+          "label": "Special Education (BS)"
+        },
+        {
+          "value": "WFED_BS",
+          "label": "Workforce Ed & Devel (BS)"
+        },
+        {
+          "value": "WLED_BS",
+          "label": "World Languages Ed (BS)"
+        }
+      ],
+      "minor": [
+        {
+          "value": "ADRCV_UMNR",
+          "label": "Addictions and Recovery (UMNR)"
+        },
+        {
+          "value": "ERDED_UMNR",
+          "label": "Early Dev and Educ (UMNR)"
+        },
+        {
+          "value": "EPS_UMNR",
+          "label": "Ed & Public Policy  (UMNR)"
+        },
+        {
+          "value": "ED_PMAJ",
+          "label": "Education (PMAJ)"
+        },
+        {
+          "value": "LDT_UMNR",
+          "label": "Learning, Dsign, & Tech (UMNR)"
+        },
+        {
+          "value": "RHS_UMNR",
+          "label": "Rehab & Human Srvces (UMNR)"
+        },
+        {
+          "value": "SJSED_UMNR",
+          "label": "Social Justice in Educ (UMNR)"
+        },
+        {
+          "value": "SPLED_UMNR",
+          "label": "Special Education (UMNR)"
+        },
+        {
+          "value": "TLO_UMNR",
+          "label": "Tching & Lrning Onln (UMNR)"
+        }
+      ],
+      "associate": [
+        {
+          "value": "2WFED_AS",
+          "label": "Workforce Ed & Devel (AS)"
+        }
+      ]
+    },
+    "Engineering": {
+      "major": [
+        {
+          "value": "AERSP_BS",
+          "label": "Aerospace Engr (BS)"
+        },
+        {
+          "value": "AE_BAE",
+          "label": "Architectural Engr (BAE)"
+        },
+        {
+          "value": "BE_BS",
+          "label": "Biological Engr (BS)"
+        },
+        {
+          "value": "BME_BS",
+          "label": "Biomedical Engneerng (BS)"
+        },
+        {
+          "value": "CHE_BS",
+          "label": "Chemical Engineering (BS)"
+        },
+        {
+          "value": "CE_BS",
+          "label": "Civil Engineering (BS)"
+        },
+        {
+          "value": "CSENG_BS",
+          "label": "Comp Sci - Comwlth Campus (BS)"
+        },
+        {
+          "value": "CMPSC_BS",
+          "label": "Comp Sci - Univ Park (BS)"
+        },
+        {
+          "value": "CMPEN_BS",
+          "label": "Computer Engineering (BS)"
+        },
+        {
+          "value": "DTSCE_BS",
+          "label": "Data Sciences (BS)"
+        },
+        {
+          "value": "EE_BS",
+          "label": "Electrical Engr (BS)"
+        },
+        {
+          "value": "EETEN_BS",
+          "label": "Electrical Engr Tech (BS)"
+        },
+        {
+          "value": "EMET_BS",
+          "label": "Electro-Mech Eng Tec (BS)"
+        },
+        {
+          "value": "GE_BS",
+          "label": "Engineering (BS)"
+        },
+        {
+          "value": "ESC_BS",
+          "label": "Engineering Science (BS)"
+        },
+        {
+          "value": "IE_BS",
+          "label": "Industrial Engr (BS)"
+        },
+        {
+          "value": "ME_BS",
+          "label": "Mech Engr - Univ Park (BS)"
+        },
+        {
+          "value": "MEENG_BS",
+          "label": "Mech Engr-Commwlth Campus (BS)"
+        },
+        {
+          "value": "NUCE_BS",
+          "label": "Nuclear Engineering (BS)"
+        },
+        {
+          "value": "SURE_BS",
+          "label": "Surveying Engr (BS)"
+        }
+      ],
+      "minor": [
+        {
+          "value": "ENGAE_PMAJ",
+          "label": "Arch Engr Premajor (PMAJ)"
+        },
+        {
+          "value": "BE_UMNR",
+          "label": "Biological Enginerng (UMNR)"
+        },
+        {
+          "value": "BME_UMNR",
+          "label": "Biomedical Engneerng (UMNR)"
+        },
+        {
+          "value": "CPTSC_UMNR",
+          "label": "Computational Sciences (UMNR)"
+        },
+        {
+          "value": "CMPEN_UMNR",
+          "label": "Computer Engineering (UMNR)"
+        },
+        {
+          "value": "CCF_UMNR",
+          "label": "Cybrsc Comput Fndations (UMNR)"
+        },
+        {
+          "value": "PDTSC_PMAJ",
+          "label": "Data Sciences (PMAJ)"
+        },
+        {
+          "value": "ESHIP_UMNR",
+          "label": "Eng Entrepreneurship (UMNR)"
+        },
+        {
+          "value": "ENDSN_UMNR",
+          "label": "Engineering Design (UMNR)"
+        },
+        {
+          "value": "ELD_UMNR",
+          "label": "Engr Leadership Dev (UMNR)"
+        },
+        {
+          "value": "EMCH_UMNR",
+          "label": "Engr Mechanics (UMNR)"
+        },
+        {
+          "value": "ENGR_PMAJ",
+          "label": "Engr Premajor (PMAJ)"
+        },
+        {
+          "value": "ENVE_UMNR",
+          "label": "Environmental Engr (UMNR)"
+        },
+        {
+          "value": "ISTIE_UMNR",
+          "label": "IST for Indstrl Engr (UMNR)"
+        },
+        {
+          "value": "IENGR_UMNR",
+          "label": "Interntional Enginering (UMNR)"
+        },
+        {
+          "value": "ISASP_UMNR",
+          "label": "Ist for Arospace Eng (UMNR)"
+        },
+        {
+          "value": "NANO_UMNR",
+          "label": "Nanotechnology (UMNR)"
+        },
+        {
+          "value": "PRODR_UMNR",
+          "label": "Product Realization (UMNR)"
+        },
+        {
+          "value": "SEENG_UMNR",
+          "label": "Service Enterprise Engr (UMNR)"
+        },
+        {
+          "value": "SIGMA_UMNR",
+          "label": "Six Sigma (UMNR)"
+        }
+      ],
+      "associate": [
+        {
+          "value": "2BET_AENGT",
+          "label": "Biomedical Engr Tech (AENGT)"
+        },
+        {
+          "value": "2EET_AENGT",
+          "label": "Electrical Engr Tech (AENGT)"
+        },
+        {
+          "value": "2MATEAENGT",
+          "label": "Materials Engr Tech (AENGT)"
+        },
+        {
+          "value": "2MET_AENGT",
+          "label": "Mechanical Engr Tech (AENGT)"
+        },
+        {
+          "value": "2SRT_AENGT",
+          "label": "Surveying Engr Tech (AENGT)"
+        }
+      ]
+    },
+    "Health and Human Development": {
+      "major": [
+        {
+          "value": "BBH_BS",
+          "label": "Biobehavioral Health (BS)"
+        },
+        {
+          "value": "CSD_BS",
+          "label": "Comm Sci & Disorders (BS)"
+        },
+        {
+          "value": "HPA_BS",
+          "label": "Health Policy/Admin (BS)"
+        },
+        {
+          "value": "HM_BS",
+          "label": "Hospitality Mangment (BS)"
+        },
+        {
+          "value": "HDFS_BS",
+          "label": "Human Dev/Fmly Stds (BS)"
+        },
+        {
+          "value": "KINES_BS",
+          "label": "Kinesiology (BS)"
+        },
+        {
+          "value": "NUTR_BS",
+          "label": "Nutritional Sciences (BS)"
+        },
+        {
+          "value": "RPTM_BS",
+          "label": "Rec, Par, Tour Mgmt (BS)"
+        }
+      ],
+      "minor": [
+        {
+          "value": "DIHHD_UMNR",
+          "label": "DIv & Inclusion in HHD (UMNR)"
+        },
+        {
+          "value": "DHS_UMNR",
+          "label": "Deafnss & Hearing St (UMNR)"
+        },
+        {
+          "value": "GLBHL_UMNR",
+          "label": "Global Health (UMNR)"
+        },
+        {
+          "value": "HHD_PMAJ",
+          "label": "Health & Human Dev (PMAJ)"
+        },
+        {
+          "value": "HPA_UMNR",
+          "label": "Health Policy & Admn (UMNR)"
+        },
+        {
+          "value": "HDFS_UMNR",
+          "label": "Human Dev/Famly Stds (UMNR)"
+        },
+        {
+          "value": "ISHPA_UMNR",
+          "label": "Ist in H P A (UMNR)"
+        },
+        {
+          "value": "KINES_UMNR",
+          "label": "Kinesiology (UMNR)"
+        },
+        {
+          "value": "NSTD_UMNR",
+          "label": "Nutrition Studies (UMNR)"
+        },
+        {
+          "value": "NUTR_UMNR",
+          "label": "Nutritional Sciences (UMNR)"
+        },
+        {
+          "value": "RPTM_UMNR",
+          "label": "Rec, Park, Tour Mgmt (UMNR)"
+        },
+        {
+          "value": "SPNTR_UMNR",
+          "label": "Sports Nutrition (UMNR)"
+        },
+        {
+          "value": "SPRST_UMNR",
+          "label": "Sports Studies (UMNR)"
+        }
+      ],
+      "associate": [
+        {
+          "value": "2EHFS_AS",
+          "label": "Human Dev/Fam Stdies (AS)"
+        }
+      ]
+    },
+    "Information Sciences and Technology": {
+      "major": [
+        {
+          "value": "AIMA_BS",
+          "label": "Artificl Intellignce Mthd (BS)"
+        },
+        {
+          "value": "CAOWC_BS",
+          "label": "Cybersec Analyt and Oper (BS)"
+        },
+        {
+          "value": "CYAOP_BS",
+          "label": "Cybersec Analyt and Oper (BS)"
+        },
+        {
+          "value": "DATSC_BS",
+          "label": "Data Sciences (BS)"
+        },
+        {
+          "value": "ETCHI_BS",
+          "label": "Entrpris Tech Integration (BS)"
+        },
+        {
+          "value": "HCDD_BS",
+          "label": "Humn-Cntrd Dsign & Devel (BS)"
+        },
+        {
+          "value": "ISSWC_BS",
+          "label": "Info Sciences & Tech (BS)"
+        },
+        {
+          "value": "ISTBS_BS",
+          "label": "Info Sciences & Tech (BS)"
+        },
+        {
+          "value": "SRAWC_BS",
+          "label": "Security & Rsk Analy (BS)"
+        },
+        {
+          "value": "SRA_BS",
+          "label": "Security & Rsk Analy (BS)"
+        }
+      ],
+      "minor": [
+        {
+          "value": "PDTSC_PMAJ",
+          "label": "Data Sciences (PMAJ)"
+        },
+        {
+          "value": "INFST_PMAJ",
+          "label": "Info Sciences & Tech (PMAJ)"
+        },
+        {
+          "value": "IST_UMNR",
+          "label": "Info Sciences & Tech (UMNR)"
+        },
+        {
+          "value": "SRA_UMNR",
+          "label": "Security & Rsk Analy (UMNR)"
+        }
+      ],
+      "associate": [
+        {
+          "value": "2IST_AS",
+          "label": "Info Sciences & Tech (AS)"
+        }
+      ]
+    },
+    "Liberal Arts": {
+      "major": [
+        {
+          "value": "AAST_BA",
+          "label": "African Amer Studies (BA)"
+        },
+        {
+          "value": "AFRST_BA",
+          "label": "African Studies (BA)"
+        },
+        {
+          "value": "ANTHS_BS",
+          "label": "Anthropological Science (BS)"
+        },
+        {
+          "value": "ANTH_BA",
+          "label": "Anthropology (BA)"
+        },
+        {
+          "value": "ASIA_BA",
+          "label": "Asian Studies (BA)"
+        },
+        {
+          "value": "BANTH_BS",
+          "label": "Biological Anthrplgy (BS)"
+        },
+        {
+          "value": "CHNS_BA",
+          "label": "Chinese (BA)"
+        },
+        {
+          "value": "CAMS_BA",
+          "label": "Classics/Anc Med Std (BA)"
+        },
+        {
+          "value": "CAS_BA",
+          "label": "Comm Arts & Sciences (BA)"
+        },
+        {
+          "value": "CASBS_BS",
+          "label": "Comm Arts & Sciences (BS)"
+        },
+        {
+          "value": "CMLIT_BA",
+          "label": "Comparative Lit (BA)"
+        },
+        {
+          "value": "CRMBA_BA",
+          "label": "Criminology (BA)"
+        },
+        {
+          "value": "CRMBS_BS",
+          "label": "Criminology (BS)"
+        },
+        {
+          "value": "ECLBA_BA",
+          "label": "Economics (BA)"
+        },
+        {
+          "value": "ECLBS_BS",
+          "label": "Economics (BS)"
+        },
+        {
+          "value": "ENGL_BA",
+          "label": "English (BA)"
+        },
+        {
+          "value": "FRBA_BA",
+          "label": "Fr & Francophone Std (BA)"
+        },
+        {
+          "value": "FRBS_BS",
+          "label": "Fr & Francophone Std (BS)"
+        },
+        {
+          "value": "GERBA_BA",
+          "label": "German (BA)"
+        },
+        {
+          "value": "GERBS_BS",
+          "label": "German (BS)"
+        },
+        {
+          "value": "GSBA_BA",
+          "label": "Glbl & Intrntl Studs (BA)"
+        },
+        {
+          "value": "GSBS_BS",
+          "label": "Glbl & Intrntl Studs (BS)"
+        },
+        {
+          "value": "HIST_BA",
+          "label": "History (BA)"
+        },
+        {
+          "value": "ISOSC_BS",
+          "label": "Integrated Soc Scnce (BS)"
+        },
+        {
+          "value": "INTPL_BA",
+          "label": "International Poltcs (BA)"
+        },
+        {
+          "value": "ITBA_BA",
+          "label": "Italian (BA)"
+        },
+        {
+          "value": "ITBS_BS",
+          "label": "Italian (BS)"
+        },
+        {
+          "value": "JAPNS_BA",
+          "label": "Japanese (BA)"
+        },
+        {
+          "value": "JST_BA",
+          "label": "Jewish Studies (BA)"
+        },
+        {
+          "value": "KORBA_BA",
+          "label": "Korean (BA)"
+        },
+        {
+          "value": "LHRBS_BS",
+          "label": "Labor & Human Resources (BS)"
+        },
+        {
+          "value": "LHRBA_BA",
+          "label": "Labor and Human Resources (BA)"
+        },
+        {
+          "value": "LATAM_BA",
+          "label": "Latin-Amer Studies (BA)"
+        },
+        {
+          "value": "LAWSC_BA",
+          "label": "Law and Society (BA)"
+        },
+        {
+          "value": "LING_BA",
+          "label": "Linguistics (BA)"
+        },
+        {
+          "value": "MEDVL_BA",
+          "label": "Medieval Studies (BA)"
+        },
+        {
+          "value": "MESTD_BA",
+          "label": "Middle East Studies (BA)"
+        },
+        {
+          "value": "LAS_BA",
+          "label": "Multidisciplinary Studies (BA)"
+        },
+        {
+          "value": "ORPCM_BA",
+          "label": "Org & Profes Communction (BA)"
+        },
+        {
+          "value": "ORPCM_BS",
+          "label": "Org & Profes Communction (BS)"
+        },
+        {
+          "value": "OLBA_BA",
+          "label": "Organizational Lead (BA)"
+        },
+        {
+          "value": "OLBS_BS",
+          "label": "Organizational Lead (BS)"
+        },
+        {
+          "value": "PHIL_BA",
+          "label": "Philosophy (BA)"
+        },
+        {
+          "value": "PHIL_BS",
+          "label": "Philosophy (BS)"
+        },
+        {
+          "value": "PLSC_BA",
+          "label": "Political Science (BA)"
+        },
+        {
+          "value": "PLSBS_BS",
+          "label": "Political Science (BS)"
+        },
+        {
+          "value": "PSYBA_BA",
+          "label": "Psychology (BA)"
+        },
+        {
+          "value": "PSYBS_BS",
+          "label": "Psychology (BS)"
+        },
+        {
+          "value": "RUS_BA",
+          "label": "Russian (BA)"
+        },
+        {
+          "value": "RUST_BS",
+          "label": "Russian Translation (BS)"
+        },
+        {
+          "value": "SODA_BS",
+          "label": "Social Data Analytics (BS)"
+        },
+        {
+          "value": "SOCBA_BA",
+          "label": "Sociology (BA)"
+        },
+        {
+          "value": "SOCBS_BS",
+          "label": "Sociology (BS)"
+        },
+        {
+          "value": "SPNBA_BA",
+          "label": "Spanish (BA)"
+        },
+        {
+          "value": "SPNBS_BS",
+          "label": "Spanish (BS)"
+        },
+        {
+          "value": "WSBA_BA",
+          "label": "Wmn's, Gender, & Sx Stdie (BA)"
+        },
+        {
+          "value": "WSBS_BS",
+          "label": "Wmns Gndr & Sxlty Studies (BS)"
+        }
+      ],
+      "minor": [
+        {
+          "value": "AFAMR_UMNR",
+          "label": "African American Std (UMNR)"
+        },
+        {
+          "value": "AFRST_UMNR",
+          "label": "African Studies (UMNR)"
+        },
+        {
+          "value": "ANTH_UMNR",
+          "label": "Anthropology (UMNR)"
+        },
+        {
+          "value": "ARAB_UMNR",
+          "label": "Arabic Language (UMNR)"
+        },
+        {
+          "value": "ASIA_UMNR",
+          "label": "Asian Studies (UMNR)"
+        },
+        {
+          "value": "BLDSP_UMNR",
+          "label": "Black Diaspora Study (UMNR)"
+        },
+        {
+          "value": "BUSLA_UMNR",
+          "label": "Business & Lib Arts (UMNR)"
+        },
+        {
+          "value": "CHNS_UMNR",
+          "label": "Chinese Language (UMNR)"
+        },
+        {
+          "value": "CAMS_UMNR",
+          "label": "Clas/Anc Med Stud (UMNR)"
+        },
+        {
+          "value": "CAS_UMNR",
+          "label": "Comm Arts & Sciences (UMNR)"
+        },
+        {
+          "value": "CWRIT_UMNR",
+          "label": "Creative Writing (UMNR)"
+        },
+        {
+          "value": "DIGHM_UMNR",
+          "label": "Digital Humanities (UMNR)"
+        },
+        {
+          "value": "DBLTY_UMNR",
+          "label": "Disability Studies (UMNR)"
+        },
+        {
+          "value": "DMR_UMNR",
+          "label": "Dispute Mngt & Resol (UMNR)"
+        },
+        {
+          "value": "EEST_UMNR",
+          "label": "East-European Studies (UMNR)"
+        },
+        {
+          "value": "ECON_UMNR",
+          "label": "Economics (UMNR)"
+        },
+        {
+          "value": "ENGL_UMNR",
+          "label": "English (UMNR)"
+        },
+        {
+          "value": "ETHCS_UMNR",
+          "label": "Ethics (UMNR)"
+        },
+        {
+          "value": "FR_UMNR",
+          "label": "Fr & Francophone Std (UMNR)"
+        },
+        {
+          "value": "GER_UMNR",
+          "label": "German (UMNR)"
+        },
+        {
+          "value": "INSTD_UMNR",
+          "label": "Glbl & Int'L Studies (UMNR)"
+        },
+        {
+          "value": "GLBSC_UMNR",
+          "label": "Global Security (UMNR)"
+        },
+        {
+          "value": "GREEK_UMNR",
+          "label": "Greek (UMNR)"
+        },
+        {
+          "value": "HEBR_UMNR",
+          "label": "Hebrew (UMNR)"
+        },
+        {
+          "value": "HIST_UMNR",
+          "label": "History (UMNR)"
+        },
+        {
+          "value": "ISCLR_UMNR",
+          "label": "IST for CAS/LER (UMNR)"
+        },
+        {
+          "value": "ISSA_UMNR",
+          "label": "Info Sys & Stat Anal (UMNR)"
+        },
+        {
+          "value": "ISCAS_UMNR",
+          "label": "Ist for Com Art & Sc (UMNR)"
+        },
+        {
+          "value": "ISLER_UMNR",
+          "label": "Ist for Lbr St/Emp R (UMNR)"
+        },
+        {
+          "value": "IT_UMNR",
+          "label": "Italian (UMNR)"
+        },
+        {
+          "value": "JAPNS_UMNR",
+          "label": "Japanese Language (UMNR)"
+        },
+        {
+          "value": "JST_UMNR",
+          "label": "Jewish Studies (UMNR)"
+        },
+        {
+          "value": "KORLG_UMNR",
+          "label": "Korean Language (UMNR)"
+        },
+        {
+          "value": "LHR_UMNR",
+          "label": "Labor & Human Resources (UMNR)"
+        },
+        {
+          "value": "LATIN_UMNR",
+          "label": "Latin (UMNR)"
+        },
+        {
+          "value": "LATAM_UMNR",
+          "label": "Latin Amercn Studies (UMNR)"
+        },
+        {
+          "value": "LTNST_UMNR",
+          "label": "Latina/Latino Stdies (UMNR)"
+        },
+        {
+          "value": "LEGST_UMNR",
+          "label": "Legal Studies (UMNR)"
+        },
+        {
+          "value": "LA_PMAJ",
+          "label": "Liberal Arts (PMAJ)"
+        },
+        {
+          "value": "LING_UMNR",
+          "label": "Linguistics (UMNR)"
+        },
+        {
+          "value": "MEDVL_UMNR",
+          "label": "Medieval Studies (UMNR)"
+        },
+        {
+          "value": "MESTU_UMNR",
+          "label": "Middle East Studies (UMNR)"
+        },
+        {
+          "value": "OLEAD_UMNR",
+          "label": "Organizational Lead (UMNR)"
+        },
+        {
+          "value": "PASTU_UMNR",
+          "label": "Penna Studies (UMNR)"
+        },
+        {
+          "value": "PHIL_UMNR",
+          "label": "Philosophy (UMNR)"
+        },
+        {
+          "value": "PLSC_UMNR",
+          "label": "Political Science (UMNR)"
+        },
+        {
+          "value": "PPBPL_UMNR",
+          "label": "Politics&Public Policy (UMNR)"
+        },
+        {
+          "value": "PORT_UMNR",
+          "label": "Portuguese (UMNR)"
+        },
+        {
+          "value": "PSY_UMNR",
+          "label": "Psychology (UMNR)"
+        },
+        {
+          "value": "PBPLD_UMNR",
+          "label": "Public Plcy & Ldrship (UMNR)"
+        },
+        {
+          "value": "RLST_UMNR",
+          "label": "Religious Studies (UMNR)"
+        },
+        {
+          "value": "RHET_UMNR",
+          "label": "Rhetoric (UMNR)"
+        },
+        {
+          "value": "RUS_UMNR",
+          "label": "Russian (UMNR)"
+        },
+        {
+          "value": "RUSSA_UMNR",
+          "label": "Russian Area Studies (UMNR)"
+        },
+        {
+          "value": "RUST_UMNR",
+          "label": "Russian Translation (UMNR)"
+        },
+        {
+          "value": "SGS_UMNR",
+          "label": "Sexuality&Gender Std (UMNR)"
+        },
+        {
+          "value": "SOC_UMNR",
+          "label": "Sociology (UMNR)"
+        },
+        {
+          "value": "SPAN_UMNR",
+          "label": "Spanish (UMNR)"
+        },
+        {
+          "value": "TESOL_UMNR",
+          "label": "Tch Eng Spkr Otr Lng (UMNR)"
+        },
+        {
+          "value": "TEHWR_UMNR",
+          "label": "Technical Writing (UMNR)"
+        },
+        {
+          "value": "WMNST_UMNR",
+          "label": "Women's Studies (UMNR)"
+        },
+        {
+          "value": "WLIT_UMNR",
+          "label": "World Literature (UMNR)"
+        }
+      ],
+      "associate": [
+        {
+          "value": "2LAS_AA",
+          "label": "Multidisciplinary Studies (AA)"
+        },
+        {
+          "value": "2LHR_AS",
+          "label": "Labor & Human Resources (AS)"
+        }
+      ]
+    },
+    "Nursing": {
+      "major": [
+        {
+          "value": "NURN_BSN",
+          "label": "Nursing (BSN)"
+        },
+        {
+          "value": "NURS_BSN",
+          "label": "Nursing (BSN)"
+        }
+      ],
+      "minor": [
+        {
+          "value": "NRCOM_PMAJ",
+          "label": "Nursing (PMAJ)"
+        }
+      ]
+    },
+    "Science": {
+      "major": [
+        {
+          "value": "ASTRO_BS",
+          "label": "Astro & Astrophysics (BS)"
+        },
+        {
+          "value": "BMB_BS",
+          "label": "Biochem & Molec Biol (BS)"
+        },
+        {
+          "value": "BIOL_BS",
+          "label": "Biology (BS)"
+        },
+        {
+          "value": "BIOTC_BS",
+          "label": "Biotechnology (BS)"
+        },
+        {
+          "value": "CHEM_BS",
+          "label": "Chemistry (BS)"
+        },
+        {
+          "value": "DTSCS_BS",
+          "label": "Data Sciences (BS)"
+        },
+        {
+          "value": "FRNSC_BS",
+          "label": "Forensic Science (BS)"
+        },
+        {
+          "value": "SCBS_BS",
+          "label": "Integrative Science (BS)"
+        },
+        {
+          "value": "MTHBA_BA",
+          "label": "Mathematics (BA)"
+        },
+        {
+          "value": "MTHBS_BS",
+          "label": "Mathematics (BS)"
+        },
+        {
+          "value": "MICRB_BS",
+          "label": "Microbiology (BS)"
+        },
+        {
+          "value": "PHYS_BS",
+          "label": "Physics (BS)"
+        },
+        {
+          "value": "PASTR_BS",
+          "label": "Plantary Scn & Astro (BS)"
+        },
+        {
+          "value": "PMM_BS",
+          "label": "Premedical - Medical (BS)"
+        },
+        {
+          "value": "PM_BS",
+          "label": "Premedicine (BS)"
+        },
+        {
+          "value": "SCBUS_BS",
+          "label": "Science (BS)"
+        },
+        {
+          "value": "STAT_BS",
+          "label": "Statistics (BS)"
+        }
+      ],
+      "minor": [
+        {
+          "value": "ASTRO_UMNR",
+          "label": "Astro & Astrophysics (UMNR)"
+        },
+        {
+          "value": "BMB_UMNR",
+          "label": "Bioch & Molecul Bio (UMNR)"
+        },
+        {
+          "value": "BIOL_UMNR",
+          "label": "Biology (UMNR)"
+        },
+        {
+          "value": "CHEM_UMNR",
+          "label": "Chemistry (UMNR)"
+        },
+        {
+          "value": "PDTSC_PMAJ",
+          "label": "Data Sciences (PMAJ)"
+        },
+        {
+          "value": "ISMTH_UMNR",
+          "label": "Ist for Mathematics (UMNR)"
+        },
+        {
+          "value": "MARSC_UMNR",
+          "label": "Marine Science (UMNR)"
+        },
+        {
+          "value": "MATH_UMNR",
+          "label": "Mathematics (UMNR)"
+        },
+        {
+          "value": "MICRB_UMNR",
+          "label": "Microbiology (UMNR)"
+        },
+        {
+          "value": "NATSC_UMNR",
+          "label": "Natural Science (UMNR)"
+        },
+        {
+          "value": "PHYS_UMNR",
+          "label": "Physics (UMNR)"
+        },
+        {
+          "value": "PASTR_UMNR",
+          "label": "Plantary Scn & Astro (UMNR)"
+        },
+        {
+          "value": "QISEN_UMNR",
+          "label": "Quantum Info Sci & Engr (UMNR)"
+        },
+        {
+          "value": "SCIEN_PMAJ",
+          "label": "Science (PMAJ)"
+        },
+        {
+          "value": "STAT_UMNR",
+          "label": "Statistics (UMNR)"
+        }
+      ]
+    },
+    "Smeal College of Business": {
+      "major": [
+        {
+          "value": "ACCTG_BS",
+          "label": "Accounting (BS)"
+        },
+        {
+          "value": "ACTSC_BS",
+          "label": "Actuarial Science (BS)"
+        },
+        {
+          "value": "CIENT_BS",
+          "label": "Corp Innov & Entrep (BS)"
+        },
+        {
+          "value": "FIN_BS",
+          "label": "Finance (BS)"
+        },
+        {
+          "value": "MGMT_BS",
+          "label": "Management (BS)"
+        },
+        {
+          "value": "MIS_BS",
+          "label": "Management Info Sys (BS)"
+        },
+        {
+          "value": "MKTG_BS",
+          "label": "Marketing (BS)"
+        },
+        {
+          "value": "REST_BS",
+          "label": "Real Estate (BS)"
+        },
+        {
+          "value": "RM_BS",
+          "label": "Risk Management (BS)"
+        },
+        {
+          "value": "SCIS_BS",
+          "label": "Sply Chain/Info Syst (BS)"
+        }
+      ],
+      "minor": [
+        {
+          "value": "BA_PMAJ",
+          "label": "Business Admin (PMAJ)"
+        },
+        {
+          "value": "BLOG_UMNR",
+          "label": "Business Log (UMNR)"
+        },
+        {
+          "value": "ISM_UMNR",
+          "label": "Infor Systems Mangmt (UMNR)"
+        },
+        {
+          "value": "INS_UMNR",
+          "label": "Insurance (UMNR)"
+        },
+        {
+          "value": "IB_UMNR",
+          "label": "Internatl Business (UMNR)"
+        },
+        {
+          "value": "LEBUS_UMNR",
+          "label": "Legal Envrn of Bus (UMNR)"
+        },
+        {
+          "value": "REST_UMNR",
+          "label": "Real Estate (UMNR)"
+        },
+        {
+          "value": "SCIS_UMNR",
+          "label": "Sply Chain/Info Syst (UMNR)"
+        },
+        {
+          "value": "SCIST_UMNR",
+          "label": "Supply Chain & Ist (UMNR)"
+        }
+      ]
+    }
+  }

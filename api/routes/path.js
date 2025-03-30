@@ -5,6 +5,8 @@ const fs = require('fs').promises; // Use promises for asynchronous file reading
 const db = require('../lib/db.js');
 const multer = require('multer');
 const pdfParse = require('pdf-parse');
+const { responseSchema } = require('../ai_src/path-schema.js'); 
+const { prompt } = require('../ai_src/path-prompt.js'); 
 
 // Access your API key as an environment variable
 const genAI = new GoogleGenerativeAI(process.env.GEMINI_API_KEY);
@@ -25,9 +27,6 @@ async function convertPdfToText(fileBuffer) {
 
 async function generatePrompt(sessionId) {
   try {
-    // Read the prompt from the prompt.txt file
-    const basePrompt = await fs.readFile('./ai_src/prompt.txt', 'utf8');
-
     // Fetch user data
     const user = await db.search('users', 'session_id', sessionId);
     const preferences = await db.search('preferences', 'session_id', sessionId);
@@ -53,7 +52,7 @@ async function generatePrompt(sessionId) {
     `;
 
     // Combine base prompt with user data
-    const fullPrompt = `${basePrompt}\n\nUser Information:\n${userData}`;
+    const fullPrompt = `${prompt}\n\nUser Information:\n${userData}`;
     return fullPrompt;
 
   } catch (error) {
@@ -63,19 +62,34 @@ async function generatePrompt(sessionId) {
 }
 
 async function generateRecommendation(sessionId) {
-  const model = genAI.getGenerativeModel({ model: "gemini-2.0-flash" }); // Or "gemini-2.0-flash"
+  const model = genAI.getGenerativeModel({ 
+    model: "gemini-2.0-flash",
+    generationConfig: {
+      temperature: 0.7,
+      topP: 0.9,
+      topK: 40,
+      maxOutputTokens: 8192 // Request maximum token length
+    }
+   });
 
   try {
     const prompt = await generatePrompt(sessionId);
-    const fullPrompt = `${prompt}\n\nRespond with a JSON object that conforms to the schema:\n\`\`\`json\n{\n  \"major\": {\n    \"type\": \"string\",\n    \"description\": \"The recommended college major.\"\n  },\n  \"suggested_courses\": {\n    \"type\": \"array\",\n    \"description\": \"A list of suggested courses for the first year.\",\n    \"items\": {\n      \"type\": \"string\"\n    }\n  },\n  \"extracurricular_activities\": {\n    \"type\": \"array\",\n    \"description\": \"A list of suggested extracurricular activities.\",\n    \"items\": {\n      \"type\": \"string\"\n    }\n  }\n}\n\`\`\`\nEnsure the response is valid JSON.`;
+    
+    console.log("Prompt sent to Gemini:", prompt); // Log the prompt
 
-    console.log("Prompt sent to Gemini:", fullPrompt); // Log the prompt
+    // Generate content with structured output configuration
+    const result = await model.generateContent({
+      contents: [{ role: "user", parts: [{ text: prompt }] }],
+      generationConfig: {
+        responseMimeType: "application/json",
+        responseSchema: responseSchema
+      }
+    });
 
-    const result = await model.generateContent(fullPrompt);
     const response = await result.response;
     const text = response.text();
-
-    // Attempt to parse the response as JSON
+    
+    // The response should already be valid JSON, but we'll parse it to be safe
     let structuredOutput = null;
     try {
       structuredOutput = JSON.parse(text);

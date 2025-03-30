@@ -1,0 +1,3230 @@
+[
+    {
+      "time": "Sat Mar 29 16:46:20 EDT 2025",
+      "url": "https://pennstate.collegescheduler.com/api/terms/Fall%202025/subjects/CMPSC/courses/code/regblocks",
+      "registrationBlocks": [
+        {
+          "registrationBlocks": [],
+          "sections": []
+        }
+      ]
+    },
+    {
+      "time": "Sat Mar 29 16:46:20 EDT 2025",
+      "url": "https://pennstate.collegescheduler.com/api/terms/Fall%202025/subjects/CMPSC/courses/100/regblocks",
+      "registrationBlocks": [
+        {
+          "id": "CMPSC;;100@10349",
+          "sectionIds": [
+            "10349"
+          ],
+          "optionalSectionIds": [],
+          "selected": true,
+          "showLock": false,
+          "enabled": true,
+          "disabledReasons": [],
+          "desiredCourseId": null,
+          "lcId": null
+        }
+      ]
+    },
+    {
+      "time": "Sat Mar 29 16:46:20 EDT 2025",
+      "url": "https://pennstate.collegescheduler.com/api/terms/Fall%202025/subjects/CMPSC/courses/101/regblocks",
+      "registrationBlocks": [
+        {
+          "id": "CMPSC;;101@10350",
+          "sectionIds": [
+            "10350"
+          ],
+          "optionalSectionIds": [],
+          "selected": true,
+          "showLock": false,
+          "enabled": false,
+          "disabledReasons": [
+            "The campus \"Altoona\" is not selected."
+          ],
+          "desiredCourseId": null,
+          "lcId": null
+        },
+        {
+          "id": "CMPSC;;101@10351",
+          "sectionIds": [
+            "10351"
+          ],
+          "optionalSectionIds": [],
+          "selected": true,
+          "showLock": false,
+          "enabled": false,
+          "disabledReasons": [
+            "The campus \"Berks\" is not selected."
+          ],
+          "desiredCourseId": null,
+          "lcId": null
+        },
+        {
+          "id": "CMPSC;;101@10352",
+          "sectionIds": [
+            "10352"
+          ],
+          "optionalSectionIds": [],
+          "selected": true,
+          "showLock": false,
+          "enabled": false,
+          "disabledReasons": [
+            "The campus \"Harrisburg\" is not selected."
+          ],
+          "desiredCourseId": null,
+          "lcId": null
+        },
+        {
+          "id": "CMPSC;;101@10353-10894",
+          "sectionIds": [
+            "10353",
+            "10894"
+          ],
+          "optionalSectionIds": [],
+          "selected": true,
+          "showLock": false,
+          "enabled": true,
+          "disabledReasons": [],
+          "desiredCourseId": null,
+          "lcId": null
+        },
+        {
+          "id": "CMPSC;;101@10353-10895",
+          "sectionIds": [
+            "10353",
+            "10895"
+          ],
+          "optionalSectionIds": [],
+          "selected": true,
+          "showLock": false,
+          "enabled": true,
+          "disabledReasons": [],
+          "desiredCourseId": null,
+          "lcId": null
+        },
+        {
+          "id": "CMPSC;;101@10353-11196",
+          "sectionIds": [
+            "10353",
+            "11196"
+          ],
+          "optionalSectionIds": [],
+          "selected": true,
+          "showLock": false,
+          "enabled": true,
+          "disabledReasons": [],
+          "desiredCourseId": null,
+          "lcId": null
+        },
+        {
+          "id": "CMPSC;;101@10354",
+          "sectionIds": [
+            "10354"
+          ],
+          "optionalSectionIds": [],
+          "selected": true,
+          "showLock": false,
+          "enabled": false,
+          "disabledReasons": [
+            "The campus \"Wilkes-Barre\" is not selected."
+          ],
+          "desiredCourseId": null,
+          "lcId": null
+        },
+        {
+          "id": "CMPSC;;101@10355",
+          "sectionIds": [
+            "10355"
+          ],
+          "optionalSectionIds": [],
+          "selected": true,
+          "showLock": false,
+          "enabled": false,
+          "disabledReasons": [
+            "The campus \"World Campus\" is not selected."
+          ],
+          "desiredCourseId": null,
+          "lcId": null
+        }
+      ]
+    },
+    {
+      "time": "Sat Mar 29 16:46:21 EDT 2025",
+      "url": "https://pennstate.collegescheduler.com/api/terms/Fall%202025/subjects/CMPSC/courses/111/regblocks",
+      "registrationBlocks": [
+        {
+          "id": "CMPSC;;111@11834",
+          "sectionIds": [
+            "11834"
+          ],
+          "optionalSectionIds": [],
+          "selected": true,
+          "showLock": false,
+          "enabled": true,
+          "disabledReasons": [],
+          "desiredCourseId": null,
+          "lcId": null
+        },
+        {
+          "id": "CMPSC;;111@27408",
+          "sectionIds": [
+            "27408"
+          ],
+          "optionalSectionIds": [],
+          "selected": true,
+          "showLock": false,
+          "enabled": true,
+          "disabledReasons": [],
+          "desiredCourseId": null,
+          "lcId": null
+        }
+      ]
+    },
+    {
+      "time": "Sat Mar 29 16:46:21 EDT 2025",
+      "url": "https://pennstate.collegescheduler.com/api/terms/Fall%202025/subjects/CMPSC/courses/131/regblocks",
+      "registrationBlocks": [
+        {
+          "id": "CMPSC;;131@11242-11243",
+          "sectionIds": [
+            "11242",
+            "11243"
+          ],
+          "optionalSectionIds": [],
+          "selected": true,
+          "showLock": false,
+          "enabled": true,
+          "disabledReasons": [],
+          "desiredCourseId": null,
+          "lcId": null
+        },
+        {
+          "id": "CMPSC;;131@11242-11244",
+          "sectionIds": [
+            "11242",
+            "11244"
+          ],
+          "optionalSectionIds": [],
+          "selected": true,
+          "showLock": false,
+          "enabled": true,
+          "disabledReasons": [],
+          "desiredCourseId": null,
+          "lcId": null
+        },
+        {
+          "id": "CMPSC;;131@11242-11245",
+          "sectionIds": [
+            "11242",
+            "11245"
+          ],
+          "optionalSectionIds": [],
+          "selected": true,
+          "showLock": false,
+          "enabled": true,
+          "disabledReasons": [],
+          "desiredCourseId": null,
+          "lcId": null
+        },
+        {
+          "id": "CMPSC;;131@11242-11246",
+          "sectionIds": [
+            "11242",
+            "11246"
+          ],
+          "optionalSectionIds": [],
+          "selected": true,
+          "showLock": false,
+          "enabled": true,
+          "disabledReasons": [],
+          "desiredCourseId": null,
+          "lcId": null
+        },
+        {
+          "id": "CMPSC;;131@11242-11247",
+          "sectionIds": [
+            "11242",
+            "11247"
+          ],
+          "optionalSectionIds": [],
+          "selected": true,
+          "showLock": false,
+          "enabled": true,
+          "disabledReasons": [],
+          "desiredCourseId": null,
+          "lcId": null
+        },
+        {
+          "id": "CMPSC;;131@11242-11248",
+          "sectionIds": [
+            "11242",
+            "11248"
+          ],
+          "optionalSectionIds": [],
+          "selected": true,
+          "showLock": false,
+          "enabled": true,
+          "disabledReasons": [],
+          "desiredCourseId": null,
+          "lcId": null
+        },
+        {
+          "id": "CMPSC;;131@11242-11249",
+          "sectionIds": [
+            "11242",
+            "11249"
+          ],
+          "optionalSectionIds": [],
+          "selected": true,
+          "showLock": false,
+          "enabled": true,
+          "disabledReasons": [],
+          "desiredCourseId": null,
+          "lcId": null
+        },
+        {
+          "id": "CMPSC;;131@11242-11327",
+          "sectionIds": [
+            "11242",
+            "11327"
+          ],
+          "optionalSectionIds": [],
+          "selected": true,
+          "showLock": false,
+          "enabled": true,
+          "disabledReasons": [],
+          "desiredCourseId": null,
+          "lcId": null
+        },
+        {
+          "id": "CMPSC;;131@11242-11445",
+          "sectionIds": [
+            "11242",
+            "11445"
+          ],
+          "optionalSectionIds": [],
+          "selected": true,
+          "showLock": false,
+          "enabled": true,
+          "disabledReasons": [],
+          "desiredCourseId": null,
+          "lcId": null
+        },
+        {
+          "id": "CMPSC;;131@11242-11446",
+          "sectionIds": [
+            "11242",
+            "11446"
+          ],
+          "optionalSectionIds": [],
+          "selected": true,
+          "showLock": false,
+          "enabled": true,
+          "disabledReasons": [],
+          "desiredCourseId": null,
+          "lcId": null
+        },
+        {
+          "id": "CMPSC;;131@11242-11670",
+          "sectionIds": [
+            "11242",
+            "11670"
+          ],
+          "optionalSectionIds": [],
+          "selected": true,
+          "showLock": false,
+          "enabled": true,
+          "disabledReasons": [],
+          "desiredCourseId": null,
+          "lcId": null
+        },
+        {
+          "id": "CMPSC;;131@11242-11671",
+          "sectionIds": [
+            "11242",
+            "11671"
+          ],
+          "optionalSectionIds": [],
+          "selected": true,
+          "showLock": false,
+          "enabled": true,
+          "disabledReasons": [],
+          "desiredCourseId": null,
+          "lcId": null
+        },
+        {
+          "id": "CMPSC;;131@11242-12067",
+          "sectionIds": [
+            "11242",
+            "12067"
+          ],
+          "optionalSectionIds": [],
+          "selected": true,
+          "showLock": false,
+          "enabled": true,
+          "disabledReasons": [],
+          "desiredCourseId": null,
+          "lcId": null
+        },
+        {
+          "id": "CMPSC;;131@11242-12069",
+          "sectionIds": [
+            "11242",
+            "12069"
+          ],
+          "optionalSectionIds": [],
+          "selected": true,
+          "showLock": false,
+          "enabled": true,
+          "disabledReasons": [],
+          "desiredCourseId": null,
+          "lcId": null
+        },
+        {
+          "id": "CMPSC;;131@11242-12104",
+          "sectionIds": [
+            "11242",
+            "12104"
+          ],
+          "optionalSectionIds": [],
+          "selected": true,
+          "showLock": false,
+          "enabled": true,
+          "disabledReasons": [],
+          "desiredCourseId": null,
+          "lcId": null
+        },
+        {
+          "id": "CMPSC;;131@11259-11443",
+          "sectionIds": [
+            "11259",
+            "11443"
+          ],
+          "optionalSectionIds": [],
+          "selected": true,
+          "showLock": false,
+          "enabled": false,
+          "disabledReasons": [
+            "The campus \"Berks\" is not selected."
+          ],
+          "desiredCourseId": null,
+          "lcId": null
+        },
+        {
+          "id": "CMPSC;;131@11259-11502",
+          "sectionIds": [
+            "11259",
+            "11502"
+          ],
+          "optionalSectionIds": [],
+          "selected": true,
+          "showLock": false,
+          "enabled": false,
+          "disabledReasons": [
+            "The campus \"Berks\" is not selected."
+          ],
+          "desiredCourseId": null,
+          "lcId": null
+        },
+        {
+          "id": "CMPSC;;131@11266",
+          "sectionIds": [
+            "11266"
+          ],
+          "optionalSectionIds": [],
+          "selected": true,
+          "showLock": false,
+          "enabled": false,
+          "disabledReasons": [
+            "The campus \"Abington\" is not selected."
+          ],
+          "desiredCourseId": null,
+          "lcId": null
+        },
+        {
+          "id": "CMPSC;;131@11267",
+          "sectionIds": [
+            "11267"
+          ],
+          "optionalSectionIds": [],
+          "selected": true,
+          "showLock": false,
+          "enabled": false,
+          "disabledReasons": [
+            "The campus \"Abington\" is not selected."
+          ],
+          "desiredCourseId": null,
+          "lcId": null
+        },
+        {
+          "id": "CMPSC;;131@11381",
+          "sectionIds": [
+            "11381"
+          ],
+          "optionalSectionIds": [],
+          "selected": true,
+          "showLock": false,
+          "enabled": false,
+          "disabledReasons": [
+            "The campus \"Altoona\" is not selected."
+          ],
+          "desiredCourseId": null,
+          "lcId": null
+        },
+        {
+          "id": "CMPSC;;131@11382",
+          "sectionIds": [
+            "11382"
+          ],
+          "optionalSectionIds": [],
+          "selected": true,
+          "showLock": false,
+          "enabled": false,
+          "disabledReasons": [
+            "The campus \"Altoona\" is not selected."
+          ],
+          "desiredCourseId": null,
+          "lcId": null
+        },
+        {
+          "id": "CMPSC;;131@11840",
+          "sectionIds": [
+            "11840"
+          ],
+          "optionalSectionIds": [],
+          "selected": true,
+          "showLock": false,
+          "enabled": false,
+          "disabledReasons": [
+            "The campus \"Harrisburg\" is not selected."
+          ],
+          "desiredCourseId": null,
+          "lcId": null
+        },
+        {
+          "id": "CMPSC;;131@11841",
+          "sectionIds": [
+            "11841"
+          ],
+          "optionalSectionIds": [],
+          "selected": true,
+          "showLock": false,
+          "enabled": false,
+          "disabledReasons": [
+            "The campus \"Harrisburg\" is not selected."
+          ],
+          "desiredCourseId": null,
+          "lcId": null
+        },
+        {
+          "id": "CMPSC;;131@11842",
+          "sectionIds": [
+            "11842"
+          ],
+          "optionalSectionIds": [],
+          "selected": true,
+          "showLock": false,
+          "enabled": false,
+          "disabledReasons": [
+            "The campus \"Harrisburg\" is not selected."
+          ],
+          "desiredCourseId": null,
+          "lcId": null
+        },
+        {
+          "id": "CMPSC;;131@11844",
+          "sectionIds": [
+            "11844"
+          ],
+          "optionalSectionIds": [],
+          "selected": true,
+          "showLock": false,
+          "enabled": false,
+          "disabledReasons": [
+            "The campus \"Harrisburg\" is not selected."
+          ],
+          "desiredCourseId": null,
+          "lcId": null
+        },
+        {
+          "id": "CMPSC;;131@11853",
+          "sectionIds": [
+            "11853"
+          ],
+          "optionalSectionIds": [],
+          "selected": true,
+          "showLock": false,
+          "enabled": false,
+          "disabledReasons": [
+            "The campus \"Beaver\" is not selected."
+          ],
+          "desiredCourseId": null,
+          "lcId": null
+        },
+        {
+          "id": "CMPSC;;131@11859",
+          "sectionIds": [
+            "11859"
+          ],
+          "optionalSectionIds": [],
+          "selected": true,
+          "showLock": false,
+          "enabled": false,
+          "disabledReasons": [
+            "The campus \"Brandywine\" is not selected."
+          ],
+          "desiredCourseId": null,
+          "lcId": null
+        },
+        {
+          "id": "CMPSC;;131@11860",
+          "sectionIds": [
+            "11860"
+          ],
+          "optionalSectionIds": [],
+          "selected": true,
+          "showLock": false,
+          "enabled": false,
+          "disabledReasons": [
+            "The campus \"Brandywine\" is not selected."
+          ],
+          "desiredCourseId": null,
+          "lcId": null
+        },
+        {
+          "id": "CMPSC;;131@11861",
+          "sectionIds": [
+            "11861"
+          ],
+          "optionalSectionIds": [],
+          "selected": true,
+          "showLock": false,
+          "enabled": false,
+          "disabledReasons": [
+            "The campus \"Brandywine\" is not selected."
+          ],
+          "desiredCourseId": null,
+          "lcId": null
+        },
+        {
+          "id": "CMPSC;;131@12185",
+          "sectionIds": [
+            "12185"
+          ],
+          "optionalSectionIds": [],
+          "selected": true,
+          "showLock": false,
+          "enabled": false,
+          "disabledReasons": [
+            "The campus \"Hazleton\" is not selected."
+          ],
+          "desiredCourseId": null,
+          "lcId": null
+        },
+        {
+          "id": "CMPSC;;131@12223",
+          "sectionIds": [
+            "12223"
+          ],
+          "optionalSectionIds": [],
+          "selected": true,
+          "showLock": false,
+          "enabled": false,
+          "disabledReasons": [
+            "The campus \"Lehigh Valley\" is not selected."
+          ],
+          "desiredCourseId": null,
+          "lcId": null
+        },
+        {
+          "id": "CMPSC;;131@12457",
+          "sectionIds": [
+            "12457"
+          ],
+          "optionalSectionIds": [],
+          "selected": true,
+          "showLock": false,
+          "enabled": false,
+          "disabledReasons": [
+            "The campus \"Abington\" is not selected."
+          ],
+          "desiredCourseId": null,
+          "lcId": null
+        },
+        {
+          "id": "CMPSC;;131@12480",
+          "sectionIds": [
+            "12480"
+          ],
+          "optionalSectionIds": [],
+          "selected": true,
+          "showLock": false,
+          "enabled": false,
+          "disabledReasons": [
+            "The campus \"Harrisburg\" is not selected."
+          ],
+          "desiredCourseId": null,
+          "lcId": null
+        },
+        {
+          "id": "CMPSC;;131@12490",
+          "sectionIds": [
+            "12490"
+          ],
+          "optionalSectionIds": [],
+          "selected": true,
+          "showLock": false,
+          "enabled": false,
+          "disabledReasons": [
+            "The campus \"Abington\" is not selected."
+          ],
+          "desiredCourseId": null,
+          "lcId": null
+        },
+        {
+          "id": "CMPSC;;131@12651",
+          "sectionIds": [
+            "12651"
+          ],
+          "optionalSectionIds": [],
+          "selected": true,
+          "showLock": false,
+          "enabled": false,
+          "disabledReasons": [
+            "The campus \"Abington\" is not selected."
+          ],
+          "desiredCourseId": null,
+          "lcId": null
+        },
+        {
+          "id": "CMPSC;;131@28755",
+          "sectionIds": [
+            "28755"
+          ],
+          "optionalSectionIds": [],
+          "selected": true,
+          "showLock": false,
+          "enabled": false,
+          "disabledReasons": [
+            "The campus \"Shenango\" is not selected."
+          ],
+          "desiredCourseId": null,
+          "lcId": null
+        }
+      ]
+    },
+    {
+      "time": "Sat Mar 29 16:46:21 EDT 2025",
+      "url": "https://pennstate.collegescheduler.com/api/terms/Fall%202025/subjects/CMPSC/courses/132/regblocks",
+      "registrationBlocks": [
+        {
+          "id": "CMPSC;;132@11251-11252",
+          "sectionIds": [
+            "11251",
+            "11252"
+          ],
+          "optionalSectionIds": [],
+          "selected": true,
+          "showLock": false,
+          "enabled": true,
+          "disabledReasons": [],
+          "desiredCourseId": null,
+          "lcId": null
+        },
+        {
+          "id": "CMPSC;;132@11251-11253",
+          "sectionIds": [
+            "11251",
+            "11253"
+          ],
+          "optionalSectionIds": [],
+          "selected": true,
+          "showLock": false,
+          "enabled": true,
+          "disabledReasons": [],
+          "desiredCourseId": null,
+          "lcId": null
+        },
+        {
+          "id": "CMPSC;;132@11251-11254",
+          "sectionIds": [
+            "11251",
+            "11254"
+          ],
+          "optionalSectionIds": [],
+          "selected": true,
+          "showLock": false,
+          "enabled": true,
+          "disabledReasons": [],
+          "desiredCourseId": null,
+          "lcId": null
+        },
+        {
+          "id": "CMPSC;;132@11251-11255",
+          "sectionIds": [
+            "11251",
+            "11255"
+          ],
+          "optionalSectionIds": [],
+          "selected": true,
+          "showLock": false,
+          "enabled": true,
+          "disabledReasons": [],
+          "desiredCourseId": null,
+          "lcId": null
+        },
+        {
+          "id": "CMPSC;;132@11251-11256",
+          "sectionIds": [
+            "11251",
+            "11256"
+          ],
+          "optionalSectionIds": [],
+          "selected": true,
+          "showLock": false,
+          "enabled": true,
+          "disabledReasons": [],
+          "desiredCourseId": null,
+          "lcId": null
+        },
+        {
+          "id": "CMPSC;;132@11251-11299",
+          "sectionIds": [
+            "11251",
+            "11299"
+          ],
+          "optionalSectionIds": [],
+          "selected": true,
+          "showLock": false,
+          "enabled": true,
+          "disabledReasons": [],
+          "desiredCourseId": null,
+          "lcId": null
+        },
+        {
+          "id": "CMPSC;;132@11251-11300",
+          "sectionIds": [
+            "11251",
+            "11300"
+          ],
+          "optionalSectionIds": [],
+          "selected": true,
+          "showLock": false,
+          "enabled": true,
+          "disabledReasons": [],
+          "desiredCourseId": null,
+          "lcId": null
+        },
+        {
+          "id": "CMPSC;;132@11251-11354",
+          "sectionIds": [
+            "11251",
+            "11354"
+          ],
+          "optionalSectionIds": [],
+          "selected": true,
+          "showLock": false,
+          "enabled": true,
+          "disabledReasons": [],
+          "desiredCourseId": null,
+          "lcId": null
+        },
+        {
+          "id": "CMPSC;;132@11268",
+          "sectionIds": [
+            "11268"
+          ],
+          "optionalSectionIds": [],
+          "selected": true,
+          "showLock": false,
+          "enabled": false,
+          "disabledReasons": [
+            "The campus \"Abington\" is not selected."
+          ],
+          "desiredCourseId": null,
+          "lcId": null
+        },
+        {
+          "id": "CMPSC;;132@11342",
+          "sectionIds": [
+            "11342"
+          ],
+          "optionalSectionIds": [],
+          "selected": true,
+          "showLock": false,
+          "enabled": false,
+          "disabledReasons": [
+            "The campus \"Hazleton\" is not selected."
+          ],
+          "desiredCourseId": null,
+          "lcId": null
+        },
+        {
+          "id": "CMPSC;;132@11345",
+          "sectionIds": [
+            "11345"
+          ],
+          "optionalSectionIds": [],
+          "selected": true,
+          "showLock": false,
+          "enabled": false,
+          "disabledReasons": [
+            "The campus \"Wilkes-Barre\" is not selected."
+          ],
+          "desiredCourseId": null,
+          "lcId": null
+        },
+        {
+          "id": "CMPSC;;132@11368",
+          "sectionIds": [
+            "11368"
+          ],
+          "optionalSectionIds": [],
+          "selected": true,
+          "showLock": false,
+          "enabled": false,
+          "disabledReasons": [
+            "The campus \"York\" is not selected."
+          ],
+          "desiredCourseId": null,
+          "lcId": null
+        },
+        {
+          "id": "CMPSC;;132@11383",
+          "sectionIds": [
+            "11383"
+          ],
+          "optionalSectionIds": [],
+          "selected": true,
+          "showLock": false,
+          "enabled": false,
+          "disabledReasons": [
+            "The campus \"Altoona\" is not selected."
+          ],
+          "desiredCourseId": null,
+          "lcId": null
+        },
+        {
+          "id": "CMPSC;;132@11846",
+          "sectionIds": [
+            "11846"
+          ],
+          "optionalSectionIds": [],
+          "selected": true,
+          "showLock": false,
+          "enabled": false,
+          "disabledReasons": [
+            "The campus \"Abington\" is not selected."
+          ],
+          "desiredCourseId": null,
+          "lcId": null
+        },
+        {
+          "id": "CMPSC;;132@11862",
+          "sectionIds": [
+            "11862"
+          ],
+          "optionalSectionIds": [],
+          "selected": true,
+          "showLock": false,
+          "enabled": false,
+          "disabledReasons": [
+            "The campus \"Brandywine\" is not selected."
+          ],
+          "desiredCourseId": null,
+          "lcId": null
+        },
+        {
+          "id": "CMPSC;;132@12183",
+          "sectionIds": [
+            "12183"
+          ],
+          "optionalSectionIds": [],
+          "selected": true,
+          "showLock": false,
+          "enabled": false,
+          "disabledReasons": [
+            "The campus \"Harrisburg\" is not selected."
+          ],
+          "desiredCourseId": null,
+          "lcId": null
+        },
+        {
+          "id": "CMPSC;;132@12224",
+          "sectionIds": [
+            "12224"
+          ],
+          "optionalSectionIds": [],
+          "selected": true,
+          "showLock": false,
+          "enabled": false,
+          "disabledReasons": [
+            "The campus \"Harrisburg\" is not selected."
+          ],
+          "desiredCourseId": null,
+          "lcId": null
+        },
+        {
+          "id": "CMPSC;;132@12752",
+          "sectionIds": [
+            "12752"
+          ],
+          "optionalSectionIds": [],
+          "selected": true,
+          "showLock": false,
+          "enabled": false,
+          "disabledReasons": [
+            "The campus \"Beaver\" is not selected."
+          ],
+          "desiredCourseId": null,
+          "lcId": null
+        }
+      ]
+    },
+    {
+      "time": "Sat Mar 29 16:46:21 EDT 2025",
+      "url": "https://pennstate.collegescheduler.com/api/terms/Fall%202025/subjects/CMPSC/courses/197/regblocks",
+      "registrationBlocks": [
+        {
+          "id": "CMPSC;;197@26861",
+          "sectionIds": [
+            "26861"
+          ],
+          "optionalSectionIds": [],
+          "selected": true,
+          "showLock": false,
+          "enabled": true,
+          "disabledReasons": [],
+          "desiredCourseId": null,
+          "lcId": null
+        }
+      ]
+    },
+    {
+      "time": "Sat Mar 29 16:46:21 EDT 2025",
+      "url": "https://pennstate.collegescheduler.com/api/terms/Fall%202025/subjects/CMPSC/courses/200/regblocks",
+      "registrationBlocks": [
+        {
+          "id": "CMPSC;;200@10385",
+          "sectionIds": [
+            "10385"
+          ],
+          "optionalSectionIds": [],
+          "selected": true,
+          "showLock": false,
+  "enabled": false,
+    "disabledReasons": [
+      "The campus \"Harrisburg\" is not selected."
+    ],
+    "desiredCourseId": null,
+    "lcId": null
+  },
+  {
+    "id": "CMPSC;;200@10386",
+    "sectionIds": [
+      "10386"
+    ],
+    "optionalSectionIds": [],
+    "selected": true,
+    "showLock": false,
+    "enabled": false,
+    "disabledReasons": [
+      "The campus \"Harrisburg\" is not selected."
+    ],
+    "desiredCourseId": null,
+    "lcId": null
+  },
+  {
+    "id": "CMPSC;;200@10784",
+    "sectionIds": [
+      "10784"
+    ],
+    "optionalSectionIds": [],
+    "selected": true,
+    "showLock": false,
+    "enabled": false,
+    "disabledReasons": [
+      "The campus \"Berks\" is not selected."
+    ],
+    "desiredCourseId": null,
+    "lcId": null
+  },
+  {
+    "id": "CMPSC;;200@10827",
+    "sectionIds": [
+      "10827"
+    ],
+    "optionalSectionIds": [],
+    "selected": true,
+    "showLock": false,
+    "enabled": false,
+    "disabledReasons": [
+      "The campus \"Erie\" is not selected."
+    ],
+    "desiredCourseId": null,
+    "lcId": null
+  },
+  {
+    "id": "CMPSC;;200@10828",
+    "sectionIds": [
+      "10828"
+    ],
+    "optionalSectionIds": [],
+    "selected": true,
+    "showLock": false,
+    "enabled": false,
+    "disabledReasons": [
+      "The campus \"Erie\" is not selected."
+    ],
+    "desiredCourseId": null,
+    "lcId": null
+  },
+  {
+    "id": "CMPSC;;200@10896-10957",
+    "sectionIds": [
+      "10957",
+      "10896"
+    ],
+    "optionalSectionIds": [],
+    "selected": true,
+    "showLock": false,
+    "enabled": true,
+    "disabledReasons": [],
+    "desiredCourseId": null,
+    "lcId": null
+  },
+  {
+    "id": "CMPSC;;200@10897-10957",
+    "sectionIds": [
+      "10957",
+      "10897"
+    ],
+    "optionalSectionIds": [],
+    "selected": true,
+    "showLock": false,
+    "enabled": true,
+    "disabledReasons": [],
+    "desiredCourseId": null,
+    "lcId": null
+  },
+  {
+    "id": "CMPSC;;200@10898-10957",
+    "sectionIds": [
+      "10957",
+      "10898"
+    ],
+    "optionalSectionIds": [],
+    "selected": true,
+    "showLock": false,
+    "enabled": true,
+    "disabledReasons": [],
+    "desiredCourseId": null,
+    "lcId": null
+  },
+  {
+    "id": "CMPSC;;200@10899-10957",
+    "sectionIds": [
+      "10957",
+      "10899"
+    ],
+    "optionalSectionIds": [],
+    "selected": true,
+    "showLock": false,
+    "enabled": true,
+    "disabledReasons": [],
+    "desiredCourseId": null,
+    "lcId": null
+  },
+  {
+    "id": "CMPSC;;200@10900-10957",
+    "sectionIds": [
+      "10957",
+      "10900"
+    ],
+    "optionalSectionIds": [],
+    "selected": true,
+    "showLock": false,
+    "enabled": true,
+    "disabledReasons": [],
+    "desiredCourseId": null,
+    "lcId": null
+  },
+  {
+    "id": "CMPSC;;200@10901-10957",
+    "sectionIds": [
+      "10957",
+      "10901"
+    ],
+    "optionalSectionIds": [],
+    "selected": true,
+    "showLock": false,
+    "enabled": true,
+    "disabledReasons": [],
+    "desiredCourseId": null,
+    "lcId": null
+  },
+  {
+    "id": "CMPSC;;200@10902-10957",
+    "sectionIds": [
+      "10957",
+      "10902"
+    ],
+    "optionalSectionIds": [],
+    "selected": true,
+    "showLock": false,
+    "enabled": true,
+    "disabledReasons": [],
+    "desiredCourseId": null,
+    "lcId": null
+  },
+  {
+    "id": "CMPSC;;200@10903-10957",
+    "sectionIds": [
+      "10957",
+      "10903"
+    ],
+    "optionalSectionIds": [],
+    "selected": true,
+    "showLock": false,
+    "enabled": true,
+    "disabledReasons": [],
+    "desiredCourseId": null,
+    "lcId": null
+  },
+  {
+    "id": "CMPSC;;200@11367",
+    "sectionIds": [
+      "11367"
+    ],
+    "optionalSectionIds": [],
+    "selected": true,
+    "showLock": false,
+    "enabled": false,
+    "disabledReasons": [
+      "The campus \"Lehigh Valley\" is not selected."
+    ],
+    "desiredCourseId": null,
+    "lcId": null
+  },
+  {
+    "id": "CMPSC;;200@12200",
+    "sectionIds": [
+      "12200"
+    ],
+    "optionalSectionIds": [],
+    "selected": true,
+    "showLock": false,
+    "enabled": false,
+    "disabledReasons": [
+      "The campus \"Altoona\" is not selected."
+    ],
+    "desiredCourseId": null,
+    "lcId": null
+  },
+  {
+    "id": "CMPSC;;200@28276",
+    "sectionIds": [
+      "28276"
+    ],
+    "optionalSectionIds": [],
+    "selected": true,
+    "showLock": false,
+    "enabled": false,
+    "disabledReasons": [
+      "The campus \"Scranton\" is not selected."
+    ],
+    "desiredCourseId": null,
+    "lcId": null
+  },
+  {
+    "id": "CMPSC;;200@28425",
+    "sectionIds": [
+      "28425"
+    ],
+    "optionalSectionIds": [],
+    "selected": true,
+    "showLock": false,
+    "enabled": false,
+    "disabledReasons": [
+      "The campus \"Altoona\" is not selected."
+    ],
+    "desiredCourseId": null,
+    "lcId": null
+  }
+]
+},
+{
+"time": "Sat Mar 29 16:46:21 EDT 2025",
+"url": "https://pennstate.collegescheduler.com/api/terms/Fall%202025/subjects/CMPSC/courses/201/regblocks",
+"registrationBlocks": [
+{
+"id": "CMPSC;;201@10398",
+"sectionIds": [
+"10398"
+],
+"optionalSectionIds": [],
+"selected": true,
+"showLock": false,
+"enabled": false,
+"disabledReasons": [
+"The campus 'Abington' is not selected."
+],
+"desiredCourseId": null,
+"lcId": null
+},
+{
+"id": "CMPSC;;201@10399-10904",
+"sectionIds": [
+"10399",
+"10904"
+],
+"optionalSectionIds": [],
+"selected": true,
+"showLock": false,
+"enabled": true,
+"disabledReasons": [],
+"desiredCourseId": null,
+"lcId": null
+},
+{
+"id": "CMPSC;;201@10399-10905",
+"sectionIds": [
+"10399",
+"10905"
+],
+"optionalSectionIds": [],
+"selected": true,
+"showLock": false,
+"enabled": true,
+"disabledReasons": [],
+"desiredCourseId": null,
+"lcId": null
+},
+{
+"id": "CMPSC;;201@10399-12171",
+"sectionIds": [
+"10399",
+"12171"
+],
+"optionalSectionIds": [],
+"selected": true,
+"showLock": false,
+"enabled": true,
+"disabledReasons": [],
+"desiredCourseId": null,
+"lcId": null
+},
+{
+"id": "CMPSC;;201@10400",
+"sectionIds": [
+"10400"
+],
+"optionalSectionIds": [],
+"selected": true,
+"showLock": false,
+"enabled": false,
+"disabledReasons": [
+"The campus 'York' is not selected."
+],
+"desiredCourseId": null,
+"lcId": null
+},
+{
+"id": "CMPSC;;201@11470",
+"sectionIds": [
+"11470"
+],
+"optionalSectionIds": [],
+"selected": true,
+"showLock": false,
+"enabled": false,
+"disabledReasons": [
+"The campus 'Wilkes-Barre' is not selected.",
+"This section is full."
+],
+"desiredCourseId": null,
+"lcId": null
+},
+{
+"id": "CMPSC;;201@11511",
+"sectionIds": [
+"11511"
+],
+"optionalSectionIds": [],
+"selected": true,
+"showLock": false,
+"enabled": false,
+"disabledReasons": [
+"The campus 'Berks' is not selected."
+],
+"desiredCourseId": null,
+"lcId": null
+},
+{
+"id": "CMPSC;;201@11534",
+"sectionIds": [
+"11534"
+],
+"optionalSectionIds": [],
+"selected": true,
+"showLock": false,
+"enabled": false,
+"disabledReasons": [
+"The campus 'Mont Alto' is not selected."
+],
+"desiredCourseId": null,
+"lcId": null
+}
+]
+},
+{
+"time": "Sat Mar 29 16:46:22 EDT 2025",
+"url": "https://pennstate.collegescheduler.com/api/terms/Fall%202025/subjects/CMPSC/courses/497/regblocks",
+"registrationBlocks": [
+{
+"id": "CMPSC;;497@26852",
+"sectionIds": [
+"26852"
+],
+"optionalSectionIds": [],
+"selected": true,
+"showLock": false,
+"enabled": true,
+"disabledReasons": [],
+"desiredCourseId": null,
+"lcId": null
+},
+{
+"id": "CMPSC;;497@26853",
+"sectionIds": [
+"26853"
+],
+"optionalSectionIds": [],
+"selected": true,
+"showLock": false,
+"enabled": true,
+"disabledReasons": [],
+"desiredCourseId": null,
+"lcId": null
+},
+{
+"id": "CMPSC;;497@26854",
+"sectionIds": [
+"26854"
+],
+"optionalSectionIds": [],
+"selected": true,
+"showLock": false,
+"enabled": true,
+"disabledReasons": [],
+"desiredCourseId": null,
+"lcId": null
+},
+{
+"id": "CMPSC;;497@26855",
+"sectionIds": [
+"26855"
+],
+"optionalSectionIds": [],
+"selected": true,
+"showLock": false,
+"enabled": true,
+"disabledReasons": [],
+"desiredCourseId": null,
+"lcId": null
+},
+{
+"id": "CMPSC;;497@26857",
+"sectionIds": [
+"26857"
+],
+"optionalSectionIds": [],
+"selected": true,
+"showLock": false,
+"enabled": true,
+"disabledReasons": [],
+"desiredCourseId": null,
+"lcId": null
+}
+]
+},
+{
+"time": "Sat Mar 29 16:46:22 EDT 2025",
+"url": "https://pennstate.collegescheduler.com/api/terms/Fall%202025/subjects/CMPSC/courses/132/regblocks",
+"registrationBlocks": [
+{
+"id": "CMPSC;;132@11251-11252",
+"sectionIds": [
+"11251",
+"11252"
+],
+"optionalSectionIds": [],
+"selected": true,
+"showLock": false,
+"enabled": true,
+"disabledReasons": [],
+"desiredCourseId": null,
+"lcId": null
+},
+{
+"id": "CMPSC;;132@11251-11253",
+"sectionIds": [
+"11251",
+"11253"
+],
+"optionalSectionIds": [],
+"selected": true,
+"showLock": false,
+"enabled": true,
+"disabledReasons": [],
+"desiredCourseId": null,
+"lcId": null
+},
+{
+"id": "CMPSC;;132@11251-11254",
+"sectionIds": [
+"11251",
+"11254"
+],
+"optionalSectionIds": [],
+"selected": true,
+"showLock": false,
+"enabled": true,
+"disabledReasons": [],
+"desiredCourseId": null,
+"lcId": null
+},
+{
+"id": "CMPSC;;132@11251-11255",
+"sectionIds": [
+"11251",
+"11255"
+],
+"optionalSectionIds": [],
+"selected": true,
+"showLock": false,
+"enabled": true,
+"disabledReasons": [],
+"desiredCourseId": null,
+"lcId": null
+},
+{
+"id": "CMPSC;;132@11251-11256",
+"sectionIds": [
+"11251",
+"11256"
+],
+"optionalSectionIds": [],
+"selected": true,
+"showLock": false,
+"enabled": true,
+"disabledReasons": [],
+"desiredCourseId": null,
+"lcId": null
+},
+{
+"id": "CMPSC;;132@11251-11299",
+"sectionIds": [
+"11251",
+"11299"
+],
+"optionalSectionIds": [],
+"selected": true,
+"showLock": false,
+"enabled": true,
+"disabledReasons": [],
+"desiredCourseId": null,
+"lcId": null
+},
+{
+"id": "CMPSC;;132@11251-11300",
+"sectionIds": [
+"11251",
+"11300"
+],
+"optionalSectionIds": [],
+"selected": true,
+"showLock": false,
+"enabled": true,
+"disabledReasons": [],
+"desiredCourseId": null,
+"lcId": null
+},
+{
+"id": "CMPSC;;132@11251-11354",
+"sectionIds": [
+"11251",
+"11354"
+],
+"optionalSectionIds": [],
+"selected": true,
+"showLock": false,
+"enabled": true,
+"disabledReasons": [],
+"desiredCourseId": null,
+"lcId": null
+},
+{
+"id": "CMPSC;;132@11268",
+"sectionIds": [
+"11268"
+],
+"optionalSectionIds": [],
+"selected": true,
+"showLock": false,
+"enabled": false,
+"disabledReasons": [
+"The campus 'Abington' is not selected."
+],
+"desiredCourseId": null,
+"lcId": null
+},
+{
+"id": "CMPSC;;132@11342",
+"sectionIds": [
+"11342"
+],
+"optionalSectionIds": [],
+"selected": true,
+"showLock": false,
+"enabled": false,
+"disabledReasons": [
+"The campus 'Hazleton' is not selected."
+],
+"desiredCourseId": null,
+"lcId": null
+},
+{
+"id": "CMPSC;;132@11345",
+"sectionIds": [
+"11345"
+],
+"optionalSectionIds": [],
+"selected": true,
+"showLock": false,
+"enabled": false,
+"disabledReasons": [
+"The campus 'Wilkes-Barre' is not selected."
+],
+"desiredCourseId": null,
+"lcId": null
+},
+{
+"id": "CMPSC;;132@11368",
+"sectionIds": [
+"11368"
+],
+"optionalSectionIds": [],
+"selected": true,
+"showLock": false,
+"enabled": false,
+"disabledReasons": [
+"The campus 'York' is not selected."
+],
+"desiredCourseId": null,
+"lcId": null
+},
+{
+"id": "CMPSC;;132@11383",
+"sectionIds": [
+"11383"
+],
+"optionalSectionIds": [],
+"selected": true,
+"showLock": false,
+"enabled": false,
+"disabledReasons": [
+"The campus 'Altoona' is not selected."
+],
+"desiredCourseId": null,
+"lcId": null
+},
+{
+"id": "CMPSC;;132@11846",
+"sectionIds": [
+"11846"
+],
+"optionalSectionIds": [],
+"selected": true,
+"showLock": false,
+"enabled": false,
+"disabledReasons": [
+"The campus 'Abington' is not selected."
+],
+"desiredCourseId": null,
+"lcId": null
+},
+{
+"id": "CMPSC;;132@11862",
+"sectionIds": [
+"11862"
+],
+"optionalSectionIds": [],
+"selected": true,
+"showLock": false,
+"enabled": false,
+"disabledReasons": [
+"The campus 'Brandywine' is not selected."
+],
+"desiredCourseId": null,
+"lcId": null
+},
+{
+"id": "CMPSC;;132@12183",
+"sectionIds": [
+"12183"
+],
+"optionalSectionIds": [],
+"selected": true,
+"showLock": false,
+"enabled": false,
+"disabledReasons": [
+"The campus 'Harrisburg' is not selected."
+],
+"desiredCourseId": null,
+"lcId": null
+},
+{
+"id": "CMPSC;;132@12224",
+"sectionIds": [
+"12224"
+],
+"optionalSectionIds": [],
+"selected": true,
+"showLock": false,
+"enabled": false,
+"disabledReasons": [
+"The campus 'Harrisburg' is not selected."
+],
+"desiredCourseId": null,
+"lcId": null
+},
+{
+"id": "CMPSC;;132@12752",
+"sectionIds": [
+"12752"
+],
+"optionalSectionIds": [],
+"selected": true,
+"showLock": false,
+"enabled": false,
+"disabledReasons": [
+"The campus 'Beaver' is not selected."
+],
+"desiredCourseId": null,
+"lcId": null
+}
+]
+},
+{
+"time": "Sat Mar 29 16:46:22 EDT 2025",
+"url": "https://pennstate.collegescheduler.com/api/terms/Fall%202025/subjects/CMPSC/courses/297/regblocks",
+"registrationBlocks": [
+{
+"id": "CMPSC;;297@26855",
+"sectionIds": [
+"26855"
+],
+"optionalSectionIds": [],
+"selected": true,
+"showLock": false,
+"enabled": true,
+"disabledReasons": [],
+"desiredCourseId": null,
+"lcId": null
+},
+{
+"id": "CMPSC;;297@26857",
+"sectionIds": [
+"26857"
+],
+"optionalSectionIds": [],
+"selected": true,
+"showLock": false,
+"enabled": true,
+"disabledReasons": [],
+"desiredCourseId": null,
+"lcId": null
+}
+]
+},
+{
+"id": "CMPSC;;297@26852",
+"sectionIds": [
+"26852"
+],
+"optionalSectionIds": [],
+"selected": true,
+"showLock": false,
+"enabled": true,
+"disabledReasons": [],
+"desiredCourseId": null,
+"lcId": null
+},
+{
+"id": "CMPSC;;297@26853",
+"sectionIds": [
+"26853"
+],
+"optionalSectionIds": [],
+"selected": true,
+"showLock": false,
+"enabled": true,
+"disabledReasons": [],
+"desiredCourseId": null,
+"lcId": null
+},
+{
+"id": "CMPSC;;297@26854",
+"sectionIds": [
+"26854"
+],
+"optionalSectionIds": [],
+"selected": true,
+"showLock": false,
+"enabled": true,
+"disabledReasons": [],
+"desiredCourseId": null,
+"lcId": null
+},
+{
+"time": "Sat Mar 29 16:46:22 EDT 2025",
+"url": "https://pennstate.collegescheduler.com/api/terms/Fall%202025/subjects/CMPSC/courses/311/regblocks",
+"registrationBlocks": [
+{
+"id": "CMPSC;;311@10419",
+"sectionIds": [
+"10419"
+],
+"optionalSectionIds": [],
+"selected": true,
+"showLock": false,
+"enabled": true,
+"disabledReasons": [],
+"desiredCourseId": null,
+"lcId": null
+},
+{
+"id": "CMPSC;;311@10906",
+"sectionIds": [
+"10906"
+],
+"optionalSectionIds": [],
+"selected": true,
+"showLock": false,
+"enabled": true,
+"disabledReasons": [],
+"desiredCourseId": null,
+"lcId": null
+},
+{
+"id": "CMPSC;;311@11855",
+"sectionIds": [
+"11855"
+],
+"optionalSectionIds": [],
+"selected": true,
+"showLock": false,
+"enabled": false,
+"disabledReasons": [
+"The campus 'Beaver' is not selected."
+],
+"desiredCourseId": null,
+"lcId": null
+},
+{
+"id": "CMPSC;;311@11873",
+"sectionIds": [
+"11873"
+],
+"optionalSectionIds": [],
+"selected": true,
+"showLock": false,
+"enabled": false,
+"disabledReasons": [
+"The campus 'Brandywine' is not selected."
+],
+"desiredCourseId": null,
+"lcId": null
+},
+{
+"id": "CMPSC;;311@11877",
+"sectionIds": [
+"11877"
+],
+"optionalSectionIds": [],
+"selected": true,
+"showLock": false,
+"enabled": false,
+"disabledReasons": [
+"The campus 'Hazleton' is not selected."
+],
+"desiredCourseId": null,
+"lcId": null
+}
+]
+},
+{
+"time": "Sat Mar 29 16:46:23 EDT 2025",
+"url": "https://pennstate.collegescheduler.com/api/terms/Fall%202025/subjects/CMPSC/courses/360/regblocks",
+"registrationBlocks": [
+{
+"id": "CMPSC;;360@10432",
+"sectionIds": [
+"10432"
+],
+"optionalSectionIds": [],
+"selected": true,
+"showLock": false,
+"enabled": false,
+"disabledReasons": [
+"The campus 'Harrisburg' is not selected."
+],
+"desiredCourseId": null,
+"lcId": null
+},
+{
+"id": "CMPSC;;360@10907-11220",
+"sectionIds": [
+"11220",
+"10907"
+],
+"optionalSectionIds": [],
+"selected": true,
+"showLock": false,
+"enabled": true,
+"disabledReasons": [],
+"desiredCourseId": null,
+"lcId": null
+},
+{
+"id": "CMPSC;;360@10908-11220",
+"sectionIds": [
+"11220",
+"10908"
+],
+"optionalSectionIds": [],
+"selected": true,
+"showLock": false,
+"enabled": true,
+"disabledReasons": [],
+"desiredCourseId": null,
+"lcId": null
+},
+{
+"id": "CMPSC;;360@10909-11220",
+"sectionIds": [
+"11220",
+"10909"
+],
+"optionalSectionIds": [],
+"selected": true,
+"showLock": false,
+"enabled": true,
+"disabledReasons": [],
+"desiredCourseId": null,
+"lcId": null
+},
+{
+"id": "CMPSC;;360@11000-11220",
+"sectionIds": [
+"11220",
+"11000"
+],
+"optionalSectionIds": [],
+"selected": true,
+"showLock": false,
+"enabled": true,
+"disabledReasons": [],
+"desiredCourseId": null,
+"lcId": null
+},
+{
+"id": "CMPSC;;360@11001-11220",
+"sectionIds": [
+"11220",
+"11001"
+],
+"optionalSectionIds": [],
+"selected": true,
+"showLock": false,
+"enabled": true,
+"disabledReasons": [],
+"desiredCourseId": null,
+"lcId": null
+},
+{
+"id": "CMPSC;;360@11146",
+"sectionIds": [
+"11146"
+],
+"optionalSectionIds": [],
+"selected": true,
+"showLock": false,
+"enabled": false,
+"disabledReasons": [
+"The campus 'Abington' is not selected."
+],
+"desiredCourseId": null,
+"lcId": null
+},
+{
+"id": "CMPSC;;360@11150",
+"sectionIds": [
+"11150"
+],
+"optionalSectionIds": [],
+"selected": true,
+"showLock": false,
+"enabled": false,
+"disabledReasons": [
+"The campus "Lehigh Valley" is not selected."
+],
+"desiredCourseId": null,
+"lcId": null
+},
+{
+"id": "CMPSC;;360@11480",
+"sectionIds": [
+"11480"
+],
+"optionalSectionIds": [],
+"selected": true,
+"showLock": false,
+"enabled": false,
+"disabledReasons": [
+"The campus "Harrisburg" is not selected."
+],
+"desiredCourseId": null,
+"lcId": null
+},
+{
+"id": "CMPSC;;360@12068",
+"sectionIds": [
+"12068"
+],
+"optionalSectionIds": [],
+"selected": true,
+"showLock": false,
+"enabled": false,
+"disabledReasons": [
+"The campus "Abington" is not selected."
+],
+"desiredCourseId": null,
+"lcId": null
+},
+{
+"id": "CMPSC;;360@12214",
+"sectionIds": [
+"12214"
+],
+"optionalSectionIds": [],
+"selected": true,
+"showLock": false,
+"enabled": false,
+"disabledReasons": [
+"The campus "Erie" is not selected."
+],
+"desiredCourseId": null,
+"lcId": null
+},
+{
+"id": "CMPSC;;360@12768",
+"sectionIds": [
+"12768"
+],
+"optionalSectionIds": [],
+"selected": true,
+"showLock": false,
+"enabled": false,
+"disabledReasons": [
+"The campus "Hazleton" is not selected."
+],
+"desiredCourseId": null,
+"lcId": null
+}
+]
+},
+{
+"time: "Sat Mar 29 16:46:22 EDT 2025",
+"url": "https://pennstate.collegescheduler.com/api/terms/Fall%202025/subjects/CMPSC/courses/473/regblocks",
+"registrationBlocks": [
+{
+"id": "CMPSC;;473@10502-26816",
+"sectionIds": [
+"10502",
+"26816"
+],
+"optionalSectionIds": [],
+"selected": true,
+"showLock": false,
+"enabled": true,
+"disabledReasons": [],
+"desiredCourseId": null,
+"lcId": null
+},
+{
+"id": "CMPSC;;473@10502-26817",
+"sectionIds": [
+"10502",
+"26817"
+],
+"optionalSectionIds": [],
+"selected": true,
+"showLock": false,
+"enabled": true,
+"disabledReasons": [],
+"desiredCourseId": null,
+"lcId": null
+},
+{
+"id": "CMPSC;;473@10502-26818",
+"sectionIds": [
+"10502",
+"26818"
+],
+"optionalSectionIds": [],
+"selected": true,
+"showLock": false,
+"enabled": true,
+"disabledReasons": [],
+"desiredCourseId": null,
+"lcId": null
+},
+{
+"id": "CMPSC;;473@10502-26819",
+"sectionIds": [
+"10502",
+"26819"
+],
+"optionalSectionIds": [],
+"selected": true,
+"showLock": false,
+"enabled": true,
+"disabledReasons": [],
+"desiredCourseId": null,
+"lcId": null
+},
+{
+"id": "CMPSC;;473@11186-26816",
+"sectionIds": [
+"26816",
+"11186"
+],
+"optionalSectionIds": [],
+"selected": true,
+"showLock": false,
+"enabled": true,
+"disabledReasons": [],
+"desiredCourseId": null,
+"lcId": null
+},
+{
+"id": "CMPSC;;473@11186-26817",
+"sectionIds": [
+"11186",
+"26817"
+],
+"optionalSectionIds": [],
+"selected": true,
+"showLock": false,
+"enabled": true,
+"disabledReasons": [],
+"desiredCourseId": null,
+"lcId": null
+},
+{
+"id": "CMPSC;;473@11186-26818",
+"sectionIds": [
+"11186",
+"26818"
+],
+"optionalSectionIds": [],
+"selected": true,
+"showLock": false,
+"enabled": true,
+"disabledReasons": [],
+"desiredCourseId": null,
+"lcId": null
+},
+{
+"id": "CMPSC;;473@11186-26819",
+"sectionIds": [
+"11186",
+"26819"
+],
+"optionalSectionIds": [],
+"selected": true,
+"showLock": false,
+"enabled": true,
+"disabledReasons": [],
+"desiredCourseId": null,
+"lcId": null
+}
+]
+},
+{
+"time": "Sat Mar 29 16:46:22 EDT 2025",
+"url": "https://pennstate.collegescheduler.com/api/terms/Fall%202025/subjects/CMPSC/courses/458/regblocks",
+"registrationBlocks": [
+{
+"id": "CMPSC;;458@12436",
+"sectionIds": [
+"12436"
+],
+"optionalSectionIds": [],
+"selected": true,
+"showLock": false,
+"enabled": true,
+"disabledReasons": [],
+"desiredCourseId": null,
+"lcId": null
+}
+]
+},
+{
+"time": "Sat Mar 29 16:46:22 EDT 2025",
+"url": "https://pennstate.collegescheduler.com/api/terms/Fall%202025/subjects/CMPSC/courses/461/regblocks",
+"registrationBlocks": [
+{
+"id": "CMPSC;;461@10466-26801",
+"sectionIds": [
+"10466",
+"26801"
+],
+"optionalSectionIds": [],
+"selected": false,
+"showLock": false,
+"enabled": true,
+"disabledReasons": [],
+"desiredCourseId": null,
+"lcId": null
+},
+{
+"id": "CMPSC;;461@10466-26802",
+"sectionIds": [
+"10466",
+"26802"
+],
+"optionalSectionIds": [],
+"selected": false,
+"showLock": false,
+"enabled": true,
+"disabledReasons": [],
+"desiredCourseId": null,
+"lcId": null
+},
+{
+"id": "CMPSC;;461@10466-26803",
+"sectionIds": [
+"10466",
+"26803"
+],
+"optionalSectionIds": [],
+"selected": false,
+"showLock": false,
+"enabled": true,
+"disabledReasons": [],
+"desiredCourseId": null,
+"lcId": null
+},
+{
+"id": "CMPSC;;461@10466-26805",
+"sectionIds": [
+"10466",
+"26805"
+],
+"optionalSectionIds": [],
+"selected": false,
+"showLock": false,
+"enabled": true,
+"disabledReasons": [],
+"desiredCourseId": null,
+"lcId": null
+},
+{
+"id": "CMPSC;;461@10466-26806",
+"sectionIds": [
+"10466",
+"26806"
+],
+"optionalSectionIds": [],
+"selected": false,
+"showLock": false,
+"enabled": true,
+"disabledReasons": [],
+"desiredCourseId": null,
+"lcId": null
+},
+{
+"id": "CMPSC;;461@10466-26807",
+"sectionIds": [
+"10466",
+"26807"
+],
+"optionalSectionIds": [],
+"selected": false,
+"showLock": false,
+"enabled": true,
+"disabledReasons": [],
+"desiredCourseId": null,
+"lcId": null
+},
+{
+"id": "CMPSC;;461@10466-26808",
+"sectionIds": [
+"10466",
+"26808"
+],
+"optionalSectionIds": [],
+"selected": false,
+"showLock": false,
+"enabled": true,
+"disabledReasons": [],
+"desiredCourseId": null,
+"lcId": null
+},
+{
+"id": "CMPSC;;461@10466-26809",
+"sectionIds": [
+"10466",
+"26809"
+],
+"optionalSectionIds": [],
+"selected": false,
+"showLock": false,
+"enabled": true,
+"disabledReasons": [],
+"desiredCourseId": null,
+"lcId": null
+},
+{
+"id": "CMPSC;;461@11221-26801",
+"sectionIds": [
+"26801",
+"11221"
+],
+"optionalSectionIds": [],
+"selected": false,
+"showLock": false,
+"enabled": true,
+"disabledReasons": [],
+"desiredCourseId": null,
+"lcId": null
+},
+{
+"id": "CMPSC;;461@11221-26802",
+"sectionIds": [
+"11221",
+"26802"
+],
+"optionalSectionIds": [],
+"selected": true,
+"showLock": false,
+"enabled": true,
+"disabledReasons": [],
+"desiredCourseId": null,
+"lcId": null
+},
+{
+"id": "CMPSC;;461@11221-26803",
+"sectionIds": [
+"11221",
+"26803"
+],
+"optionalSectionIds": [],
+"selected": true,
+"showLock": false,
+"enabled": true,
+"disabledReasons": [],
+"desiredCourseId": null,
+"lcId": null
+},
+{
+"id": "CMPSC;;461@11221-26805",
+"sectionIds": [
+"11221",
+"26805"
+],
+"optionalSectionIds": [],
+"selected": true,
+"showLock": false,
+"enabled": true,
+"disabledReasons": [],
+"desiredCourseId": null,
+"lcId": null
+},
+{
+"id": "CMPSC;;461@11221-26806",
+"sectionIds": [
+"11221",
+"26806"
+],
+"optionalSectionIds": [],
+"selected": true,
+"showLock": false,
+"enabled": true,
+"disabledReasons": [],
+"desiredCourseId": null,
+"lcId": null
+},
+{
+"id": "CMPSC;;461@11221-26807",
+"sectionIds": [
+"11221",
+"26807"
+],
+"optionalSectionIds": [],
+"selected": true,
+"showLock": false,
+"enabled": true,
+"disabledReasons": [],
+"desiredCourseId": null,
+"lcId": null
+},
+{
+"id": "CMPSC;;461@11221-26808",
+"sectionIds": [
+"11221",
+"26808"
+],
+"optionalSectionIds": [],
+"selected": true,
+"showLock": false,
+"enabled": true,
+"disabledReasons": [],
+"desiredCourseId": null,
+"lcId": null
+},
+{
+"id": "CMPSC;;461@11221-26809",
+"sectionIds": [
+"11221",
+"26809"
+],
+"optionalSectionIds": [],
+"selected": true,
+"showLock": false,
+"enabled": true,
+"disabledReasons": [],
+"desiredCourseId": null,
+"lcId": null
+},
+{
+"id": "CMPSC;;461@11384",
+"sectionIds": [
+"11384"
+],
+"optionalSectionIds": [],
+"selected": true,
+"showLock": false,
+"enabled": false,
+"disabledReasons": [
+"The campus "Erie" is not selected."
+],
+"desiredCourseId": null,
+"lcId": null
+},
+{
+"id": "CMPSC;;461@11527",
+"sectionIds": [
+"11527"
+],
+"optionalSectionIds": [],
+"selected": true,
+"showLock": false,
+"enabled": false,
+"disabledReasons": [
+"The campus "World Campus" is not selected."
+],
+"desiredCourseId": null,
+"lcId": null
+},
+{
+"id": "CMPSC;;461@11883",
+"sectionIds": [
+"11883"
+],
+"optionalSectionIds": [],
+"selected": true,
+"showLock": false,
+"enabled": false,
+"disabledReasons": [
+"The campus "Hazleton" is not selected."
+],
+"desiredCourseId": null,
+"lcId": null
+},
+{
+"id": "CMPSC;;461@11889",
+"sectionIds": [
+"11889"
+],
+"optionalSectionIds": [],
+"selected": true,
+"showLock": false,
+"enabled": false,
+"disabledReasons": [
+"The campus "Brandywine" is not selected."
+],
+"desiredCourseId": null,
+"lcId": null
+},
+{
+"id": "CMPSC;;461@11946",
+"sectionIds": [
+"11946"
+],
+"optionalSectionIds": [],
+"selected": true,
+"showLock": false,
+"enabled": false,
+"disabledReasons": [
+"The campus "Beaver" is not selected."
+],
+"desiredCourseId": null,
+"lcId": null
+}
+]
+},
+{
+"time": "Sat Mar 29 16:46:24 EDT 2025",
+"url": "https://pennstate.collegescheduler.com/api/terms/Fall%2025/subjects/CMPSC/courses/431W/regblocks",
+"registrationBlocks": [
+{
+"id": "CMPSC;;431W@10923",
+"sectionIds": [
+"10923"
+],
+"optionalSectionIds": [],
+"selected": true,
+"showLock": false,
+"enabled": true,
+"disabledReasons": [],
+"desiredCourseId": null,
+"lcId": null
+},
+{
+"id": "CMPSC;;431W@11144",
+"sectionIds": [
+"11144"
+],
+"optionalSectionIds": [],
+"selected": true,
+"showLock": false,
+"enabled": false,
+"disabledReasons": [
+"This section is full."
+],
+"desiredCourseId": null,
+"lcId": null
+},
+{
+"id": "CMPSC;;431W@11380",
+"sectionIds": [
+"11380"
+],
+"optionalSectionIds": [],
+"selected": true,
+"showLock": false,
+"enabled": false,
+"disabledReasons": [
+"The campus "World Campus" is not selected."
+],
+"desiredCourseId": null,
+"lcId": null
+},
+{
+"id": "CMPSC;;431W@12209",
+"sectionIds": [
+"12209"
+],
+"optionalSectionIds": [],
+"selected": true,
+"showLock": false,
+"enabled": false,
+"disabledReasons": [
+"The campus "Beaver" is not selected."
+],
+"desiredCourseId": null,
+"lcId": null
+},
+{
+"id": "CMPSC;;431W@12242",
+"sectionIds": [
+"12242"
+],
+"optionalSectionIds": [],
+"selected": true,
+"showLock": false,
+"enabled": false,
+"disabledReasons": [
+"The campus "Brandywine" is not selected."
+],
+"desiredCourseId": null,
+"lcId": null
+},
+{
+"id": "CMPSC;;431W@12656",
+"sectionIds": [
+"12656"
+],
+"optionalSectionIds": [],
+"selected": true,
+"showLock": false,
+"enabled": false,
+"disabledReasons": [
+"The campus "Hazleton" is not selected."
+],
+"desiredCourseId": null,
+"lcId": null
+}
+]
+},
+{
+"time": "Sat Mar 29 16:46:25 EDT 2025",
+"url": "https://pennstate.collegescheduler.com/api/terms/Fall%202025/subjects/CMPSC/courses/464/regblocks",
+"registrationBlocks": [
+{
+"id": "CMPSC;;464@12436",
+"sectionIds": [
+"12436"
+],
+"optionalSectionIds": [],
+"selected": true,
+"showLock": false,
+"enabled": true,
+"disabledReasons": [],
+"desiredCourseId": null,
+"lcId": null
+}
+]
+},
+{
+"time": "Sat Mar 29 16:46:26 EDT 2025",
+"url": "https://pennstate.collegescheduler.com/api/terms/Fall%202025/subjects/CMPSC/courses/476/regblocks",
+"registrationBlocks": [
+{
+"id": "CMPSC;;476@12640",
+"sectionIds": [
+"12640"
+],
+"optionalSectionIds": [],
+"selected": true,
+"showLock": false,
+"enabled": true,
+"disabledReasons": [],
+"desiredCourseId": null,
+"lcId": null
+}
+]
+},
+{
+"time": "Sat Mar 29 16:46:27 EDT 2025",
+"url": "https://pennstate.collegescheduler.com/api/terms/Fall%202025/subjects/CMPSC/courses/483W/regblocks",
+"registrationBlocks": [
+{
+"id": "CMPSC;;483W@10923",
+"sectionIds": [
+"10923"
+],
+"optionalSectionIds": [],
+"selected": true,
+"showLock": false,
+"enabled": true,
+"disabledReasons": [],
+"desiredCourseId": null,
+"lcId": null
+},
+{
+"id": "CMPSC;;483W@11144",
+"sectionIds": [
+"11144"
+],
+"optionalSectionIds": [],
+"selected": true,
+"showLock": false,
+"enabled": false,
+"disabledReasons": [
+"This section is full."
+],
+"desiredCourseId": null,
+"lcId": null
+}
+]
+},
+{
+"time": "Sat Mar 29 16:46:27 EDT 2025",
+"url": "https://pennstate.collegescheduler.com/api/terms/Fall%202025/subjects/CMPSC/courses/494/regblocks",
+"registrationBlocks": [
+{
+"id": "CMPSC;;494@10924",
+"sectionIds": [
+"10924"
+],
+"optionalSectionIds": [],
+"selected": true,
+"showLock": false,
+"enabled": true,
+"disabledReasons": [],
+"desiredCourseId": null,
+"lcId": null
+}
+]
+},
+{
+"time": "Sat Mar 29 16:46:33 EDT 2025",
+"url": "https://pennstate.collegescheduler.com/api/terms/Fall%202025/subjects/CMPSC/courses/496/regblocks",
+"registrationBlocks": [
+{
+"id": "CMPSC;;496@10232",
+"sectionIds": [
+"10232"
+],
+"optionalSectionIds": [],
+"selected": true,
+"showLock": false,
+"enabled": true,
+"disabledReasons": [],
+"desiredCourseId": null,
+"lcId": null
+}
+]
+},
+{
+"time": "Sat Mar 29 16:46:33 EDT 2025",
+"url": "https://pennstate.collegescheduler.com/api/terms/Fall%202025/subjects/CMPSC/courses/497/regblocks",
+"registrationBlocks": [
+{
+"id": "CMPSC;;497@26852",
+"sectionIds": [
+"26852"
+],
+"optionalSectionIds": [],
+"selected": true,
+"showLock": false,
+"enabled": true,
+"disabledReasons": [],
+"desiredCourseId": null,
+"lcId": null
+},
+{
+"id": "CMPSC;;497@26853",
+"sectionIds": [
+"26853"
+],
+"optionalSectionIds": [],
+"selected": true,
+"showLock": false,
+"enabled": true,
+"disabledReasons": [],
+"desiredCourseId": null,
+"lcId": null
+},
+{
+"id": "CMPSC;;497@26854",
+"sectionIds": [
+"26854"
+],
+"optionalSectionIds": [],
+"selected": true,
+"showLock": false,
+"enabled": true,
+"disabledReasons": [],
+"desiredCourseId": null,
+"lcId": null
+},
+{
+"id": "CMPSC;;497@26855",
+"sectionIds": [
+"26855"
+],
+"optionalSectionIds": [],
+"selected": true,
+"showLock": false,
+"enabled": true,
+"disabledReasons": [],
+"desiredCourseId": null,
+"lcId": null
+},
+{
+"id": "CMPSC;;497@26857",
+"sectionIds": [
+"26857"
+],
+"optionalSectionIds": [],
+"selected": true,
+"showLock": false,
+"enabled": true,
+"disabledReasons": [],
+"desiredCourseId": null,
+"lcId": null
+}
+]
+},
+{
+"time": "Sat Mar 29 16:46:24 EDT 2025",
+"url": "https://pennstate.collegescheduler.com/api/terms/Fall%202025/subjects/CMPSC/courses/410/regblocks",
+"registrationBlocks": [
+{
+"id": "CMPSC;;410@15190",
+"sectionIds": [
+"15190"
+],
+"optionalSectionIds": [],
+"selected": true,
+"showLock": false,
+"enabled": true,
+"disabledReasons": [],
+"desiredCourseId": null,
+"lcId": null
+},
+{
+"id": "CMPSC;;410@15283",
+"sectionIds": [
+"15283"
+],
+"optionalSectionIds": [],
+"selected": true,
+"showLock": false,
+"enabled": true,
+"disabledReasons": [],
+"desiredCourseId": null,
+"lcId": null
+}
+]
+},
+{
+"time": "Sat Mar 29 16:46:24 EDT 2025",
+"url": "https://pennstate.collegescheduler.com/api/terms/Fall%202025/subjects/CMPSC/courses/466/regblocks",
+"registrationBlocks": [
+{
+"id": "CMPSC;;466@12064",
+"sectionIds": [
+"12064"
+],
+"optionalSectionIds": [],
+"selected": true,
+"showLock": false,
+"enabled": true,
+"disabledReasons": [],
+"desiredCourseId": null,
+"lcId": null
+}
+]
+},
+{
+"id": "CMPSC;;465@10468",
+"sectionIds": [
+"10468"
+],
+"optionalSectionIds": [],
+"selected": true,
+"showLock": false,
+"enabled": false,
+"disabledReasons": [
+"The campus "Erie" is not selected."
+],
+"desiredCourseId": null,
+"lcId": null
+},
+{
+"id": "CMPSC;;465@10469-10916",
+"sectionIds": [
+"10469",
+"10916"
+],
+"optionalSectionIds": [],
+"selected": true,
+"showLock": false,
+"enabled": true,
+"disabledReasons": [],
+"desiredCourseId": null,
+"lcId": null
+},
+{
+"id": "CMPSC;;465@10469-10917",
+"sectionIds": [
+"10469",
+"10917"
+],
+"optionalSectionIds": [],
+"selected": true,
+"showLock": false,
+"enabled": true,
+"disabledReasons": [],
+"desiredCourseId": null,
+"lcId": null
+},
+{
+"id": "CMPSC;;465@10469-10918",
+"sectionIds": [
+"10469",
+"10918"
+],
+"optionalSectionIds": [],
+"selected": true,
+"showLock": false,
+"enabled": true,
+"disabledReasons": [],
+"desiredCourseId": null,
+"lcId": null
+},
+{
+"id": "CMPSC;;465@10469-10919",
+"sectionIds": [
+"10469",
+"10919"
+],
+"optionalSectionIds": [],
+"selected": true,
+"showLock": false,
+"enabled": true,
+"disabledReasons": [],
+"desiredCourseId": null,
+"lcId": null
+},
+{
+"id": "CMPSC;;465@10469-10920",
+"sectionIds": [
+"10469",
+"10920"
+],
+"optionalSectionIds": [],
+"selected": true,
+"showLock": false,
+"enabled": true,
+"disabledReasons": [],
+"desiredCourseId": null,
+"lcId": null
+},
+{
+"id": "CMPSC;;465@10469-10921",
+"sectionIds": [
+"10469",
+"10921"
+],
+"optionalSectionIds": [],
+"selected": true,
+"showLock": false,
+"enabled": true,
+"disabledReasons": [],
+"desiredCourseId": null,
+"lcId": null
+},
+{
+"id": "CMPSC;;465@10469-10922",
+"sectionIds": [
+"10469",
+"10922"
+],
+"optionalSectionIds": [],
+"selected": true,
+"showLock": false,
+"enabled": true,
+"disabledReasons": [],
+"desiredCourseId": null,
+"lcId": null
+},
+{
+"id": "CMPSC;;465@10469-11432",
+"sectionIds": [
+"10469",
+"11432"
+],
+"optionalSectionIds": [],
+"selected": true,
+"showLock": false,
+"enabled": true,
+"disabledReasons": [],
+"desiredCourseId": null,
+"lcId": null
+},
+{
+"id": "CMPSC;;465@10469-11437",
+"sectionIds": [
+"10469",
+"11437"
+],
+"optionalSectionIds": [],
+"selected": true,
+"showLock": false,
+"enabled": true,
+"disabledReasons": [],
+"desiredCourseId": null,
+"lcId": null
+},
+{
+"id": "CMPSC;;465@10469-11438",
+"sectionIds": [
+"10469",
+"11438"
+],
+"optionalSectionIds": [],
+"selected": true,
+"showLock": false,
+"enabled": true,
+"disabledReasons": [],
+"desiredCourseId": null,
+"lcId": null
+},
+{
+"id": "CMPSC;;465@10916-11357",
+"sectionIds": [
+"10916",
+"11357"
+],
+"optionalSectionIds": [],
+"selected": true,
+"showLock": false,
+"enabled": true,
+"disabledReasons": [],
+"desiredCourseId": null,
+"lcId": null
+},
+{
+"id": "CMPSC;;465@10917-11357",
+"sectionIds": [
+"11357",
+"10917"
+],
+"optionalSectionIds": [],
+"selected": true,
+"showLock": false,
+"enabled": true,
+"disabledReasons": [],
+"desiredCourseId": null,
+"lcId": null
+},
+{
+"id": "CMPSC;;465@10918-11357",
+"sectionIds": [
+"11357",
+"10918"
+],
+"optionalSectionIds": [],
+"selected": true,
+"showLock": false,
+"enabled": true,
+"disabledReasons": [],
+"desiredCourseId": null,
+"lcId": null
+},
+{
+"id": "CMPSC;;465@10919-11357",
+"sectionIds": [
+"11357",
+"10919"
+],
+"optionalSectionIds": [],
+"selected": true,
+"showLock": false,
+"enabled": true,
+"disabledReasons": [],
+"desiredCourseId": null,
+"lcId": null
+},
+{
+"id": "CMPSC;;465@10920-11357",
+"sectionIds": [
+"11357",
+"10920"
+],
+"optionalSectionIds": [],
+"selected": true,
+"showLock":false,
+"enabled": true,
+"disabledReasons": [],
+"desiredCourseId": null,
+"lcId": null
+},
+{
+"id": "CMPSC;;465@10921-11357",
+"sectionIds": [
+"11357",
+"10921"
+],
+"optionalSectionIds": [],
+"selected": true,
+"showLock": false,
+"enabled": true,
+"disabledReasons": [],
+"desiredCourseId": null,
+"lcId": null
+},
+{
+"id": "CMPSC;;465@10922-11357",
+"sectionIds": [
+"11357",
+"10922"
+],
+"optionalSectionIds": [],
+"selected": true,
+"showLock": false,
+"enabled": true,
+"disabledReasons": [],
+"desiredCourseId": null,
+"lcId": null
+},
+{
+"id": "CMPSC;;465@11357-11432",
+"sectionIds": [
+"11357",
+"11432"
+],
+"optionalSectionIds": [],
+"selected": true,
+"showLock": false,
+"enabled": true,
+"disabledReasons": [],
+"desiredCourseId": null,
+"lcId": null
+},
+{
+"id": "CMPSC;;465@11357-11437",
+"sectionIds": [
+"11357",
+"11437"
+],
+"optionalSectionIds": [],
+"selected": true,
+"showLock": false,
+"enabled": true,
+"disabledReasons": [],
+"desiredCourseId": null,
+"lcId": null
+},
+{
+"id": "CMPSC;;465@11357-11438",
+"sectionIds": [
+"11357",
+"11438"
+],
+"optionalSectionIds": [],
+"selected": true,
+"showLock": false,
+"enabled": true,
+"disabledReasons": [],
+"desiredCourseId": null,
+"lcId": null
+},
+{
+"id": "CMPSC;;465@11727",
+"sectionIds": [
+"11727"
+],
+"optionalSectionIds": [],
+"selected": true,
+"showLock": false,
+"enabled": false,
+"disabledReasons": [
+"The campus "World Campus" is not selected."
+],
+"desiredCourseId": null,
+"lcId": null
+},
+{
+"id": "CMPSC;;465@11863",
+"sectionIds": [
+"11863"
+],
+"optionalSectionIds": [],
+"selected": true,
+"showLock": false,
+"enabled": false,
+"disabledReasons": [
+"The campus "Brandywine" is not selected."
+],
+"desiredCourseId": null,
+"lcId": null
+},
+{
+"id": "CMPSC;;465@11878",
+"sectionIds": [
+"11878"
+],
+"optionalSectionIds": [],
+"selected": true,
+"showLock": false,
+"enabled": false,
+"disabledReasons": [
+"The campus "Hazleton" is not selected."
+],
+"desiredCourseId": null,
+"lcId": null
+},
+{
+"id": "CMPSC;;465@11884",
+"sectionIds": [
+"11884"
+],
+"optionalSectionIds": [],
+"selected": true,
+"showLock": false,
+"enabled": false,
+"disabledReasons": [
+"The campus "Beaver" is not selected."
+],
+"desiredCourseId": null,
+"lcId": null
+}
+]
+},
+{
+"time": "Sat Mar 29 16:46:27 EDT 2025",
+"url": "https://pennstate.collegescheduler.com/api/terms/Fall%202025/subjects/CMPSC/courses/476/regblocks",
+"registrationBlocks": [
+{
+"id": "CMPSC;;476@12640",
+"sectionIds": [
+"12640"
+],
+"optionalSectionIds": [],
+"selected": true,
+"showLock": false,
+"enabled": true,
+"disabledReasons": [],
+"desiredCourseId": null,
+"lcId": null
+}
+]
+},
+{
+"time": "Sat Mar 29 16:46:27 EDT 2025",
+"url": "https://pennstate.collegescheduler.com/api/terms/Fall%202025/subjects/CMPSC/courses/483W/regblocks",
+"registrationBlocks": [
+{
+"id": "CMPSC;;483W@10923",
+"sectionIds": [
+"10923"
+],
+"optionalSectionIds": [],
+"selected": true,
+"showLock": false,
+"enabled": true,
+"disabledReasons": [],
+"desiredCourseId": null,
+"lcId": null
+},
+{
+"id": "CMPSC;;483W@11144",
+"sectionIds": [
+"11144"
+],
+"optionalSectionIds": [],
+"selected": true,
+"showLock": false,
+"enabled": false,
+"disabledReasons": [
+"This section is full."
+],
+"desiredCourseId": null,
+"lcId": null
+}
+]
+}
+]
+
