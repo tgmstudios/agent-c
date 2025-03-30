@@ -438,7 +438,7 @@
   }
 
   .course-name {
-    color: #000000 !important;
+    color: #ffffff !important;
   }
   
   @media print {
