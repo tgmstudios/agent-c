@@ -52,7 +52,7 @@
                   </thead>
                   <tbody>
                     <tr v-for="(course, index) in semesterData.courses" :key="index">
-                      <td class="course-name">{{ course.name }}</td>
+                      <td class="course-name">{{ course.code }}</td>
                       <td class="credits">{{ course.credits }}</td>
                     </tr>
                     <tr class="total-row">
