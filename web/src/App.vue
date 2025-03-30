@@ -24,7 +24,7 @@ export default {
     const headerMenu = ref([
       { id: 1, url: '/', text: 'Home' },
       { id: 2, url: '/planner', text: 'Course Planner' },
-      // TODO: Add more menu items as needed
+      { id: 3, url: '/schedule', text: 'My Schedule' }
     ]);
 
     return {

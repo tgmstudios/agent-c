@@ -1,9 +1,6 @@
 <template>
   <header>
     <router-link :key="1" :to="'/'" class="logo"><img :src="logo"></router-link>
-    <nav>
-      <router-link v-for="link in menu" :key="link.id" :to="link.url">{{link.text}}</router-link>
-    </nav>
     <a href="#" class="account" @click.prevent="handleAccountClick">
       <font-awesome-icon :icon="['fas', 'user']" />
     </a>

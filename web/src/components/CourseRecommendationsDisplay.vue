@@ -116,8 +116,8 @@
   </template>
   
   <script>
-  import { ref, computed, onMounted } from 'vue';
-  import agentCService from '@/services/agentCService';
+  import { ref, computed, onMounted, watch } from 'vue';
+  import courseConnectService from '@/services/courseConnectService';
   
   export default {
     name: 'CourseRecommendationsDisplay',
@@ -141,6 +141,10 @@
       comments: {
         type: String,
         default: ''
+      },
+      pathId: {
+        type: String,
+        required: true
       }
     },
     setup(props) {
@@ -162,50 +166,56 @@
       });
       
       const fetchRecommendations = async () => {
-        try {
-          loading.value = true;
-          error.value = null;
-          
-          // Get session ID for authentication
-          const sessionId = await agentCService.getSessionId();
-          
-          // Make request to /path endpoint
-          const response = await agentCService.getRecommendedPath({
-            major: props.major,
-            minors: props.minors,
-            credits: [props.credits],
-            comments: props.comments
-          });
-
-          recommendations.value = response;
-          console.log('Recommendations data:', recommendations.value);
-          
-          // Parse the response
-          recommendations.value = response;
-        } catch (err) {
-          console.error('Error fetching recommendations:', err);
-          error.value = 'Failed to generate recommendations. Please try again later.';
-        } finally {
-          loading.value = false;
+      try {
+        loading.value = true;
+        error.value = null;
+        
+        // Get the path data using the pathId
+        const response = await courseConnectService.getPath(props.pathId);
+        
+        // Parse the response
+        let recommendation = response.response;
+        if (typeof recommendation === 'string') {
+          try {
+            recommendation = JSON.parse(recommendation);
+          } catch (e) {
+            console.error('Error parsing recommendation:', e);
+          }
         }
-      };
-      
-      const formatYearTitle = (yearKey) => {
-        return yearKey.replace('_', ' ').replace(/\b\w/g, l => l.toUpperCase());
-      };
-      
-      const formatSemesterTitle = (semesterKey) => {
-        return semesterKey.charAt(0).toUpperCase() + semesterKey.slice(1);
-      };
-      
-      const printPlan = () => {
-        window.print();
-      };
-      
-      const savePlan = () => {
-        // TODO: Implement save functionality
-        alert('Plan saved successfully!');
-      };
+        
+        recommendations.value = recommendation;
+      } catch (err) {
+        console.error('Error fetching recommendations:', err);
+        error.value = 'Failed to generate recommendations. Please try again later.';
+      } finally {
+        loading.value = false;
+      }
+    };
+    
+    // Watch for changes in pathId
+    watch(() => props.pathId, () => {
+      if (props.pathId) {
+        fetchRecommendations();
+      }
+    }, { immediate: true });
+    
+    // Keep your existing formatting methods
+    const formatYearTitle = (yearKey) => {
+      return yearKey.replace('_', ' ').replace(/\b\w/g, l => l.toUpperCase());
+    };
+    
+    const formatSemesterTitle = (semesterKey) => {
+      return semesterKey.charAt(0).toUpperCase() + semesterKey.slice(1);
+    };
+    
+    const printPlan = () => {
+      window.print();
+    };
+    
+    const savePlan = () => {
+      // TODO: Implement save functionality
+      alert('Plan saved successfully!');
+    };
       
       onMounted(fetchRecommendations);
       

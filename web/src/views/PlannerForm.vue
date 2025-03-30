@@ -14,59 +14,42 @@
           v-model:comments="comments"
         />
         
-        <button type="submit" class="btn" :disabled="!isFormValid">
-          Generate Recommendations
-        </button>
-      </form>
-      
-
-      <CourseRecommendations
-        v-if="showRecommendations"
-        :major="major"
-        :minors="minors"
-        :transcript="transcript"
-        :credits="credits"
-        :comments="comments"
-      />
-      <div v-if="apiError" class="error-message api-error">
-        {{ apiError }}
-        <button @click="retryApiCall" class="btn-retry">Retry</button>
-      </div>
-
-      <CourseRecommendationsDisplay
-      v-if="showRecommendations"
-      :major="major"
-      :minors="minors"
-      :transcript="transcript"
-      :credits="credits"
-      :comments="comments"
-    />
+        <button type="submit" class="btn" :disabled="!isFormValid || submitting">
+        {{ submitting ? 'Generating...' : 'Generate Recommendations' }}
+      </button>
+    </form>
+    
+    <div v-if="apiError" class="error-message api-error">
+      {{ apiError }}
+      <button @click="retryApiCall" class="btn-retry">Retry</button>
     </div>
+  </div>
 </template>
   
 <script>
   import { ref, computed, onMounted } from 'vue';
+  import { useRouter } from 'vue-router';
   import FileUploader from '@/components/FileUploader.vue';
   import MajorMinorSelector from '@/components/MajorMinorSelector.vue';
-  import CourseRecommendations from '@/components/CourseRecommendations.vue';
+  import courseConnectService from '@/services/courseConnectService';
   import agentCService from '@/services/agentCService';
-  import CourseRecommendationsDisplay from '@/components/CourseRecommendationsDisplay.vue';
   
   export default {
     name: 'PlannerForm',
     components: {
       FileUploader,
       MajorMinorSelector,
-      CourseRecommendations,
-      CourseRecommendationsDisplay
     },
     setup() {
+      const router = useRouter();
       const transcript = ref(null);
       const major = ref('');
       const minors = ref([]);
-      const credits = ref();
-      const showRecommendations = ref(false);
+      const credits = ref('');
       const comments = ref('');
+      const showFileError = ref(false);
+      const submitting = ref(false);
+      const apiError = ref('');
   
       const isFormValid = computed(() => {
         return transcript.value && major.value && credits.value;
@@ -84,23 +67,38 @@
       };
   
       const submitForm = async () => {
-        if (isFormValid.value) {
-          try {
-            // Update user preferences
-            await agentCService.updatePreferences({
-              majors: [major.value],
-              minors: minors.value,
-              // Add other preferences as needed
-            });
-            
-            // Show recommendations
-            showRecommendations.value = true;
-          } catch (error) {
-            console.error('Error submitting form:', error);
-            // Handle error
-          }
+      // Show errors if form is invalid
+      if (!transcript.value) {
+        showFileError.value = true;
+      }
+      
+      if (isFormValid.value) {
+        try {
+          submitting.value = true;
+          
+          // Update user preferences
+          await courseConnectService.updatePreferences({
+            majors: [major.value],
+            minors: minors.value,
+            credits: [credits.value]
+          });
+          
+          // Upload transcript if needed
+          // This would be implemented in your courseConnectService
+          
+          // Generate recommendations
+          const pathResponse = await courseConnectService.getRecommendedPath();
+          
+          // Navigate to the schedule view with the path ID
+          router.push(`/schedule/${pathResponse.id}`);
+        } catch (error) {
+          console.error('Error submitting form:', error);
+          apiError.value = 'Failed to generate recommendations. Please try again.';
+        } finally {
+          submitting.value = false;
         }
-      };
+      }
+    };
 
       onMounted(async () => {
         try {
@@ -123,13 +121,15 @@
         transcript,
         major,
         minors,
-        showRecommendations,
-        isFormValid,
         credits,
         comments,
+        showFileError,
+        apiError,
+        isFormValid,
+        submitting,
         handleFileUpload,
         handleFileRemove,
-        submitForm
+        submitForm,
       };
     }
   }
