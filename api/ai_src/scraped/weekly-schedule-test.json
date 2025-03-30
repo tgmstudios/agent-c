@@ -1,0 +1,134 @@
+{
+    "semester": "spring 4",
+    "schedule": {
+      "major": "Comp Sci - Univ Park (BS)",
+      "minors": [
+        "Cybrsc Comput Fndations (UMNR)",
+        "Mathematics (UMNR)"
+      ],
+      "semester_schedule": {
+        "courses": [
+          {
+            "code": "CMPEN 331",
+            "credits": 3,
+            "professor": {
+              "name": "Dr. Vivian Holloway",
+              "rating": 4.2,
+              "review": "Tough but fair. You'll learn a lot."
+            },
+            "requirement_fulfilled": "Major",
+            "schedule": {
+              "days": [
+                "Monday",
+                "Wednesday",
+                "Friday"
+              ],
+              "location": "IST Building (IST) Room 110",
+              "time": "9:05 AM - 9:55 AM"
+            },
+            "title": "Computer Organization And Design"
+          },
+          {
+            "code": "CMPEN 441",
+            "credits": 3,
+            "professor": {
+              "name": "Prof. Gregory White",
+              "rating": 4.8,
+              "review": "Excellent at explaining complex networking topics. Very approachable."
+            },
+            "requirement_fulfilled": "Major",
+            "schedule": {
+              "days": [
+                "Tuesday",
+                "Thursday"
+              ],
+              "location": "IST Building (IST) Room 110",
+              "time": "11:15 AM - 12:30 PM"
+            },
+            "title": "Computer Networks"
+          },
+          {
+            "code": "MATH 220",
+            "credits": 3,
+            "professor": {
+              "name": "Dr. Amy Davis",
+              "rating": 3.5,
+              "review": "Lots of practice problems, which is helpful."
+            },
+            "requirement_fulfilled": "Supporting Courses",
+            "schedule": {
+              "days": [
+                "Monday",
+                "Wednesday",
+                "Friday"
+              ],
+              "location": "McAllister Building (MCALL) Room 100",
+              "time": "8:00 AM - 8:50 AM"
+            },
+            "title": "Matrices"
+          },
+          {
+            "code": "STAT 414",
+            "credits": 3,
+            "professor": {
+              "name": "Prof. Michael Lee",
+              "rating": 4,
+              "review": "Solid introduction to intro stat."
+            },
+            "requirement_fulfilled": "Supporting Courses",
+            "schedule": {
+              "days": [
+                "Tuesday",
+                "Thursday"
+              ],
+              "location": "Thomas Building (THOM) Room 100",
+              "time": "9:35 AM - 10:50 AM"
+            },
+            "title": "Introduction to Probability Theory"
+          },
+          {
+            "code": "MATH 251",
+            "credits": 3,
+            "professor": {
+              "name": "Dr. Karen Thompson",
+              "rating": 2.8,
+              "review": "Very abstract and theoretical."
+            },
+            "requirement_fulfilled": "Minor",
+            "schedule": {
+              "days": [
+                "Monday",
+                "Wednesday",
+                "Friday"
+              ],
+              "location": "Walker Building (WALK) Room 112",
+              "time": "1:25 PM - 2:15 PM"
+            },
+            "title": "Multivariable Calculus"
+          },
+          {
+            "code": "PHIL 103N",
+            "credits": 3,
+            "professor": {
+              "name": "Dr. Christopher Wilson",
+              "rating": 4.5,
+              "review": "Encourages critical thinking and discussion."
+            },
+            "requirement_fulfilled": "Gen Ed",
+            "schedule": {
+              "days": [
+                "Tuesday",
+                "Thursday"
+              ],
+              "location": "Forum Building (FORUM) Room 101",
+              "time": "2:30 PM - 3:45 PM"
+            },
+            "title": "Contemporary Moral Issues"
+          }
+        ],
+        "semester": "Spring 4",
+        "total_credits": 18
+      },
+      "student_name": "Aiden Johnson"
+    }
+  }

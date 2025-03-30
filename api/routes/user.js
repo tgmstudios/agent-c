@@ -129,7 +129,7 @@ router.put('/', async (req, res) => {
       
       if (existingUser) {
         // User exists, update instead of insert
-        const updateResult = await db.update('users', 'session_id', sessionId, { name });
+        const updateResult = await db.update('users', 'name', name, 'session_id', sessionId);
         return res.status(200).json({ 
           message: 'User updated successfully', 
           session_id: sessionId, 

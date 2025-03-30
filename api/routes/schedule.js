@@ -182,6 +182,9 @@ router.get('/', async (req, res) => {
     const { path_id, year, semester } = req.query;
     const sessionId = req.headers['session-id'];
 
+    // DEVELOPMENT REMOVE
+    //return res.json(require('../ai_src/scraped/weekly-schedule-test.json'));
+
     // Validate the parameters
     if (!sessionId) {
         return res.status(401).json({ error: 'Unauthorized: No session ID provided' });
