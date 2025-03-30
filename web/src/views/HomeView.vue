@@ -1,7 +1,7 @@
 <template>
   <div class="home-view">
     <div class="welcome-section">
-      <h1>Welcome to Course Planner</h1>
+      <h1>Welcome to Course Connect</h1>
       <p class="subtitle">Plan your academic journey with personalized course recommendations</p>
     </div>
 
