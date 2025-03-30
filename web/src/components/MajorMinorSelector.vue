@@ -1,78 +1,97 @@
 <template>
-    <div class="major-minor-selector">
-      <!-- Major Selection -->
-      <div class="form-group">
-        <label for="major">Major *</label>
-        <select 
-          id="major" 
-          v-model="selectedMajor" 
-          class="form-control"
-          :class="{ 'is-invalid': majorError }"
-          @change="onMajorChange"
+  <div class="major-minor-selector">
+    <div class="form-group">
+      <label for="major">Major *</label>
+      <select 
+        id="major" 
+        v-model="selectedMajor" 
+        class="form-control"
+        :class="{ 'is-invalid': majorError }"
+        @change="onMajorChange"
+      >
+        <option value="" disabled>Select your major</option>
+        <option 
+          v-for="major in availableMajors" 
+          :key="major.id" 
+          :value="major.id"
         >
-          <option value="" disabled>Select your major</option>
-          <option 
-            v-for="major in availableMajors" 
-            :key="major.id" 
-            :value="major.id"
-          >
-            {{ major.name }}
-          </option>
-        </select>
-        <div v-if="majorError" class="error-message">
-          {{ majorError }}
-        </div>
-      </div>
-  
-      <!-- Minor Selection -->
-      <div class="form-group">
-        <label for="minor">Minor(s)</label>
-        <div class="minor-selection">
-          <div 
-            v-for="(minor, index) in selectedMinors" 
-            :key="index" 
-            class="selected-minor"
-          >
-            <select 
-              v-model="selectedMinors[index]" 
-              class="form-control"
-              @change="onMinorChange"
-            >
-              <option value="" disabled>Select a minor</option>
-              <option 
-                v-for="minor in availableMinorsFiltered" 
-                :key="minor.id" 
-                :value="minor.id"
-                :disabled="isMinorSelected(minor.id) && selectedMinors[index] !== minor.id"
-              >
-                {{ minor.name }}
-              </option>
-            </select>
-            <button 
-              type="button" 
-              class="btn-remove-minor" 
-              @click="removeMinor(index)"
-            >
-              <i class="fas fa-times"></i>
-            </button>
-          </div>
-        </div>
-        
-        <button 
-          v-if="canAddMoreMinors" 
-          type="button" 
-          class="btn-add-minor" 
-          @click="addMinor"
-        >
-          <i class="fas fa-plus"></i> Add Minor
-        </button>
-        
-        <div v-if="minorError" class="error-message">
-          {{ minorError }}
-        </div>
+          {{ major.name }}
+        </option>
+      </select>
+      <div v-if="majorError" class="error-message">
+        {{ majorError }}
       </div>
     </div>
-  </template>
+    <div class="form-group">
+      <label for="minor">Minor(s)</label>
+      <div class="minor-selection">
+        <div 
+          v-for="(minor, index) in selectedMinors" 
+          :key="index" 
+          class="selected-minor"
+        >
+          <select 
+            v-model="selectedMinors[index]" 
+            class="form-control"
+            @change="onMinorChange"
+          >
+            <option value="" disabled>Select a minor</option>
+            <option 
+              v-for="minorOption in availableMinorsFiltered" 
+              :key="minorOption.id" 
+              :value="minorOption.id"
+              :disabled="isMinorSelected(minorOption.id) && selectedMinors[index] !== minorOption.id"
+            >
+              {{ minorOption.name }}
+            </option>
+          </select>
+          <button 
+            v-show="selectedMinors[index]"
+            type="button" 
+            class="btn-remove-minor" 
+            @click="removeMinor(index)"
+          >
+            <i class="fas fa-times"></i> Remove
+          </button>
+        </div>
+      </div>
+      
+      <button 
+        v-if="canAddMoreMinors" 
+        type="button" 
+        class="btn-add-minor" 
+        @click="addMinor"
+      >
+        <i class="fas fa-plus"></i> Add Minor
+      </button>
+      
+      <div v-if="minorError" class="error-message">
+        {{ minorError }}
+      </div>
+    </div>
+    <div class="form-group">
+      <label for="credits">Desired Credits per Semester *</label>
+      <select 
+        id="credits" 
+        v-model="selectedCredits" 
+        class="form-control"
+        :class="{ 'is-invalid': creditsError }"
+        @change="onCreditsChange"
+    >
+        <option value="" disabled>Select credit range</option>
+        <option value="12-15">12-15 credits</option>
+        <option value="15-17">15-17 credits</option>
+        <option value="17-20">17-20 credits</option>
+        <option value="20+">20+ credits</option>
+      </select>
+      <div v-if="creditsError" class="error-message">
+        {{ creditsError }}
+      </div>
+    </div>
+</div>
+
+</template>
+
   
   <script>
   import { ref, computed, watch } from 'vue';
@@ -83,7 +102,7 @@
       // Maximum number of minors a student can select
       maxMinors: {
         type: Number,
-        default: 2
+        default: 3
       }
     },
     emits: ['update:major', 'update:minors'],
@@ -139,10 +158,6 @@
         return selectedMinors.value.length < props.maxMinors;
       });
 
-      //check if a minor has been selected
-      const hasMinors = computed(() => {
-        return selectedMinors.value.length != 0;
-      });
       
       // Handle major change
       const onMajorChange = () => {
@@ -221,7 +236,14 @@
   margin-bottom: 30px;
 }
 
+.form-control{
+  color: #000000;
+  border-color: #000000;
+  background-color:#ffffff;
+}
+
 .minor-selection {
+  color:#ff5252;
   display: flex;
   flex-wrap: wrap;
   gap: 10px;
@@ -231,6 +253,7 @@
 .selected-minor {
   display: flex;
   align-items: center;
+  margin-bottom: 10px;
 }
 
 .btn-remove-minor {
@@ -239,13 +262,18 @@
   color: #ff5252;
   cursor: pointer;
   font-size: 18px;
-  margin-left: 5px;
+  margin-left: 10px;
+  padding: 5px;
+}
+
+.btn-remove-minor:hover {
+  background-color: rgba(255, 82, 82, 0.2); /* Add this line */
 }
 
 .btn-add-minor {
-  background-color: rgba(255, 219, 0, 0.1);
-  border: 1px solid #ff0000;
-  color: #00e5ff;
+  background-color: rgba(17, 0, 255, 0.1);
+  border: 1px solid #000000;
+  color: #ffffff;
   padding: 5px 10px;
   border-radius: 4px;
   cursor: pointer;
@@ -253,7 +281,7 @@
 }
 
 .btn-add-minor:hover {
-  background-color: rgba(255, 219, 0, 0.2);
+  background-color: rgba(17, 0, 255, 0.19);
 }
 
 /* TODO: Customize these styles to match your university's branding */

@@ -145,29 +145,29 @@
   }
   
   .upload-area {
-    color: rgb(246, 0, 0);
+    color: rgb(255, 255, 255);
     border: 2px dashed rgba(0, 0, 0, 0.5);
     border-radius: 8px;
     padding: 40px 20px;
     text-align: center;
     cursor: pointer;
     transition: all 0.3s ease;
-    background-color: rgba(255, 255, 255, 0.03);
+    background-color: rgba(83, 248, 0, 0);
   }
   
   .upload-area:hover {
     background-color: rgba(255, 255, 255, 0.05);
-    border-color: #001aff;
+    border-color: #ffffff;
   }
   
   .drag-over {
     background-color: rgba(255, 219, 0, 0.1);
-    border-color: #ff0000;
+    border-color: #ffffff;
   }
   
   .has-file {
-    background-color: rgba(255, 219, 0, 0.05);
-    border-color: #d76a6a;
+    background-color: rgba(255, 221, 0, 0);
+    border-color: #d8efcf;
   }
   
   .file-input {
@@ -176,13 +176,13 @@
   
   .upload-icon {
     font-size: 48px;
-    color: #33ff00;
+    color: #00b634;
     margin-bottom: 15px;
   }
   
   .file-types {
     font-size: 14px;
-    color: rgba(3, 228, 176, 0.7);
+    color: rgb(255, 255, 255);
     margin-top: 10px;
   }
   
@@ -205,14 +205,14 @@
   }
   
   .file-size {
-    color: rgba(104, 102, 86, 0.7);
+    color: rgba(255, 255, 255, 0.549);
     margin-bottom: 15px;
   }
   
   .btn-remove {
-    background-color: rgba(255, 82, 82, 0.2);
+    background-color: rgba(0, 0, 0, 0.2);
     color: #b70e0e;
-    border: 1px solid rgba(255, 82, 82, 0.3);
+    border: 1px solid rgba(0, 0, 0, 0.2);
     padding: 5px 10px;
     border-radius: 4px;
     cursor: pointer;

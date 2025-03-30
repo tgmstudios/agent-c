@@ -23,7 +23,7 @@
         :minors="minors"
         :transcript="transcript"
       />
-      <p>hello</p>
+      <p>hell0</p>
     </div>
 </template>
   
@@ -93,7 +93,7 @@
 
 h1 {
   margin-bottom: 30px;
-  color: #ff4000;
+  color: #ffffff;
 }
 
 form {
@@ -115,7 +115,7 @@ form {
 }
 
 .btn:hover {
-  background-color: #e6c500;
+  background-color: #ffffff;
 }
 
 .btn:disabled {
